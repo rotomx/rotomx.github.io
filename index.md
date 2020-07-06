@@ -21,9 +21,9 @@ layout: default
 
 ## 📄 Career
 
-| 2018 -          | IKYU Corp.          | Employee  |
+| 2018.8 -          | IKYU Corp.          | Employee  |
 | 2015.4 - 2018.7 | At Home Co.,Ltd.    | Employee  |
-| 2013.6 - 2015.3 | Apple Inc.          | Part Time |
+| 2013.6 - 2015.3 | Apple Inc.          | Internship |
 | 2011.4 - 2015.3 | SANNO Univ.         | Student   |
 
 ## 📱Social
@@ -48,6 +48,7 @@ layout: default
 * [「沖縄にオフィスを作る」というテーマで LT しました #corpengr - note](https://note.com/rotomx/n/n773981c831d2)
 * [Mac（MacBook Pro 2020）が Wi-Fi に接続できなくなったときのトラブルシューティング - note](https://note.com/rotomx/n/n54c036e548e7)
 * [Employee Purchase Programで Apple 製品を割引価格で購入する - note](https://note.com/rotomx/n/nccbbf5f442d0)
+* [SaaS の SAML/SSO は Enterprise 以外でも使えると嬉しいという話 - note](https://note.com/rotomx/n/neb7e3cb8b9b7)
 
 
 * [社内LTで登壇しました - Roto Vox](http://rotomx.hateblo.jp/entry/2018/06/28/%E7%A4%BE%E5%86%85LT%E3%81%A7%E7%99%BB%E5%A3%87%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F)
