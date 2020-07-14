@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![rotomx](https://pbs.twimg.com/profile_images/1267469414879772672/ISsbFOQ4_400x400.jpg)
+![rotomx](https://assets.st-note.com/production/uploads/images/26507044/profile_d795a66296b68ca91bff5a3db47f7ab7.png)
 
 ## 👤 About Me
 
@@ -49,7 +49,7 @@ layout: default
 * [Mac（MacBook Pro 2020）が Wi-Fi に接続できなくなったときのトラブルシューティング - note](https://note.com/rotomx/n/n54c036e548e7)
 * [Employee Purchase Programで Apple 製品を割引価格で購入する - note](https://note.com/rotomx/n/nccbbf5f442d0)
 * [SaaS の SAML/SSO は Enterprise 以外でも使えると嬉しいという話 - note](https://note.com/rotomx/n/neb7e3cb8b9b7)
-
+* [Zoom が香港のデータセンターをルーティングしないように設定する - note](https://note.com/rotomx/n/nd63cde9c02e4)
 
 * [社内LTで登壇しました - Roto Vox](http://rotomx.hateblo.jp/entry/2018/06/28/%E7%A4%BE%E5%86%85LT%E3%81%A7%E7%99%BB%E5%A3%87%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F)
 * [ 転職します - Roto Vox ](http://rotomx.hateblo.jp/entry/2018/06/19/%E8%BB%A2%E8%81%B7%E3%81%97%E3%81%BE%E3%81%99)
