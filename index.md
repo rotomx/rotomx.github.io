@@ -12,7 +12,7 @@ layout: default
 <dt>💻 Jobs</dt>
 <dd>Corporate Engineer</dd>
 <dt>👶 Age</dt>
-<dd>27</dd>
+<dd>28</dd>
 <dt>🎓 Degree</dt>
 <dd>Bachelor of Management Studies</dd>
 <dt>⚽️ Hobby</dt>
@@ -21,9 +21,9 @@ layout: default
 
 ## 📄 Career
 
-| 2018.8 -          | IKYU Corp.          | Employee  |
+| 2018.8 -        | IKYU Corp.          | Employee  |
 | 2015.4 - 2018.7 | At Home Co.,Ltd.    | Employee  |
-| 2013.6 - 2015.3 | Apple Inc.          | Internship |
+| 2013.6 - 2015.3 | Apple Inc.          | Internship|
 
 
 ## 📱Social
