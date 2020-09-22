@@ -16,14 +16,15 @@ layout: default
 <dt>🎓 Degree</dt>
 <dd>Bachelor of Management Studies</dd>
 <dt>⚽️ Hobby</dt>
-<dd>✈️ Travel, 🍽Gourmet, 📷Photo, 🎮Games, 🎬Movie, 🧖‍♀️Spa </dd>
+<dd>✈️ Travel, 🍽Gourmet, 📷Photo, 🎮Games, 🎬Movie,🧖‍♀️Spa</dd>
 </dl>
 
 ## 📄 Career
 
-| 2018.8 -        | IKYU Corp.          | Employee  |
+| 2018.8 -          | IKYU Corp.          | Employee  |
 | 2015.4 - 2018.7 | At Home Co.,Ltd.    | Employee  |
-| 2013.6 - 2015.3 | Apple Inc.          | Internship|
+| 2013.6 - 2015.3 | Apple Inc.          | Internship |
+| 2011.4 - 2015.3 | SANNO Univ.         | Student   |
 
 
 ## 📱Social
