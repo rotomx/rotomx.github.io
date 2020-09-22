@@ -8,15 +8,15 @@ layout: default
 
 <dl>
 <dt>📛 Name</dt>
-<dd>rotomx / ろと</dd>
+<dd> ろと rotomx</dd>
 <dt>💻 Jobs</dt>
 <dd>Corporate Engineer</dd>
 <dt>👶 Age</dt>
 <dd>27</dd>
 <dt>🎓 Degree</dt>
-<dd>Bachelor (Management)</dd>
+<dd>Bachelor of Management Studies</dd>
 <dt>⚽️ Hobby</dt>
-<dd>✈️ Travel, 🍽Gourmet, 📷Photo, 🎮Games, 🎬Movie</dd>
+<dd>✈️ Travel, 🍽Gourmet, 📷Photo, 🎮Games, 🎬Movie, 🧖‍♀️Spa<dd>
 </dl>
 
 ## 📄 Career
@@ -24,7 +24,7 @@ layout: default
 | 2018.8 -          | IKYU Corp.          | Employee  |
 | 2015.4 - 2018.7 | At Home Co.,Ltd.    | Employee  |
 | 2013.6 - 2015.3 | Apple Inc.          | Internship |
-| 2011.4 - 2015.3 | SANNO Univ.         | Student   |
+
 
 ## 📱Social
 
@@ -35,12 +35,13 @@ layout: default
 * [GitHub](https://github.com/rotomx)
 * [Hatena](https://profile.hatena.ne.jp/rotom)
 
-
-
-
-## ✍️ Output
+## HotEntry
 
 * [一休における「情シス」の取り組み - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/info-sys)
+* [なぜ業務で LINE を使ってはいけないのか - note](https://note.com/rotomx/n/n2a2d719dda76)
+
+## Other Output
+
 * [Slack ワークフロービルダーでバックオフィス業務をフロー化しよう - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/slack-work-flow)
 
 * [沖縄にオフィスを作る / Build office in Okinawa - SpeakerDeck](https://speakerdeck.com/rotomx/build-office-in-okinawa)
