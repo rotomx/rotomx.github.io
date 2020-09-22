@@ -16,7 +16,7 @@ layout: default
 <dt>🎓 Degree</dt>
 <dd>Bachelor of Management Studies</dd>
 <dt>⚽️ Hobby</dt>
-<dd>✈️ Travel, 🍽Gourmet, 📷Photo, 🎮Games, 🎬Movie, 🧖‍♀️Spa<dd>
+<dd>✈️ Travel, 🍽Gourmet, 📷Photo, 🎮Games, 🎬Movie, 🧖‍♀️Spa </dd>
 </dl>
 
 ## 📄 Career
