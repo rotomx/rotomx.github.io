@@ -35,26 +35,39 @@ layout: default
 
 ## 🎖Qualification / 資格・称号
 
-* LINE WORKS アンバサダー
 * ITパスポート試験
 * 情報セキュリティマネジメント試験
+
+
 * Microsoft Azure Fundamentals (AZ-900)
 * Microsoft Office Specialist Word 2010
 * Microsoft Office Specialist Excel 2010
+* .com Master BASIC
+
 * Apple Product Professional
 * Apple Sales Professional
+
+
 * 第一種普通自動車運転免許 (MT)
+
+
 * サウナ・スパ健康アドバイザー
+* LINE WORKS アンバサダー
+
 
 ## 📱Social Account / アカウント
 
 * [Twitter](https://twitter.com/rotomx)
 * [Facebook](https://www.facebook.com/tawa.mkx)
 * [Instagram](https://www.instagram.com/rotomx)
+
+
 * [note](https://note.com/rotomx)
 * [zenn](https://zenn.dev/rotomx)
 * [GitHub](https://github.com/rotomx)
 * [Hatena](https://profile.hatena.ne.jp/rotom)
+
+
 * [RESUME](https://www.resume.id/rotomx)
 * [LAPRAS](https://lapras.com/public/YCWIS7Y)
 
@@ -73,13 +86,16 @@ layout: default
 
 * [Slack ワークフロービルダーでバックオフィス業務をフロー化しよう - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/slack-work-flow)
 
+
 * [沖縄にオフィスを作る / Build office in Okinawa - SpeakerDeck](https://speakerdeck.com/rotomx/build-office-in-okinawa)
+
 
 * [「沖縄にオフィスを作る」というテーマで LT しました #corpengr - note](https://note.com/rotomx/n/n773981c831d2)
 * [Mac（MacBook Pro 2020）が Wi-Fi に接続できなくなったときのトラブルシューティング - note](https://note.com/rotomx/n/n54c036e548e7)
 * [Employee Purchase Programで Apple 製品を割引価格で購入する - note](https://note.com/rotomx/n/nccbbf5f442d0)
 * [SaaS の SAML/SSO は Enterprise 以外でも使えると嬉しいという話 - note](https://note.com/rotomx/n/neb7e3cb8b9b7)
 * [Zoom が香港のデータセンターをルーティングしないように設定する - note](https://note.com/rotomx/n/nd63cde9c02e4)
+
 
 * [社内LTで登壇しました - Roto Vox](http://rotomx.hateblo.jp/entry/2018/06/28/%E7%A4%BE%E5%86%85LT%E3%81%A7%E7%99%BB%E5%A3%87%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F)
 * [ 転職します - Roto Vox ](http://rotomx.hateblo.jp/entry/2018/06/19/%E8%BB%A2%E8%81%B7%E3%81%97%E3%81%BE%E3%81%99)
