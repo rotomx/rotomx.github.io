@@ -21,6 +21,7 @@ layout: default
 
 ## 📄 Career / 経歴
 
+| 2020.11 -         | ROUTE 06, Inc.     | Side business |
 | 2018.8 -          | IKYU Corp.          | Employee  |
 | 2015.4 - 2018.7 | At Home Co.,Ltd.    | Employee  |
 | 2013.6 - 2015.3 | Apple Inc.          | Internship |
