@@ -146,7 +146,7 @@ layout: default
 * [一休.com Advent Calendar 2018 - Qiita ](https://qiita.com/advent-calendar/2018/ikyu)
 
 
-* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 20２０ - ADVENTAR ](https://adventar.org/calendars/5390)
+* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2020 - ADVENTAR ](https://adventar.org/calendars/5390)
 * [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2019 - ADVENTAR ](https://adventar.org/calendars/3995)
 
 
