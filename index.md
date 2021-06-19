@@ -10,17 +10,19 @@
 <dt>Name</dt>
 <dd> ろと / rotomx</dd>
 <dt>Jobs</dt>
-<dd>情報システム / コーポレートエンジニア （正社員・個人事業主）</dd>
+<dd>情報システム / コーポレートエンジニア</dd>
+<dt>Employment Status</dt>
+<dd>正社員 / 個人事業主（業務委託）</dd>
 <dt>Age</dt>
 <dd>28</dd>
 </dl>
 
 ## Career / 経歴
 
-| 2020.11 -         | ROUTE 06, Inc.     | Side Business |
-| 2018.8 -          | IKYU Corp.          | Employee  |
-| 2015.4 - 2018.7 | At Home Co.,Ltd.    | Employee  |
-| 2013.6 - 2015.3 | Apple Inc.          | Internship |
+| 2020.11 -         | ROUTE06     | 副業（業務委託） |
+| 2018.8 -          | 一休.com          | 正社員  |
+| 2015.4 - 2018.7 | at home    | 正社員  |
+| 2013.6 - 2015.3 | Apple          | インターンシップ |
 
 ## Specialty / 専門
 
