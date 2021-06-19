@@ -82,11 +82,13 @@
 * [RESUME](https://www.resume.id/rotomx)
 * [LAPRAS](https://lapras.com/public/YCWIS7Y)
 
+
 ## Speaker / 登壇
 
+* [情シス転職ミートアップ 第3回](https://corp-engr.connpass.com/event/212976/)
+* [情シス転職ミートアップ 第2回](https://corp-engr.connpass.com/event/204408/)
 * [【LWUG】個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは?](https://lwug.connpass.com/event/192118/)
 * [「沖縄にオフィスを作る」というテーマで LT しました #corpengr - note](https://note.com/rotomx/n/n773981c831d2)
-
 
 ## Community / コミュニティ活動
 
@@ -97,7 +99,7 @@
 * [LWUG (LINE WORKS USER GROUP)](https://lwug.connpass.com/)
 
 
-## Organizer / イベント運営
+## Operation / イベント運営
 
 * [情シス転職ミートアップ 第3回](https://corp-engr.connpass.com/event/212976/)
 * [情シス転職ミートアップ 第2回](https://corp-engr.connpass.com/event/204408/)
@@ -105,8 +107,8 @@
 
 ## Participation / イベント出場
 
-チーム出場・優勝
 * [リーグオブ情シス 第四回 スーパーリーグ Presented by アカツキ #LoI](https://league-of-infosys.connpass.com/event/202303/)
+
 
 ## Advent Calendar / アドベントカレンダー
 
