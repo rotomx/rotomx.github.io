@@ -12,7 +12,7 @@
 <dt>Jobs</dt>
 <dd>情報システム / コーポレートエンジニア</dd>
 <dt>Employment Status</dt>
-<dd>正社員 / 個人事業主（業務委託）</dd>
+<dd>正社員 / 個人事業主</dd>
 <dt>Age</dt>
 <dd>28</dd>
 </dl>
