@@ -19,6 +19,7 @@
 
 ## Career / 経歴
 
+| 2021.7 - | トリコ | 副業（業務委託） |
 | 2020.11 - | ROUTE06 | 副業（業務委託） |
 | 2018.8 - | 一休.com | 正社員 |
 | 2015.4 - 2018.7 | at home | 正社員 |
@@ -46,7 +47,7 @@
 * ITパスポート試験（IP）
 * 情報セキュリティマネジメント試験（SG）
 
-* 情報セキュリティ管理士(ISME)
+* 情報セキュリティ管理士（ISME）
 
 * Microsoft Azure Fundamentals (AZ-900)
 * Microsoft Office Specialist Word 2010
@@ -89,6 +90,11 @@
 * [情シス転職ミートアップ 第2回](https://corp-engr.connpass.com/event/204408/)
 * [【LWUG】個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは?](https://lwug.connpass.com/event/192118/)
 * [「沖縄にオフィスを作る」というテーマで LT しました #corpengr - note](https://note.com/rotomx/n/n773981c831d2)
+
+## Interview / インタビュー・導入事例
+
+* [Dialpad 導入企業インタビュー | 株式会社一休さま](https://japan.blog.dialpad.com/blog/customer-story/ikyu)
+* [卒業生に聞く、未来に求められるIT人材になるには ～SANNO教員×卒業生 対談～](https://www.sanno.ac.jp/undergraduate/learning/viewpoint/2021_04/)
 
 ## Community / コミュニティ活動
 
@@ -143,6 +149,7 @@
 * [『個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは?』 というテーマで登壇しました #LWUG - note](https://note.com/rotomx/n/n4f8702c9a299)
 * [「沖縄にオフィスを作る」というテーマで LT しました #corpengr - note](https://note.com/rotomx/n/n773981c831d2)
 
+* [Jamf Pro で Chrome Enterprise を展開する - note](https://note.com/rotomx/n/nf0fe6663fc4f)
 * [Mac（MacBook Pro 2020）が Wi-Fi に接続できなくなったときのトラブルシューティング - note](https://note.com/rotomx/n/n54c036e548e7)
 * [Employee Purchase Programで Apple 製品を割引価格で購入する - note](https://note.com/rotomx/n/nccbbf5f442d0)
 * [SaaS の SAML/SSO は Enterprise 以外でも使えると嬉しいという話 - note](https://note.com/rotomx/n/neb7e3cb8b9b7)
