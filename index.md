@@ -93,7 +93,7 @@
 
 ## Interview / インタビュー・導入事例
 
-* [Dialpad 導入企業インタビュー | 株式会社一休さま](https://japan.blog.dialpad.com/blog/customer-story/ikyu)
+* [Dialpad 導入企業インタビュー 株式会社一休さま](https://japan.blog.dialpad.com/blog/customer-story/ikyu)
 * [卒業生に聞く、未来に求められるIT人材になるには ～SANNO教員×卒業生 対談～](https://www.sanno.ac.jp/undergraduate/learning/viewpoint/2021_04/)
 
 ## Community / コミュニティ活動
