@@ -86,6 +86,8 @@
 
 ## Speaker / 登壇
 
+* [ちる会SP〜今こそリモートワークについて語る〜](https://jobs.route06.co.jp/route06-radio/chill-sp)
+* [JMUG Meetup #13 - Connect with Jamf Connect](https://eventregist.com/e/jmug0013)
 * [情シス転職ミートアップ 第3回](https://corp-engr.connpass.com/event/212976/)
 * [情シス転職ミートアップ 第2回](https://corp-engr.connpass.com/event/204408/)
 * [【LWUG】個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは?](https://lwug.connpass.com/event/192118/)
@@ -99,22 +101,18 @@
 ## Community / コミュニティ活動
 
 * [【corp-engr】コーポレートエンジニア x 情シス](https://corp-engr.connpass.com/)
-
 * [リーグオブ情シス](https://league-of-infosys.connpass.com/)
-
 * [LWUG (LINE WORKS USER GROUP)](https://lwug.connpass.com/)
-
+* [JMUG - Jamf Macadmin User Group (ジェイマグ)](https://www.jmug.jp/)
 
 ## Operation / イベント運営
 
 * [情シス転職ミートアップ 第3回](https://corp-engr.connpass.com/event/212976/)
 * [情シス転職ミートアップ 第2回](https://corp-engr.connpass.com/event/204408/)
 
-
 ## Participation / イベント出場
 
 * [リーグオブ情シス 第四回 スーパーリーグ Presented by アカツキ #LoI](https://league-of-infosys.connpass.com/event/202303/)
-
 
 ## Advent Calendar / アドベントカレンダー
 
@@ -139,6 +137,7 @@
 * [副業情シスのすゝめ - note](https://note.com/rotomx/n/n7cee3b046340)
 * [macOS アップグレードガイドラインを公開します - note](https://note.com/rotomx/n/ndea21aef3466)
 
+* [Jamf Connect から見える未来 / Connect with Jamf Connect - Speaker Deck](https://speakerdeck.com/rotomx/connect-with-jamf-connect)
 * [個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは? / Why Shadow IT is Bad? - SpeakerDeck](https://speakerdeck.com/rotomx/why-shadow-it-is-bad)
 * [沖縄にオフィスを作る / Build office in Okinawa - SpeakerDeck](https://speakerdeck.com/rotomx/build-office-in-okinawa)
 
