@@ -14,7 +14,7 @@
 <dt>Employment Status</dt>
 <dd>正社員 / 個人事業主</dd>
 <dt>Age</dt>
-<dd>28</dd>
+<dd>29</dd>
 </dl>
 
 ## Career / 経歴
@@ -42,12 +42,15 @@
 
 * リーグオブ情シス 第四回 スーパーリーグ チーム優勝
 
+* Jamf Heroes
 * LINE WORKS アンバサダー
 
 * ITパスポート試験（IP）
 * 情報セキュリティマネジメント試験（SG）
 
 * 情報セキュリティ管理士（ISME）
+
+* Slack 認定管理者
 
 * Microsoft Azure Fundamentals (AZ-900)
 * Microsoft Office Specialist Word 2010
@@ -66,6 +69,8 @@
 * 実用英語技能検定 準2級
 * 情報技術検定試験 2級
 
+* 日本化粧品検定 3級
+* 化粧品成分検定 3級
 
 ## Social Account / アカウント
 
@@ -88,6 +93,7 @@
 
 * [ちる会SP〜今こそリモートワークについて語る〜](https://jobs.route06.co.jp/route06-radio/chill-sp)
 * [JMUG Meetup #13 - Connect with Jamf Connect](https://eventregist.com/e/jmug0013)
+* [情シス転職ミートアップ 第4回](https://corp-engr.connpass.com/event/227173/)
 * [情シス転職ミートアップ 第3回](https://corp-engr.connpass.com/event/212976/)
 * [情シス転職ミートアップ 第2回](https://corp-engr.connpass.com/event/204408/)
 * [【LWUG】個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは?](https://lwug.connpass.com/event/192118/)
@@ -95,6 +101,7 @@
 
 ## Interview / インタビュー・導入事例
 
+* [一休、Jamf Pro、Jamf Connectを活用してシステム環境のモダナイズを推進](https://prtimes.jp/main/html/rd/p/000000034.000066916.html)
 * [Dialpad 導入企業インタビュー 株式会社一休さま](https://japan.blog.dialpad.com/blog/customer-story/ikyu)
 * [卒業生に聞く、未来に求められるIT人材になるには ～SANNO教員×卒業生 対談～](https://www.sanno.ac.jp/undergraduate/learning/viewpoint/2021_04/)
 
@@ -107,6 +114,7 @@
 
 ## Operation / イベント運営
 
+* [情シス転職ミートアップ 第4回](https://corp-engr.connpass.com/event/227173/)
 * [情シス転職ミートアップ 第3回](https://corp-engr.connpass.com/event/212976/)
 * [情シス転職ミートアップ 第2回](https://corp-engr.connpass.com/event/204408/)
 
@@ -116,6 +124,7 @@
 
 ## Advent Calendar / アドベントカレンダー
 
+* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2021 - ADVENTAR ](https://adventar.org/calendars/6178)
 * [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2020 - ADVENTAR ](https://adventar.org/calendars/5390)
 * [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2019 - ADVENTAR ](https://adventar.org/calendars/3995)
 
@@ -123,7 +132,6 @@
 
 * [一休.com Advent Calendar 2019 - Qiita ](https://qiita.com/advent-calendar/2019/ikyu)
 * [一休.com Advent Calendar 2018 - Qiita ](https://qiita.com/advent-calendar/2018/ikyu)
-* 
 
 ## Output / アウトプット
 
@@ -148,6 +156,7 @@
 * [『個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは?』 というテーマで登壇しました #LWUG - note](https://note.com/rotomx/n/n4f8702c9a299)
 * [「沖縄にオフィスを作る」というテーマで LT しました #corpengr - note](https://note.com/rotomx/n/n773981c831d2)
 
+* [Jamf Connect の Azure AD パススルー認証を設定する - note](https://note.com/rotomx/n/ne3bc2281bbc0)
 * [Jamf Pro で Chrome Enterprise を展開する - note](https://note.com/rotomx/n/nf0fe6663fc4f)
 * [Mac（MacBook Pro 2020）が Wi-Fi に接続できなくなったときのトラブルシューティング - note](https://note.com/rotomx/n/n54c036e548e7)
 * [Employee Purchase Programで Apple 製品を割引価格で購入する - note](https://note.com/rotomx/n/nccbbf5f442d0)
