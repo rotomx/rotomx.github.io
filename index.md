@@ -50,6 +50,8 @@
 
 * 情報セキュリティ管理士（ISME）
 
+* SPREAD情報セキュリティサポーター能力検定
+
 * Slack 認定管理者
 
 * Microsoft Azure Fundamentals (AZ-900)
@@ -156,6 +158,8 @@
 * [『個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは?』 というテーマで登壇しました #LWUG - note](https://note.com/rotomx/n/n4f8702c9a299)
 * [「沖縄にオフィスを作る」というテーマで LT しました #corpengr - note](https://note.com/rotomx/n/n773981c831d2)
 
+* [なぜコーポレートエンジニア（情シス）の採用は難しいのか - note](https://note.com/rotomx/n/n123c51d465ba)
+* [お前も Slack 認定管理者にならないか？ - note](https://note.com/rotomx/n/n6195dda5273d)
 * [Jamf Connect の Azure AD パススルー認証を設定する - note](https://note.com/rotomx/n/ne3bc2281bbc0)
 * [Jamf Pro で Chrome Enterprise を展開する - note](https://note.com/rotomx/n/nf0fe6663fc4f)
 * [Mac（MacBook Pro 2020）が Wi-Fi に接続できなくなったときのトラブルシューティング - note](https://note.com/rotomx/n/n54c036e548e7)
