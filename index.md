@@ -4,7 +4,7 @@
 コーポレートエンジニアの @rotomx です。<br>
 個人事業主として、企業のコーポレートITの支援を行っています。
 
-ポートフォリオをご覧いただき、ご相談がある際は * [contact@rotomx.com](mailto:contact@rotomx.com) か、各種 SNS でご連絡ください。
+ポートフォリオをご覧いただき、ご相談がある際は [contact@rotomx.com](mailto:contact@rotomx.com) か、各種 SNS でご連絡ください。
 
 ## About Me / プロフィール
 
