@@ -8,6 +8,7 @@
 
 大学を卒業後、新卒でシステムエンジニアとして入社し開発を担当<br>
 チームリーダーを経て、25歳でコーポレートエンジニアに転職し、現在5年目<br>
+2020年より個人事業主として開業し、業務委託契約を開始<br>
 2022年より、情報システム部門とセキュリティ部門を兼務<br>
 
 副業情シスとしてスタートアップ企業の支援を行う傍ら、情シス Slack 運営の「情シス転職ミートアップ」の運営や、SaaS ユーザーグループでのイベント登壇・運営サポート、アンバサダーなど、多岐に渡るコミュニティ活動に取り組んでいます
@@ -43,20 +44,13 @@
 * 情シスの採用・広報
 
 
-## Qualification / 資格・称号
-
-* 学士（マネジメント）
-
-* リーグオブ情シス 第四回 スーパーリーグ チーム優勝
-
-* Jamf Heroes
-* LINE WORKS アンバサダー
+## Qualification / 資格
 
 * ITパスポート試験
 * 情報セキュリティマネジメント試験
 
-* 情報セキュリティ監査人
 * 情報セキュリティ管理士
+* 情報セキュリティ監査人
 * 個人情報保護士
 
 * SPREAD情報セキュリティサポーター能力検定
@@ -116,6 +110,8 @@
 
 ## Interview / インタビュー・導入事例
 
+* [チームプレーで一歩先を行く社内環境構築を――。一休の情シスが目指すアフターコロナの世界](https://www.ikyu.co.jp/blog/1597/)
+* [Keeper導入のきっかけは「SSO対応＆使い勝手の良さ」一休の目指すユーザーファーストなセキュリティ](https://blog.zunda.co.jp/blog/ikyu-casestudy)
 * [一休、Jamf Pro、Jamf Connectを活用してシステム環境のモダナイズを推進](https://prtimes.jp/main/html/rd/p/000000034.000066916.html)
 * [Dialpad 導入企業インタビュー 株式会社一休さま](https://japan.blog.dialpad.com/blog/customer-story/ikyu)
 * [卒業生に聞く、未来に求められるIT人材になるには ～SANNO教員×卒業生 対談～](https://www.sanno.ac.jp/undergraduate/learning/viewpoint/2021_04/)
@@ -126,13 +122,19 @@
 * [リーグオブ情シス](https://league-of-infosys.connpass.com/)
 * [LWUG (LINE WORKS USER GROUP)](https://lwug.connpass.com/)
 * [JMUG - Jamf Macadmin User Group (ジェイマグ)](https://www.jmug.jp/)
+* [LINE WORKSアンバサダープログラム](https://line.worksmobile.com/jp/partner/ambassador/)
+* [Jamf Heroes](https://heroes.jamf.com/users/sign_in)
 
 ## Operation / イベント運営
 
 * [情シス転職ミートアップ 第6回 x ジョーシス ラーニング](https://corp-engr.connpass.com/event/260351/)
+* [情シス転職ミートアップ 第5回](https://corp-engr.connpass.com/event/242298/)
 * [情シス転職ミートアップ 第4回](https://corp-engr.connpass.com/event/227173/)
 * [情シス転職ミートアップ 第3回](https://corp-engr.connpass.com/event/212976/)
 * [情シス転職ミートアップ 第2回](https://corp-engr.connpass.com/event/204408/)
+
+* [スタートアップから大企業まで！ 社内IT環境づくりに携わる中の人とカジュアル面談でつながろう！](https://meety.net/pickups/bu0qkrf6l?fbc)
+
 
 ## Participation / イベント出場
 
