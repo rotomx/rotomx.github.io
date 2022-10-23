@@ -75,6 +75,34 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 * 読み手を意識したドキュメンテーション・アウトプット
 * 情シスの採用・広報
 
+### スキル / 経験
+
+導入・構築フェーズから多くの SaaS を扱っています。
+
+* Jamf Pro
+* Jamf Protect
+* Jamf Connect
+* Jamf Fundamentals / Jamf Now
+* Apple Business Manager
+* Google Workspace Enterprise Plus
+* Microsoft Enterprise Mobility + Security (E5)
+* Microsoft 365 Apps for enterprise
+* Microsoft Intune
+* Microsoft Sentinel
+* Microsoft Defender for Endpoint
+* Microsoft Defender for Cloud Apps
+* Azure Active Directory (Premium P2)
+* Slack (Business Plus)
+* Zoom (Enterprise)
+* Dialpad (Enterprise)
+* FAX PLUS (Enterprise Solutions)
+* LINE WORKS (Standard)
+* Keeper (Enterprise Plus)
+
+その他、多くの SaaS の利用・運用経験があります。
+
+直近は開発職ではありませんが、前職のシステムエンジニアを経験から Google Apps Script や PowerShell などを使ったスクリプト開発は可能です。
+Git / GitHub の操作や、チーム開発のフローも理解しています。SQL によるデータベース操作も可能です。
 
 ## Qualification / 資格
 
