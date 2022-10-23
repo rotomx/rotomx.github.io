@@ -97,7 +97,9 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 * Dialpad (Enterprise)
 * FAX PLUS (Enterprise Solutions)
 * LINE WORKS (Standard)
-* Keeper (Enterprise Plus)
+* Keeper Business (Enterprise Plus)
+* Halp
+* Snipe-IT
 
 その他、多くの SaaS の利用・運用経験があります。
 
