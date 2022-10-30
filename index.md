@@ -136,10 +136,6 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 
 * 温泉ソムリエ
 
-* 日本漢字能力検定 準2級
-* 実用英語技能検定 準2級
-* 情報技術検定試験 2級
-
 * 日本化粧品検定 3級
 * 化粧品成分検定 3級
 
@@ -202,7 +198,8 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 
 ## Participation / イベント出場
 
-* [リーグオブ情シス 第四回 スーパーリーグ Presented by アカツキ #LoI](https://league-of-infosys.connpass.com/event/202303/)
+* [リーグオブ情シス 第十回 ハイパーリーグ Presented by IIJ #LoI チーム優勝](https://league-of-infosys.connpass.com/event/259888/)
+* [リーグオブ情シス 第四回 スーパーリーグ Presented by アカツキ #LoI チーム優勝](https://league-of-infosys.connpass.com/event/202303/)
 
 ## Advent Calendar / アドベントカレンダー
 
@@ -238,6 +235,7 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 * [『個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは?』 というテーマで登壇しました #LWUG - note](https://note.com/rotomx/n/n4f8702c9a299)
 * [「沖縄にオフィスを作る」というテーマで LT しました #corpengr - note](https://note.com/rotomx/n/n773981c831d2)
 
+* [macOS Ventura アップグレード後、 Microsoft Defender for Endpoint で「確認が必要」となってしまう問題を解決する - note](https://note.com/rotomx/n/neb7d90fe7462)
 * [なぜコーポレートエンジニア（情シス）の採用は難しいのか - note](https://note.com/rotomx/n/n123c51d465ba)
 * [お前も Slack 認定管理者にならないか？ - note](https://note.com/rotomx/n/n6195dda5273d)
 * [Jamf Connect の Azure AD パススルー認証を設定する - note](https://note.com/rotomx/n/ne3bc2281bbc0)
