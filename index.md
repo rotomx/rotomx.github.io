@@ -160,7 +160,7 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 
 ## Speaker / 登壇
 
-* [BTCONJP｜Business Technology Conference Japan | BTCONJP｜Business Technology Conference Japan](https://btcon.jp/)
+* [Business Technology Conference Japan](https://btcon.jp/)
 * [ちる会SP〜今こそリモートワークについて語る〜](https://jobs.route06.co.jp/route06-radio/chill-sp)
 * [JMUG Meetup #13 - Connect with Jamf Connect](https://eventregist.com/e/jmug0013)
 * [情シス転職ミートアップ 第4回](https://corp-engr.connpass.com/event/227173/)
