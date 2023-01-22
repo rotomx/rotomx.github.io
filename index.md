@@ -160,6 +160,7 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 
 ## Speaker / 登壇
 
+* [BTCONJP｜Business Technology Conference Japan | BTCONJP｜Business Technology Conference Japan](https://btcon.jp/)
 * [ちる会SP〜今こそリモートワークについて語る〜](https://jobs.route06.co.jp/route06-radio/chill-sp)
 * [JMUG Meetup #13 - Connect with Jamf Connect](https://eventregist.com/e/jmug0013)
 * [情シス転職ミートアップ 第4回](https://corp-engr.connpass.com/event/227173/)
@@ -203,6 +204,7 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 
 ## Advent Calendar / アドベントカレンダー
 
+* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2022 - ADVENTAR ](https://adventar.org/calendars/7756)
 * [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2021 - ADVENTAR ](https://adventar.org/calendars/6178)
 * [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2020 - ADVENTAR ](https://adventar.org/calendars/5390)
 * [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2019 - ADVENTAR ](https://adventar.org/calendars/3995)
@@ -214,6 +216,7 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 
 ## Output / アウトプット
 
+* [本社を東京ガーデンテラス紀尾井町へ移転し、オフィスファシリティ・コーポレートIT を刷新した話 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/office-relocation)
 * [ヘルプデスクに Halp を導入して改善した話 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/halp-helpdesk)
 * [Slack ワークフロービルダーでバックオフィス業務をフロー化しよう - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/slack-work-flow)
 * [【Hot Entry】 一休における「情シス」の取り組み - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/info-sys)
