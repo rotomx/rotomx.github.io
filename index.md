@@ -160,7 +160,7 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 
 ## Speaker / 登壇
 
-* [Business Technology Conference Japan](https://btcon.jp/)
+* [Business Technology Conference Japan User Session 本社オフィスを移転し、オフィスファシリティ・コーポレートIT を刷新した話](https://btcon.jp/)
 * [ちる会SP〜今こそリモートワークについて語る〜](https://jobs.route06.co.jp/route06-radio/chill-sp)
 * [JMUG Meetup #13 - Connect with Jamf Connect](https://eventregist.com/e/jmug0013)
 * [情シス転職ミートアップ 第4回](https://corp-engr.connpass.com/event/227173/)
@@ -227,6 +227,7 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 * [副業情シスのすゝめ - note](https://note.com/rotomx/n/n7cee3b046340)
 * [macOS アップグレードガイドラインを公開します - note](https://note.com/rotomx/n/ndea21aef3466)
 
+* [本社オフィスを移転し、 オフィスファシリティ・コーポレートIT を刷新した話 - Speaker Deck](https://speakerdeck.com/rotomx/ben-she-ohuisuwoyi-zhuan-si-ohuisuhuasiriteikoporetoit-woshua-xin-sitahua)
 * [Jamf Connect から見える未来 / Connect with Jamf Connect - Speaker Deck](https://speakerdeck.com/rotomx/connect-with-jamf-connect)
 * [個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは? / Why Shadow IT is Bad? - SpeakerDeck](https://speakerdeck.com/rotomx/why-shadow-it-is-bad)
 * [沖縄にオフィスを作る / Build office in Okinawa - SpeakerDeck](https://speakerdeck.com/rotomx/build-office-in-okinawa)
