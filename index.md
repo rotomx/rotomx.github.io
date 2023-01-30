@@ -216,6 +216,8 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 
 ## Output / アウトプット
 
+* [ろとにゃんさんゲスト回　e-IT Life with シンジ - YouTube](https://www.youtube.com/watch?v=6y9jsXtlzM8)
+
 * [本社を東京ガーデンテラス紀尾井町へ移転し、オフィスファシリティ・コーポレートIT を刷新した話 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/office-relocation)
 * [ヘルプデスクに Halp を導入して改善した話 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/halp-helpdesk)
 * [Slack ワークフロービルダーでバックオフィス業務をフロー化しよう - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/slack-work-flow)
