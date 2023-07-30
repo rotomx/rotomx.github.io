@@ -2,17 +2,18 @@
 # Roto Vox
 
 コーポレートエンジニアの @rotomx です。<br>
-個人事業主として、企業のコーポレートITの支援を行っています。
+正社員として働きつつ、個人事業主として、企業のコーポレートITの支援を行っています。
 
 ポートフォリオをご覧いただき、転職・副業のご相談がある際は [contact@rotomx.com](mailto:contact@rotomx.com) か、各種 SNS でご連絡ください。
 
 ## About Me / プロフィール
 
-![rotomx](https://user-images.githubusercontent.com/8991927/122628706-b27afe00-d0f2-11eb-847b-636a349e50fc.jpeg)
+![rotomx](https://user-images.githubusercontent.com/8991927/257055977-de33a0cd-c403-4247-88ff-909f24879fb9.png)
 
 ### 正社員として
 
-2015年に大学を卒業後、新卒で入社した企業でのシステムエンジニアを経て、2018年に25歳でコーポレートエンジニアに転職。コーポレートITの導入・構築・運用から、デバイス管理、オフィスインフラ、ヘルプデスクまで幅広く担当するかたわら2022年より CISO室を兼務し、ISMS や個人情報保護、リスク・監査に関わるマネジメント業務を兼任しています。
+2015年に大学を卒業後、新卒で入社した企業でのシステムエンジニアを経て、2018年に25歳でコーポレートエンジニアに転職。
+コーポレートITの導入・構築・運用から、デバイス管理、オフィスインフラ、ヘルプデスクまで幅広く担当するかたわら2022年より CISO室を兼務し、ISMS や個人情報保護、リスク・監査に関わるマネジメント業務を兼任しています。
 
 ### 個人事業主として
 
@@ -61,7 +62,6 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 | 働き方 | フルリモートワーク, 平日夜間・土日祝日 | 
 | 文化 | Slack に times がある, 社名を公表可能| 
 
-
 カジュアル面談のお誘いも [contact@rotomx.com](mailto:contact@rotomx.com) か、各種 SNS でご連絡ください。
 
 
@@ -82,29 +82,27 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 * Jamf Pro
 * Jamf Protect
 * Jamf Connect
+* Jamf Trust / Wandera
 * Jamf Fundamentals / Jamf Now
 * Apple Business Manager
-* Google Workspace Enterprise Plus
-* Microsoft Enterprise Mobility + Security (E5)
+* Slack Enterprise Grid
+* Google Workspace
+* Microsoft Enterprise Mobility + Security
 * Microsoft 365 Apps for enterprise
 * Microsoft Intune
 * Microsoft Sentinel
 * Microsoft Defender for Endpoint
 * Microsoft Defender for Cloud Apps
-* Azure Active Directory (Premium P2)
-* Slack (Business Plus)
-* Zoom (Enterprise)
-* Dialpad (Enterprise)
-* FAX PLUS (Enterprise Solutions)
-* LINE WORKS (Standard)
-* Keeper Business (Enterprise Plus)
-* Halp
-* Snipe-IT
-
-その他、多くの SaaS の利用・運用経験があります。
-
-直近は開発職ではありませんが、前職のシステムエンジニアを経験から Google Apps Script や PowerShell などを使ったスクリプト開発は可能です。
-Git / GitHub の操作や、チーム開発のフローも理解しています。SQL によるデータベース操作も可能です。
+* Microsoft Entra ID / Azure Active Directory
+* Zoom
+* Dialpad
+* FAX.PLUS
+* LINE WORKS
+* Keeper
+* Figma
+* バクラク / LayerX
+* ジョーシス
+* セキュリオ
 
 ## Qualification / 資格
 
@@ -114,11 +112,15 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 * 情報セキュリティ管理士
 * 情報セキュリティ監査人
 * 個人情報保護士
+* 個人情報保護監査人
 
 * SPREAD情報セキュリティサポーター能力検定
 * SPREAD情報セキュリティマイスター能力検定
 
 * Slack 認定管理者
+
+* Workato Automation Pro I Certificate
+* Workato Automation Pro II Certificate
 
 * Microsoft Azure Fundamentals (AZ-900)
 * Microsoft Office Specialist Word 2010
@@ -131,27 +133,15 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 
 * 第一種普通自動車運転免許 (MT)
 
-* サウナ・スパ健康アドバイザー
-* サウナ・スパプロフェッショナル（管理士）
-
-* 温泉ソムリエ
-
-* 日本化粧品検定 3級
-* 化粧品成分検定 3級
-
-* 環境カオリスタ
-
 ## Social Account / アカウント
 
 * [Twitter](https://twitter.com/rotomx)
 * [Facebook](https://www.facebook.com/tawa.mkx)
-* [Instagram](https://www.instagram.com/rotomx)
 * [Linkedin](https://www.linkedin.com/in/rotomx/)
 
 * [note](https://note.com/rotomx)
 * [zenn](https://zenn.dev/rotomx)
 * [GitHub](https://github.com/rotomx)
-* [Hatena](https://profile.hatena.ne.jp/rotom)
 
 * [YOUTRUST](https://youtrust.jp/users/rotomx)
 * [RESUME](https://www.resume.id/rotomx)
@@ -161,20 +151,32 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 ## Speaker / 登壇
 
 * [Business Technology Conference Japan User Session 本社オフィスを移転し、オフィスファシリティ・コーポレートIT を刷新した話](https://btcon.jp/)
+ 
 * [ちる会SP〜今こそリモートワークについて語る〜](https://jobs.route06.co.jp/route06-radio/chill-sp)
+
 * [JMUG Meetup #13 - Connect with Jamf Connect](https://eventregist.com/e/jmug0013)
+
 * [情シス転職ミートアップ 第4回](https://corp-engr.connpass.com/event/227173/)
 * [情シス転職ミートアップ 第3回](https://corp-engr.connpass.com/event/212976/)
 * [情シス転職ミートアップ 第2回](https://corp-engr.connpass.com/event/204408/)
+
 * [【LWUG】個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは?](https://lwug.connpass.com/event/192118/)
+
 * [「沖縄にオフィスを作る」というテーマで LT しました #corpengr - note](https://note.com/rotomx/n/n773981c831d2)
 
 ## Interview / インタビュー・導入事例
 
 * [チームプレーで一歩先を行く社内環境構築を――。一休の情シスが目指すアフターコロナの世界](https://www.ikyu.co.jp/blog/1597/)
-* [Keeper導入のきっかけは「SSO対応＆使い勝手の良さ」一休の目指すユーザーファーストなセキュリティ](https://blog.zunda.co.jp/blog/ikyu-casestudy)
-* [一休、Jamf Pro、Jamf Connectを活用してシステム環境のモダナイズを推進](https://prtimes.jp/main/html/rd/p/000000034.000066916.html)
+* [【採用情報】情シスメンバーを募集中！](https://note.com/ikyu_com/n/n4826228135bb)
+
+* [Keeper導入のきっかけは「SSO対応＆使い勝手の良さ」一休の目指すユーザーファーストなセキュリティ](https://blog.zunda.co.jp/blog/ikyu-casestudy)* 
+
+* [株式会社一休 - Jamf ProとJamf Connectで叶える”従業員ファースト”のMac管理](https://www.jamf.com/ja/resources/case-studies/ikyu/)
+* [【Jamf導入インタビュー】株式会社一休 管理本部 社内情報システム部 大多和亮様](https://www.jamf.com/ja/resources/videos/jamf-ikyu/)
+* [Jamf Nation Live Tokyo 2023 ダイジェスト](https://www.youtube.com/watch?v=G0duh5_tMo8)
+
 * [Dialpad 導入企業インタビュー 株式会社一休さま](https://japan.blog.dialpad.com/blog/customer-story/ikyu)
+  
 * [卒業生に聞く、未来に求められるIT人材になるには ～SANNO教員×卒業生 対談～](https://www.sanno.ac.jp/undergraduate/learning/viewpoint/2021_04/)
 
 ## Community / コミュニティ活動
@@ -188,6 +190,9 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 
 ## Operation / イベント運営
 
+* [【大阪開催 6/28】コーポレートエンジニア関西交流会vol.2](https://corp-engr.connpass.com/event/285390/)
+
+* [情シス転職ミートアップ 第７回](https://corp-engr.connpass.com/event/279836/)
 * [情シス転職ミートアップ 第6回 x ジョーシス ラーニング](https://corp-engr.connpass.com/event/260351/)
 * [情シス転職ミートアップ 第5回](https://corp-engr.connpass.com/event/242298/)
 * [情シス転職ミートアップ 第4回](https://corp-engr.connpass.com/event/227173/)
@@ -214,7 +219,7 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 * [一休.com Advent Calendar 2019 - Qiita ](https://qiita.com/advent-calendar/2019/ikyu)
 * [一休.com Advent Calendar 2018 - Qiita ](https://qiita.com/advent-calendar/2018/ikyu)
 
-## Output / アウトプット
+## Output / 主なアウトプット
 
 * [ろとにゃんさんゲスト回　e-IT Life with シンジ - YouTube](https://www.youtube.com/watch?v=6y9jsXtlzM8)
 
@@ -241,6 +246,8 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 * [『個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは?』 というテーマで登壇しました #LWUG - note](https://note.com/rotomx/n/n4f8702c9a299)
 * [「沖縄にオフィスを作る」というテーマで LT しました #corpengr - note](https://note.com/rotomx/n/n773981c831d2)
 
+* [Jamf Account に Azure AD で SSO する - note](https://note.com/rotomx/n/n5380ebad6359)
+* [Apple の緊急セキュリティ対応（RSR）を Jamf Pro で対応する - note](https://note.com/rotomx/n/n696472486bb9)
 * [macOS Ventura アップグレード後、 Microsoft Defender for Endpoint で「確認が必要」となってしまう問題を解決する - note](https://note.com/rotomx/n/neb7d90fe7462)
 * [なぜコーポレートエンジニア（情シス）の採用は難しいのか - note](https://note.com/rotomx/n/n123c51d465ba)
 * [お前も Slack 認定管理者にならないか？ - note](https://note.com/rotomx/n/n6195dda5273d)
@@ -250,13 +257,6 @@ Git / GitHub の操作や、チーム開発のフローも理解しています�
 * [Employee Purchase Programで Apple 製品を割引価格で購入する - note](https://note.com/rotomx/n/nccbbf5f442d0)
 * [SaaS の SAML/SSO は Enterprise 以外でも使えると嬉しいという話 - note](https://note.com/rotomx/n/neb7e3cb8b9b7)
 * [Zoom が香港のデータセンターをルーティングしないように設定する - note](https://note.com/rotomx/n/nd63cde9c02e4)
-
-* [2020年ふりかえりと今年の抱負。コロナとアウトプットとグルメ - note](https://note.com/rotomx/n/ne246a7ce1edb)
-* [2020年 買ってよかったもの - note](https://note.com/rotomx/n/n67facae6f9c9)
-
-* [社内LTで登壇しました - Roto Vox](http://rotomx.hateblo.jp/entry/2018/06/28/%E7%A4%BE%E5%86%85LT%E3%81%A7%E7%99%BB%E5%A3%87%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F)
-* [ 転職します - Roto Vox ](http://rotomx.hateblo.jp/entry/2018/06/19/%E8%BB%A2%E8%81%B7%E3%81%97%E3%81%BE%E3%81%99)
-* [ macOS SierraのSafariで「Flash」を利用できるようにする - Roto Vox](http://rotomx.hateblo.jp/entry/2016/09/22/macOS_Sierra%E3%81%AESafari%E3%81%A7%E3%80%8CFlash%E3%80%8D%E3%82%92%E5%88%A9%E7%94%A8%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B)
 
 * [ macOS Catalina で zip の展開に失敗する - Qiita](https://qiita.com/rotomx/items/e50298ca435c55f8a4af)
 * [ Eclipse for Macでコード補完ができるようにする - Qiita](https://qiita.com/rotomx/items/784211ea16760eecac83)
