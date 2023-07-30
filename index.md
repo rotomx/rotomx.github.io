@@ -26,7 +26,7 @@
 | 2020.11 - | ROUTE06 | 業務委託 |
 | 2018.8 - | 一休.com | 正社員 |
 | 2015.4 - 2018.7 | at home | 正社員 |
-| 2013.6 - 2015.3 | Apple | インターンシップ |
+| 2013.6 - 2015.3 | Apple Japan | インターンシップ |
 
 ### 転職について
 
@@ -169,7 +169,7 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 * [チームプレーで一歩先を行く社内環境構築を――。一休の情シスが目指すアフターコロナの世界](https://www.ikyu.co.jp/blog/1597/)
 * [【採用情報】情シスメンバーを募集中！](https://note.com/ikyu_com/n/n4826228135bb)
 
-* [Keeper導入のきっかけは「SSO対応＆使い勝手の良さ」一休の目指すユーザーファーストなセキュリティ](https://blog.zunda.co.jp/blog/ikyu-casestudy)* 
+* [Keeper導入のきっかけは「SSO対応＆使い勝手の良さ」一休の目指すユーザーファーストなセキュリティ](https://blog.zunda.co.jp/blog/ikyu-casestudy)
 
 * [株式会社一休 - Jamf ProとJamf Connectで叶える”従業員ファースト”のMac管理](https://www.jamf.com/ja/resources/case-studies/ikyu/)
 * [【Jamf導入インタビュー】株式会社一休 管理本部 社内情報システム部 大多和亮様](https://www.jamf.com/ja/resources/videos/jamf-ikyu/)
