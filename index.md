@@ -12,8 +12,8 @@
 
 ### 正社員として
 
-2015年に大学を卒業後、新卒で入社した企業でのシステムエンジニアを経て、2018年に25歳でコーポレートエンジニアに転職。
-コーポレートITの導入・構築・運用から、デバイス管理、オフィスインフラ、ヘルプデスクまで幅広く担当するかたわら2022年より CISO室を兼務し、ISMS や個人情報保護、リスク・監査に関わるマネジメント業務を兼任しています。
+2015年に大学を卒業後、新卒で入社した企業でのシステムエンジニアを経て、2018年に25歳で未経験でコーポレートエンジニアに転職。
+コーポレートITの導入・構築・運用から、デバイス管理、オフィスインフラ、ヘルプデスクまで幅広く担当するかたわら2022年より CISO室を兼務し、ISMS や個人情報保護、リスク・監査に関わるセキュリティマネジメント業務を兼任しています。
 
 ### 個人事業主として
 
@@ -35,7 +35,7 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 
 以下、転職における必須要件となります。
 
-| 年収 | 800万円 - （応相談） |
+| 年収 | 900万円 - （応相談） |
 | 雇用形態 | 正社員 |
 | 勤務地 | 東京・自宅| 
 | 業務内容 | 情報システム・コーポレートIT部門, セキュリティ・監査部門 | 
@@ -55,7 +55,7 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 現在2社と業務委託契約を結んでいるため、稼働時間は少なめになります。 <br>
 1時間単位のスポットコンサルについても、相談内容に応じてお受けすることができます。
 
-| 報酬 | 応相談 |
+| 報酬 | （応相談） |
 | 契約 | 業務委託契約（準委任） |
 | 勤務地 | 自宅（リモートワーク） | 
 | 業務内容 | コーポレートIT支援, コンサルティング・顧問 | 
@@ -77,32 +77,40 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 
 ### スキル / 経験
 
-導入・構築フェーズから多くの SaaS を扱っています。
+導入・構築フェーズから運用まで、多くの SaaS を扱っています。
 
 * Jamf Pro
 * Jamf Protect
 * Jamf Connect
-* Jamf Trust / Wandera
-* Jamf Fundamentals / Jamf Now
+* Jamf Trust (Wandera)
+* Jamf Fundamentals (Jamf Now)
 * Apple Business Manager
 * Slack Enterprise Grid
-* Google Workspace
-* Microsoft Enterprise Mobility + Security
+* Google Workspace Enterprise Plus
+* Google Chrome Enterprise
+* Microsoft Enterprise Mobility + Security E５
 * Microsoft 365 Apps for enterprise
 * Microsoft Intune
 * Microsoft Sentinel
 * Microsoft Defender for Endpoint
 * Microsoft Defender for Cloud Apps
-* Microsoft Entra ID / Azure Active Directory
+* Microsoft Entra ID (Azure Active Directory)
 * Zoom
-* Dialpad
-* FAX.PLUS
 * LINE WORKS
-* Keeper
-* Figma
-* バクラク / LayerX
+* Dialpad Enterprise
+* FAX.PLUS Enterprise
+* Keeper Enterprise
+* Salesforce Enterprise
+* Figma Enterprise
+* Halp
+* Confluence
+* Notion
+* Qiita Team
+* Akerun Pro / コントローラー
+* バクラク申請 / カード
 * ジョーシス
 * セキュリオ
+* Zapier
 
 ## Qualification / 資格
 
