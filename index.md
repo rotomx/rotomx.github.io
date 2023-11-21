@@ -38,8 +38,8 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 | 年収 | 900万円 - （応相談） |
 | 雇用形態 | 正社員 |
 | 勤務地 | 東京・自宅| 
-| 業務内容 | 情報システム・コーポレートIT部門, セキュリティ・監査部門 | 
-| 働き方 | ハイブリット勤務, フレックス可能, 副業可能 | 
+| 業務内容 | 情報システム・コーポレートIT部門 | 
+| 働き方 | ハイブリット勤務, フレックス・副業可能 | 
 | 選考 | カジュアル面談可能, リファレンスチェックがない| 
 | 文化 | Slack に times がある, テックブログ, 私服勤務, 1on1 | 
 
@@ -58,7 +58,7 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 | 報酬 | （応相談） |
 | 契約 | 業務委託契約（準委任） |
 | 勤務地 | 自宅（リモートワーク） | 
-| 業務内容 | コーポレートIT支援, コンサルティング・顧問 | 
+| 業務内容 | コーポレートIT 支援, コンサルティング・顧問 | 
 | 働き方 | フルリモートワーク, 平日夜間・土日祝日 | 
 | 文化 | Slack に times がある, 社名を公表可能| 
 
@@ -67,8 +67,8 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 
 ## Specialty / 専門
 
-* SaaS 中心のコーポレートIT 導入・運用・構築
-* Jamf Pro を用いた組織における Apple デバイスの管理
+* ゼロトラストに向けたコーポレートIT 導入・運用・構築
+* Jamf を用いた組織における Apple デバイスの管理
 * Apple 製品への深い知見 / トラブルシューティング
 * オフィス開設・移転のインフラ・ファシリティ
 * ISMS(ISO 27001)・個人情報保護・監査対策
@@ -82,35 +82,25 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 * Jamf Pro
 * Jamf Protect
 * Jamf Connect
-* Jamf Trust (Wandera)
-* Jamf Fundamentals (Jamf Now)
-* Apple Business Manager
+* Jamf Trust
+* Google Workspace
 * Slack Enterprise Grid
-* Google Workspace Enterprise Plus
-* Google Chrome Enterprise
-* Microsoft Enterprise Mobility + Security E５
-* Microsoft 365 Apps for enterprise
+* Keeper Enterprise
 * Microsoft Intune
 * Microsoft Sentinel
 * Microsoft Defender for Endpoint
 * Microsoft Defender for Cloud Apps
-* Microsoft Entra ID (Azure Active Directory)
-* Zoom
+* Microsoft Entra ID
 * LINE WORKS
-* Dialpad Enterprise
-* FAX.PLUS Enterprise
-* Keeper Enterprise
-* Salesforce Enterprise
-* Figma Enterprise
-* Halp
+* Zoom
+* Dialpad 
+* FAX.PLUS
 * Confluence
 * Notion
 * Qiita Team
-* Akerun Pro / コントローラー
-* バクラク申請 / カード
+* GitHub
+* バクラク
 * ジョーシス
-* セキュリオ
-* Zapier
 
 ## Qualification / 資格
 
