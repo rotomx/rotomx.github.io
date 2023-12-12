@@ -8,7 +8,7 @@
 
 ## About Me / プロフィール
 
-![rotomx](https://user-images.githubusercontent.com/8991927/257055977-de33a0cd-c403-4247-88ff-909f24879fb9.png)
+![image](https://github.com/rotomx/rotomx.github.io/assets/8991927/99bbb345-a5db-4482-9871-c7ef06aeabdf)
 
 ### 正社員として
 
@@ -25,8 +25,6 @@
 | 2021.7 - | トリコ | 業務委託 |
 | 2020.11 - | ROUTE06 | 業務委託 |
 | 2018.8 - | 一休.com | 正社員 |
-| 2015.4 - 2018.7 | at home | 正社員 |
-| 2013.6 - 2015.3 | Apple Japan | インターンシップ |
 
 ### 転職について
 
@@ -86,18 +84,16 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 * Google Workspace
 * Slack Enterprise Grid
 * Keeper Enterprise
+* Microsoft Entra ID
 * Microsoft Intune
 * Microsoft Sentinel
 * Microsoft Defender for Endpoint
-* Microsoft Defender for Cloud Apps
-* Microsoft Entra ID
 * LINE WORKS
 * Zoom
 * Dialpad 
 * FAX.PLUS
 * Confluence
 * Notion
-* Qiita Team
 * GitHub
 * バクラク
 * ジョーシス
@@ -121,13 +117,6 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 * Workato Automation Pro II Certificate
 
 * Microsoft Azure Fundamentals (AZ-900)
-* Microsoft Office Specialist Word 2010
-* Microsoft Office Specialist Excel 2010
-
-* .com Master BASIC
-
-* Apple Product Professional
-* Apple Sales Professional
 
 * 第一種普通自動車運転免許 (MT)
 
@@ -188,6 +177,8 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 
 ## Operation / イベント運営
 
+* [第7回EMS勉強会](https://ems-meeting.connpass.com/event/297423/)
+
 * [【大阪開催 6/28】コーポレートエンジニア関西交流会vol.2](https://corp-engr.connpass.com/event/285390/)
 
 * [情シス転職ミートアップ 第７回](https://corp-engr.connpass.com/event/279836/)
@@ -207,13 +198,17 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 
 ## Advent Calendar / アドベントカレンダー
 
-* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2022 - ADVENTAR ](https://adventar.org/calendars/7756)
-* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2021 - ADVENTAR ](https://adventar.org/calendars/6178)
-* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2020 - ADVENTAR ](https://adventar.org/calendars/5390)
-* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2019 - ADVENTAR ](https://adventar.org/calendars/3995)
+* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2023](https://adventar.org/calendars/8868)
+* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2022](https://adventar.org/calendars/7756)
+* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2021](https://adventar.org/calendars/6178)
+* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2020](https://adventar.org/calendars/5390)
+* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2019](https://adventar.org/calendars/3995)
+
+* [【初心者優先枠】corp-engr 情シスSlack（コーポレートエンジニア x 情シス）#3 Advent Calendar 2021](https://adventar.org/calendars/6180)
 
 * [LINEWORKS Advent Calendar 2020](https://qiita.com/advent-calendar/2020/lineworks)
 
+* [一休.com Advent Calendar 2023 - Qiita ](https://qiita.com/advent-calendar/20２３/ikyu)
 * [一休.com Advent Calendar 2019 - Qiita ](https://qiita.com/advent-calendar/2019/ikyu)
 * [一休.com Advent Calendar 2018 - Qiita ](https://qiita.com/advent-calendar/2018/ikyu)
 
@@ -221,6 +216,7 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 
 * [ろとにゃんさんゲスト回　e-IT Life with シンジ - YouTube](https://www.youtube.com/watch?v=6y9jsXtlzM8)
 
+* [Slack Enterprise Grid における情報バリアの設計 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/sack-info-barrier)
 * [本社を東京ガーデンテラス紀尾井町へ移転し、オフィスファシリティ・コーポレートIT を刷新した話 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/office-relocation)
 * [ヘルプデスクに Halp を導入して改善した話 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/halp-helpdesk)
 * [Slack ワークフロービルダーでバックオフィス業務をフロー化しよう - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/slack-work-flow)
