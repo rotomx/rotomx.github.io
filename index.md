@@ -33,10 +33,10 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 
 以下、転職における必須要件となります。
 
-| 年収 | ８００万円 - １，０００万円 程度（応相談） |
+| 年収 | 800万円 - 1,000万円 程度（応相談） |
 | 雇用形態 | 正社員 |
 | 勤務地 | 東京・自宅（ハイブリット勤務）| 
-| 業務内容 | コーポレートIT部門 | 
+| 業務内容 | コーポレートIT・セキュリティ | 
 | 働き方 | フレックス・副業可能 | 
 | 選考 | カジュアル面談可能, リファレンスチェックがない| 
 
@@ -117,18 +117,14 @@ SIer　/ SES、プロダクト開発ほか、営業などの異業種への転�
 
 ## Social Account / アカウント
 
-* [Twitter](https://twitter.com/rotomx)
-* [Facebook](https://www.facebook.com/tawa.mkx)
-* [Linkedin](https://www.linkedin.com/in/rotomx/)
+* [ X ](https://x.com/rotomx)
 
 * [note](https://note.com/rotomx)
 * [zenn](https://zenn.dev/rotomx)
 * [GitHub](https://github.com/rotomx)
 
 * [YOUTRUST](https://youtrust.jp/users/rotomx)
-* [RESUME](https://www.resume.id/rotomx)
-* [LAPRAS](https://lapras.com/public/YCWIS7Y)
-
+* [Linkedin](https://www.linkedin.com/in/rotomx/)
 
 ## Speaker / 登壇
 
