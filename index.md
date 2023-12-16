@@ -1,7 +1,7 @@
 
 # RotoVox
 
-コーポレートエンジニアの @rotomx です。<br>
+コーポレートエンジニア　/ セキュリティの @rotomx です。<br>
 正社員として働きつつ、個人事業主として、企業のコーポレートITの支援を行っています。
 
 ポートフォリオをご覧いただき、転職・副業のご相談がある際は [contact@rotomx.com](mailto:contact@rotomx.com) か、各種 SNS でご連絡ください。
@@ -14,8 +14,8 @@
 
 ### 正社員として
 
-2015年に大学を卒業後、新卒で入社した企業でのシステムエンジニアを経て、2018年に25歳で未経験でコーポレートエンジニアに転職。
-コーポレートITの導入・構築・運用から、デバイス管理、オフィスインフラ、ヘルプデスクまで幅広く担当するかたわら2022年より CISO室を兼務し、ISMS や個人情報保護、リスク・監査に関わるセキュリティマネジメント業務を兼任しています。
+2015年に大学を卒業後、新卒で入社した企業でのシステムエンジニアを経て、2018年に未経験でコーポレートエンジニアに転職。２０２２年よりCISO室におけるセキュリティを兼務。
+SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISMS や個人情報保護、リスク・監査対応などを幅広く担当しています。
 
 ### 個人事業主として
 
@@ -87,9 +87,10 @@
 * Microsoft Defender for Endpoint
 * LINE WORKS
 * Zoom
+* Box
 * Dialpad 
 * FAX.PLUS
-* Confluence
+* Atlassian Cloud
 * Notion
 * GitHub
 * バクラク
@@ -110,10 +111,10 @@
 
 * Slack 認定管理者
 
+* Microsoft Azure Fundamentals (AZ-900)
+
 * Workato Automation Pro I Certificate
 * Workato Automation Pro II Certificate
-
-* Microsoft Azure Fundamentals (AZ-900)
 
 * 第一種普通自動車運転免許 (MT)
 
@@ -168,7 +169,9 @@
 * [LINE WORKSアンバサダープログラム](https://line.worksmobile.com/jp/partner/ambassador/)
 * [Jamf Heroes](https://heroes.jamf.com/users/sign_in)
 
-## Operation / イベント運営
+## Operation / イベント運営・スタッフ
+
+* [Business Technology Conference Japan ２０２４](https://btcon.jp/)
 
 * [第7回EMS勉強会](https://ems-meeting.connpass.com/event/297423/)
 
@@ -180,9 +183,6 @@
 * [情シス転職ミートアップ 第4回](https://corp-engr.connpass.com/event/227173/)
 * [情シス転職ミートアップ 第3回](https://corp-engr.connpass.com/event/212976/)
 * [情シス転職ミートアップ 第2回](https://corp-engr.connpass.com/event/204408/)
-
-* [スタートアップから大企業まで！ 社内IT環境づくりに携わる中の人とカジュアル面談でつながろう！](https://meety.net/pickups/bu0qkrf6l?fbc)
-
 
 ## Participation / イベント出場
 
@@ -199,11 +199,11 @@
 
 * [【初心者優先枠】corp-engr 情シスSlack（コーポレートエンジニア x 情シス）#3 Advent Calendar 2021](https://adventar.org/calendars/6180)
 
-* [LINEWORKS Advent Calendar 2020](https://qiita.com/advent-calendar/2020/lineworks)
-
 * [一休.com Advent Calendar 2023 - Qiita ](https://qiita.com/advent-calendar/20２３/ikyu)
 * [一休.com Advent Calendar 2019 - Qiita ](https://qiita.com/advent-calendar/2019/ikyu)
 * [一休.com Advent Calendar 2018 - Qiita ](https://qiita.com/advent-calendar/2018/ikyu)
+
+* [LINEWORKS Advent Calendar 2020](https://qiita.com/advent-calendar/2020/lineworks)
 
 ## Output / 主なアウトプット
 
@@ -213,12 +213,14 @@
 * [本社を東京ガーデンテラス紀尾井町へ移転し、オフィスファシリティ・コーポレートIT を刷新した話 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/office-relocation)
 * [ヘルプデスクに Halp を導入して改善した話 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/halp-helpdesk)
 * [Slack ワークフロービルダーでバックオフィス業務をフロー化しよう - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/slack-work-flow)
-* [【Hot Entry】 一休における「情シス」の取り組み - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/info-sys)
+* [一休における「情シス」の取り組み - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/info-sys)
+
+* [なぜコーポレートエンジニア（情シス）の採用は難しいのか - note](https://note.com/rotomx/n/n123c51d465ba)
+* [副業情シスのすゝめ - note](https://note.com/rotomx/n/n7cee3b046340)
 
 * [一休.com の社内インフラ・ネットワークを支える情シスを募集しています！ - note](https://note.com/rotomx/n/nc954b2219380)
-
 * [ROUTE06 1人目のコーポレートエンジニア（情シス）を探しています！ - note](https://note.com/rotomx/n/n7c63cc35d00e)
-* [副業情シスのすゝめ - note](https://note.com/rotomx/n/n7cee3b046340)
+  
 * [macOS アップグレードガイドラインを公開します - note](https://note.com/rotomx/n/ndea21aef3466)
 
 * [本社オフィスを移転し、 オフィスファシリティ・コーポレートIT を刷新した話 - Speaker Deck](https://speakerdeck.com/rotomx/ben-she-ohuisuwoyi-zhuan-si-ohuisuhuasiriteikoporetoit-woshua-xin-sitahua)
@@ -226,7 +228,7 @@
 * [個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは? / Why Shadow IT is Bad? - SpeakerDeck](https://speakerdeck.com/rotomx/why-shadow-it-is-bad)
 * [沖縄にオフィスを作る / Build office in Okinawa - SpeakerDeck](https://speakerdeck.com/rotomx/build-office-in-okinawa)
 
-* [【Hot Entry】 なぜ業務で LINE を使ってはいけないのか - note](https://note.com/rotomx/n/n2a2d719dda76)
+* [なぜ業務で LINE を使ってはいけないのか - note](https://note.com/rotomx/n/n2a2d719dda76)
 * [LINE WORKS 管理者が最初に行う情報セキュリティの設定 - note](https://note.com/rotomx/n/nc82bc210fd87)
 * [LINE WORKS で2段階認証を設定できるようになりました - note](https://note.com/rotomx/n/ncdf24d6c51e9)
 
@@ -236,12 +238,12 @@
 * [Jamf Account に Azure AD で SSO する - note](https://note.com/rotomx/n/n5380ebad6359)
 * [Apple の緊急セキュリティ対応（RSR）を Jamf Pro で対応する - note](https://note.com/rotomx/n/n696472486bb9)
 * [macOS Ventura アップグレード後、 Microsoft Defender for Endpoint で「確認が必要」となってしまう問題を解決する - note](https://note.com/rotomx/n/neb7d90fe7462)
-* [なぜコーポレートエンジニア（情シス）の採用は難しいのか - note](https://note.com/rotomx/n/n123c51d465ba)
-* [お前も Slack 認定管理者にならないか？ - note](https://note.com/rotomx/n/n6195dda5273d)
 * [Jamf Connect の Azure AD パススルー認証を設定する - note](https://note.com/rotomx/n/ne3bc2281bbc0)
 * [Jamf Pro で Chrome Enterprise を展開する - note](https://note.com/rotomx/n/nf0fe6663fc4f)
 * [Mac（MacBook Pro 2020）が Wi-Fi に接続できなくなったときのトラブルシューティング - note](https://note.com/rotomx/n/n54c036e548e7)
 * [Employee Purchase Programで Apple 製品を割引価格で購入する - note](https://note.com/rotomx/n/nccbbf5f442d0)
+
+* [お前も Slack 認定管理者にならないか？ - note](https://note.com/rotomx/n/n6195dda5273d)
 * [SaaS の SAML/SSO は Enterprise 以外でも使えると嬉しいという話 - note](https://note.com/rotomx/n/neb7e3cb8b9b7)
 * [Zoom が香港のデータセンターをルーティングしないように設定する - note](https://note.com/rotomx/n/nd63cde9c02e4)
 
