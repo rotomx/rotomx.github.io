@@ -133,8 +133,6 @@ SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISM
 
 * [Business Technology Conference Japan User Session 本社オフィスを移転し、オフィスファシリティ・コーポレートIT を刷新した話](https://btcon.jp/)
  
-* [ちる会SP〜今こそリモートワークについて語る〜](https://jobs.route06.co.jp/route06-radio/chill-sp)
-
 * [JMUG Meetup #13 - Connect with Jamf Connect](https://eventregist.com/e/jmug0013)
 
 * [情シス転職ミートアップ 第4回](https://corp-engr.connpass.com/event/227173/)
@@ -171,7 +169,7 @@ SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISM
 
 ## Operation / イベント運営・スタッフ
 
-* [Business Technology Conference Japan ２０２４](https://btcon.jp/)
+* [Business Technology Conference Japan 2024](https://btcon.jp/)
 
 * [第7回EMS勉強会](https://ems-meeting.connpass.com/event/297423/)
 
