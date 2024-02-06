@@ -8,13 +8,13 @@
 
 ## About Me / プロフィール
 
-![image](https://github.com/rotomx/rotomx.github.io/assets/8991927/99bbb345-a5db-4482-9871-c7ef06aeabdf)
+![IMG_0183_srcnn_anime_noise3_4x](https://github.com/rotomx/rotomx.github.io/assets/8991927/2ad27a83-95a5-47eb-af58-41a5d713c9ab)
 
 @rotomx / ろとにゃん
 
 ### 正社員として
 
-2015年に大学を卒業後、新卒で入社した企業でのシステムエンジニアを経て、2018年に未経験でコーポレートエンジニアに転職。2022年よりCISO室におけるセキュリティマネジメントを兼務。
+2018年より、一休.com （LINEヤフー / ソフトバンクグループ） でコーポレートエンジニアとセキュリティを担当。
 SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISMS や個人情報保護、リスク・監査対応などを幅広く担当しています。
 
 ### 個人事業主として
