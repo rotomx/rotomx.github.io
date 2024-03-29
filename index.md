@@ -8,7 +8,7 @@
 
 ## About Me / プロフィール
 
-![IMG_0183_srcnn_anime_noise3_4x](https://github.com/rotomx/rotomx.github.io/assets/8991927/2ad27a83-95a5-47eb-af58-41a5d713c9ab)
+![image](https://github.com/rotomx/rotomx.github.io/assets/8991927/5fe31f34-93eb-497f-90a3-eefb788e9737)
 
 @rotomx / ろとにゃん
 
