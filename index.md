@@ -35,11 +35,11 @@ SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISM
 
 以下、転職における必須要件となります。
 
-| 年収 | 900万円 - 1,100万円 （応相談） |
+| 年収 | 900万円 -  （応相談） |
 | 雇用形態 | 正社員 |
-| 勤務地 | 東京・自宅（ハイブリット勤務）| 
-| 業務内容 | コーポレートIT・セキュリティ | 
-| 働き方 | フレックス・副業可能 | 
+| 勤務地 | 東京・自宅| 
+| 業務内容 | コーポレートIT / セキュリティ | 
+| 働き方 | ハイブリット勤務（フルリモートではない）・副業可能 | 
 | 選考 | カジュアル面談可能, リファレンスチェックがない| 
 
 
@@ -54,7 +54,7 @@ SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISM
 | 報酬 | （応相談） |
 | 契約 | 業務委託契約（準委任） |
 | 勤務地 | 自宅（リモートワーク） | 
-| 業務内容 | コーポレートIT アドバイザリー | 
+| 業務内容 | コーポレートIT / セキュリティ | 
 | 働き方 | 平日夜間・土日祝日 | 
 
 カジュアル面談のお誘いも [contact@rotomx.com](mailto:contact@rotomx.com) か、各種 SNS でご連絡ください。
@@ -77,20 +77,17 @@ SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISM
 * Jamf Pro
 * Jamf Protect
 * Jamf Connect
-* Jamf Trust
 * Google Workspace
 * Slack Enterprise Grid
-* Keeper Enterprise
 * Microsoft Entra ID
 * Microsoft Intune
 * Microsoft Sentinel
 * Microsoft Defender for Endpoint
 * LINE WORKS
 * Zoom
-* Box
 * Dialpad 
 * FAX.PLUS
-* Atlassian Cloud
+* Keeper
 * Notion
 * GitHub
 * バクラク
@@ -175,6 +172,7 @@ SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISM
 
 * [【大阪開催 6/28】コーポレートエンジニア関西交流会vol.2](https://corp-engr.connpass.com/event/285390/)
 
+* [情シス転職ミートアップ 第８回](https://corp-engr.connpass.com/event/310983/)
 * [情シス転職ミートアップ 第７回](https://corp-engr.connpass.com/event/279836/)
 * [情シス転職ミートアップ 第6回 x ジョーシス ラーニング](https://corp-engr.connpass.com/event/260351/)
 * [情シス転職ミートアップ 第5回](https://corp-engr.connpass.com/event/242298/)
