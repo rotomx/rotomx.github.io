@@ -98,20 +98,16 @@ SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISM
 * ITパスポート試験
 * 情報セキュリティマネジメント試験
 
-* 情報セキュリティ管理士
-* 情報セキュリティ監査人
-* 個人情報保護士
-* 個人情報保護監査人
+* 情報セキュリティ管理士 / 情報セキュリティ監査人
+* 個人情報保護士 / 個人情報保護監査人
 
-* SPREAD情報セキュリティサポーター能力検定
 * SPREAD情報セキュリティマイスター能力検定
 
-* Slack 認定管理者
-
-* Microsoft Azure Fundamentals (AZ-900)
-
-* Workato Automation Pro I Certificate
 * Workato Automation Pro II Certificate
+
+* Slack 認定管理者 (expired)
+
+* AZ-900：Microsoft Azure Fundamentals (expired)
 
 * 第一種普通自動車運転免許 (MT)
 
