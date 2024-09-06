@@ -24,9 +24,9 @@ SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISM
 
 ## Career / 経歴
 
-| 2021.7 - | トリコ | 業務委託 |
-| 2020.11 - | ROUTE06 | 業務委託 |
-| 2018.8 - | 一休.com | 正社員 |
+| 2021 - | トリコ | 業務委託 |
+| 2020 - | ROUTE06 | 業務委託 |
+| 2018 - | 一休.com | 正社員 |
 
 ### 転職について
 
@@ -72,26 +72,18 @@ SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISM
 
 ### スキル / 経験
 
-導入・構築フェーズから運用まで、多くの SaaS を扱っています。
+導入・構築フェーズから運用まで、多くの SaaS を扱っています。主なスキルセットのみ記載します。
 
-* Jamf Pro
-* Jamf Protect
-* Jamf Connect
-* Google Workspace
+* Jamf Business
+* Google Workspace Enterprise Plus
 * Slack Enterprise Grid
 * Microsoft Entra ID
 * Microsoft Intune
-* Microsoft Sentinel
-* Microsoft Defender for Endpoint
-* LINE WORKS
-* Zoom
-* Dialpad 
-* FAX.PLUS
-* Keeper
-* Notion
-* GitHub
-* バクラク
-* ジョーシス
+* Zoom Workplace
+* Dialpad Enterprise
+* FAX.PLUS Enterprise
+* Keeper Enterprise
+* mxHERO Mail2Cloud Platform
 
 ## Qualification / 資格
 
