@@ -1,6 +1,8 @@
 
 # rotonyan
 
+![image](<img width="460" height="460" alt="image" src="https://github.com/user-attachments/assets/fa5deb65-7b52-493c-936d-a7dcb975cda2" />)
+
 2015年に新卒で入社した大手企業の情報システム部門で社内 SE としてキャリアをスタート。基幹システムの保守運用・開発に携わった後、2018年に株式会社一休（LINEヤフーグループ）に入社。<br>
 ヘルプデスク業務からコーポレートエンジニアとしての SaaS・クラウドサービスを中心としたシステム企画・開発や、本社オフィスの移転といった全社的なプロジェクト推進まで幅広く担当。2022年からは CISO室を兼任し、情報セキュリティ、データプライバシー領域も管掌。
 
@@ -9,10 +11,6 @@
 技術評論社「Software Design」における記事寄稿や、国内最大級の IT 展示会である Japan IT Week における情シスパビリオンブースへの協力のほか、複数のセミナーやIT カンファレンス、ユーザー会に登壇しており、情報システム部門のプロフェッショナルとして、多様な視点から実践的知見を発信している。
 
 ポートフォリオをご覧いただき、転職・副業のご相談がある際は [contact@rotomx.com](mailto:contact@rotomx.com) か、各種 SNS でご連絡ください。
-
-## About Me / プロフィール
-
-![image](<img width="460" height="460" alt="image" src="https://github.com/user-attachments/assets/fa5deb65-7b52-493c-936d-a7dcb975cda2" />)
 
 
 ## Specialty / 専門
