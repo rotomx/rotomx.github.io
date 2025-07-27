@@ -8,7 +8,8 @@
 
 ## About Me / プロフィール
 
-![image](https://github.com/rotomx/rotomx.github.io/assets/8991927/5fe31f34-93eb-497f-90a3-eefb788e9737)
+![image](<img width="460" height="460" alt="image" src="https://github.com/user-attachments/assets/fa5deb65-7b52-493c-936d-a7dcb975cda2" />
+)
 
 @rotomx / ろとにゃん
 
