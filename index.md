@@ -68,6 +68,10 @@
 * [YOUTRUST](https://youtrust.jp/users/rotomx)
 * [Linkedin](https://www.linkedin.com/in/rotomx/)
 
+## 執筆
+
+* [Software Design 2025年4月号 ドメイン知識とどう付き合うのか？技術でビジネスの成長を支えるために / 情報システム部門におけるドメイン知識と技術の天秤](https://gihyo.jp/magazine/SD/archive/2025/202504)
+
 ## Speaker / 登壇
 
 * [情シスはドメイン知識とどう付き合えばいいのか？〜守りと攻めを両立する情シスの必須ドメイン知識 〜](https://service.dxer.co.jp/20250523webinar)
