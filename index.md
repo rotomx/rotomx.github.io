@@ -1,64 +1,18 @@
 
-# RotoVox
+# rotonyan
 
-コーポレートエンジニアの @rotomx です。<br>
-正社員として働きつつ、個人事業主として、企業のコーポレートIT・セキュリティの支援を行っています。
+2015年に新卒で入社した大手企業の情報システム部門で社内 SE としてキャリアをスタート。基幹システムの保守運用・開発に携わった後、2018年に株式会社一休（LINEヤフーグループ）に入社。<br>
+ヘルプデスク業務からコーポレートエンジニアとしての SaaS・クラウドサービスを中心としたシステム企画・開発や、本社オフィスの移転といった全社的なプロジェクト推進まで幅広く担当。2022年からは CISO室を兼任し、情報セキュリティ、データプライバシー領域も管掌。
+
+2020年より、個人事業主として複数のスタートアップ企業のコーポレート IT の構築やロードマップ策定などの支援を実施している。12,000人以上の情報システム担当者が集うオンラインコミニュティである「情シス Slack」の初期メンバーとして複数のイベント運営に携わり、現在は有志により情報システム部門向け IT カンファレンス「BTCONJP」の運営も行っている。
+
+技術評論社「Software Design」における記事寄稿や、国内最大級の IT 展示会である Japan IT Week における情シスパビリオンブースへの協力のほか、複数のセミナーやIT カンファレンス、ユーザー会に登壇しており、情報システム部門のプロフェッショナルとして、多様な視点から実践的知見を発信している。
 
 ポートフォリオをご覧いただき、転職・副業のご相談がある際は [contact@rotomx.com](mailto:contact@rotomx.com) か、各種 SNS でご連絡ください。
 
 ## About Me / プロフィール
 
-![image](<img width="460" height="460" alt="image" src="https://github.com/user-attachments/assets/fa5deb65-7b52-493c-936d-a7dcb975cda2" />
-)
-
-@rotomx / ろとにゃん
-
-### 正社員として
-
-2018年より、一休.com （LINEヤフーグループ） でコーポレートエンジニアとセキュリティマネジメントを担当。
-SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISMS や個人情報保護、リスク・監査対応などを幅広く担当しています。
-
-### 個人事業主として
-
-副業でスタートアップ企業のコーポレートIT 導入・構築の支援・アドバイスを行っています。ビザスクなどを通したスポットコンサルにも対応。
-また、「BTCONJP」 の core staff や 「情シス転職ミートアップ」の運営や、SaaS ユーザーグループでのイベント登壇・運営サポート、アンバサダーなど、SNS などを通じ、様々なコミュニティ活動へコントリビュートしています。
-
-## Career / 経歴
-
-| 2021 - | トリコ | 業務委託 |
-| 2020 - | ROUTE06 | 業務委託 |
-| 2018 - | 一休.com | 正社員 |
-
-### 転職について
-
-この先もコーポレートエンジニアとしてのキャリアを形成していくため、事業会社のコーポレートIT / セキュリティ部門を検討しています。
-将来的には CIO / CISO に準ずるキャリアを形成していきたいと考えています。
-
-以下、転職における必須要件となります。
-
-| 年収 | 900万円 -  （応相談） |
-| 雇用形態 | 正社員 |
-| 勤務地 | 東京・自宅| 
-| 業務内容 | コーポレートIT / セキュリティ | 
-| 働き方 | ハイブリット勤務（フルリモートではない）・副業可能 | 
-| 選考 | カジュアル面談可能, リファレンスチェックがない| 
-
-
-### 副業について
-
-自宅からのフルリモートワークを基本としますが、オフィスへの出勤も可能です（要調整） <br>
-稼働は平日夜間や土日祝日のため、リアルタイムのヘルプデスク対応や日中の Web ミーティングはできません。
-
-報酬については、現在は月額定額の顧問制か、1時間単位からのスポットコンサルのみ受け付けています。 <br>
-準委任契約であり請負契約ではないため、成果物に対するお支払いでは対応できません。
-
-| 報酬 | （応相談） |
-| 契約 | 業務委託契約（準委任） |
-| 勤務地 | 自宅（リモートワーク） | 
-| 業務内容 | コーポレートIT / セキュリティ | 
-| 働き方 | 平日夜間・土日祝日 | 
-
-カジュアル面談のお誘いも [contact@rotomx.com](mailto:contact@rotomx.com) か、各種 SNS でご連絡ください。
+![image](<img width="460" height="460" alt="image" src="https://github.com/user-attachments/assets/fa5deb65-7b52-493c-936d-a7dcb975cda2" />)
 
 
 ## Specialty / 専門
@@ -75,16 +29,15 @@ SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISM
 
 導入・構築フェーズから運用まで、多くの SaaS を扱っています。主なスキルセットのみ記載します。
 
-* Jamf Business
-* Google Workspace Enterprise Plus
+* Jamf Pro
+* Google Workspace
 * Slack Enterprise Grid
 * Microsoft Entra ID
 * Microsoft Intune
-* Zoom Workplace
-* Dialpad Enterprise
-* FAX.PLUS Enterprise
-* Keeper Enterprise
-* mxHERO Mail2Cloud Platform
+* Dialpad
+* FAX.PLUS
+* Keeper
+* mxHERO
 
 ## Qualification / 資格
 
@@ -117,19 +70,30 @@ SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISM
 
 ## Speaker / 登壇
 
+* [情シスはドメイン知識とどう付き合えばいいのか？〜守りと攻めを両立する情シスの必須ドメイン知識 〜](https://service.dxer.co.jp/20250523webinar)
+
+* [本当にゼロトラストでいいのか？ 〜ゼロトラストのよくある誤解とセキュリティの現場〜](https://findy-tools.connpass.com/event/347943/)
+
 * [Business Technology Conference Japan User Session 本社オフィスを移転し、オフィスファシリティ・コーポレートIT を刷新した話](https://btcon.jp/)
  
 * [JMUG Meetup #13 - Connect with Jamf Connect](https://eventregist.com/e/jmug0013)
+
+* [【LWUG】個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは?](https://lwug.connpass.com/event/192118/)
 
 * [情シス転職ミートアップ 第4回](https://corp-engr.connpass.com/event/227173/)
 * [情シス転職ミートアップ 第3回](https://corp-engr.connpass.com/event/212976/)
 * [情シス転職ミートアップ 第2回](https://corp-engr.connpass.com/event/204408/)
 
-* [【LWUG】個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは?](https://lwug.connpass.com/event/192118/)
+* [リーグオブ情シス 第十回 ハイパーリーグ Presented by IIJ #LoI](https://league-of-infosys.connpass.com/event/259888/)
+* [リーグオブ情シス 第四回 スーパーリーグ Presented by アカツキ #LoI](https://league-of-infosys.connpass.com/event/202303/)
 
 * [「沖縄にオフィスを作る」というテーマで LT しました #corpengr - note](https://note.com/rotomx/n/n773981c831d2)
 
 ## Interview / インタビュー・導入事例
+
+* [株式会社一休 | 導入事例 | SecureW2](https://www.pentio.com/securew2/case/ikyu/)
+
+* [株式会社一休 | お客様の声 | セキュリオ](https://www.lrm.jp/seculio/voice/ikyu/)
 
 * [チームプレーで一歩先を行く社内環境構築を――。一休の情シスが目指すアフターコロナの世界](https://www.ikyu.co.jp/blog/1597/)
 * [【採用情報】情シスメンバーを募集中！](https://note.com/ikyu_com/n/n4826228135bb)
@@ -155,45 +119,41 @@ SaaS Ops、IdP、デバイス管理を中心に、オフィスインフラ、ISM
 
 ## Operation / イベント運営・スタッフ
 
-* [Business Technology Conference Japan 2024](https://btcon.jp/)
+* [Business Technology Conference Japan 2025](https://btcon.jp/2025)
+* [Business Technology Conference Japan 2024](https://btcon.jp/2024)
 
-* [第7回EMS勉強会](https://ems-meeting.connpass.com/event/297423/)
+* [BTCONJP Insight #02](https://corp-engr.connpass.com/event/359500/)
+* [BTCONJP Insight #01](https://corp-engr.connpass.com/event/342561/)
 
-* [【大阪開催 6/28】コーポレートエンジニア関西交流会vol.2](https://corp-engr.connpass.com/event/285390/)
+* Japan IT Week 名古屋 2025 情シス応援パビリオン
+* Japan IT Week 春 2025 情シス応援パビリオン
+* Japan IT Week 関西 2025 情シス応援パビリオン
 
-* [情シス転職ミートアップ 第８回](https://corp-engr.connpass.com/event/310983/)
-* [情シス転職ミートアップ 第７回](https://corp-engr.connpass.com/event/279836/)
+* [コーポレートエンジニア関西交流会vol.3](https://corp-engr.connpass.com/event/339797/)
+* [コーポレートエンジニア関西交流会vol.2](https://corp-engr.connpass.com/event/285390/)
+
+* [情シス転職ミートアップ 第9回](https://cejobchange.connpass.com/event/355973/)
+* [情シス転職ミートアップ 第8回](https://corp-engr.connpass.com/event/310983/)
+* [情シス転職ミートアップ 第7回](https://corp-engr.connpass.com/event/279836/)
 * [情シス転職ミートアップ 第6回 x ジョーシス ラーニング](https://corp-engr.connpass.com/event/260351/)
 * [情シス転職ミートアップ 第5回](https://corp-engr.connpass.com/event/242298/)
 * [情シス転職ミートアップ 第4回](https://corp-engr.connpass.com/event/227173/)
 * [情シス転職ミートアップ 第3回](https://corp-engr.connpass.com/event/212976/)
 * [情シス転職ミートアップ 第2回](https://corp-engr.connpass.com/event/204408/)
 
-## Participation / イベント出場
+* [セーフィー本社で体験！オフィスでのクラウドカメラ活用術&事例紹介](https://info.safie.jp/l/636011/2025-01-09/4kjtnq)
 
-* [リーグオブ情シス 第十回 ハイパーリーグ Presented by IIJ #LoI チーム優勝](https://league-of-infosys.connpass.com/event/259888/)
-* [リーグオブ情シス 第四回 スーパーリーグ Presented by アカツキ #LoI チーム優勝](https://league-of-infosys.connpass.com/event/202303/)
+* [一休×AEON 事業会社のサービスを支える基盤開発トーク](https://ikyu.connpass.com/event/327095/)
 
-## Advent Calendar / アドベントカレンダー
-
-* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2023](https://adventar.org/calendars/8868)
-* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2022](https://adventar.org/calendars/7756)
-* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2021](https://adventar.org/calendars/6178)
-* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2020](https://adventar.org/calendars/5390)
-* [corp-engr 情シスSlack（コーポレートエンジニア x 情シス） Advent Calendar 2019](https://adventar.org/calendars/3995)
-
-* [【初心者優先枠】corp-engr 情シスSlack（コーポレートエンジニア x 情シス）#3 Advent Calendar 2021](https://adventar.org/calendars/6180)
-
-* [一休.com Advent Calendar 2023 - Qiita ](https://qiita.com/advent-calendar/20２３/ikyu)
-* [一休.com Advent Calendar 2019 - Qiita ](https://qiita.com/advent-calendar/2019/ikyu)
-* [一休.com Advent Calendar 2018 - Qiita ](https://qiita.com/advent-calendar/2018/ikyu)
-
-* [LINEWORKS Advent Calendar 2020](https://qiita.com/advent-calendar/2020/lineworks)
+* [第7回EMS勉強会](https://ems-meeting.connpass.com/event/297423/)
 
 ## Output / 主なアウトプット
 
+* [【旅のプロ直伝】出張＆旅行の達人が教える！　おすすめトラベルグッズ - YouTube](https://www.youtube.com/watch?v=6BEAObu5Zco)
+
 * [ろとにゃんさんゲスト回　e-IT Life with シンジ - YouTube](https://www.youtube.com/watch?v=6y9jsXtlzM8)
 
+* [Slack Enterprise Grid における情報バリアの設計 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/sack-info-barrier)
 * [Slack Enterprise Grid における情報バリアの設計 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/sack-info-barrier)
 * [本社を東京ガーデンテラス紀尾井町へ移転し、オフィスファシリティ・コーポレートIT を刷新した話 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/office-relocation)
 * [ヘルプデスクに Halp を導入して改善した話 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/halp-helpdesk)
