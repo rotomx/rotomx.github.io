@@ -1,8 +1,6 @@
 
 # Roto Vox
 
-![image](<img width="460" height="460" alt="image" src="https://private-user-images.githubusercontent.com/8991927/471174435-662ffd10-d829-464d-9f59-06075b84428e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTM1OTg0ODksIm5iZiI6MTc1MzU5ODE4OSwicGF0aCI6Ii84OTkxOTI3LzQ3MTE3NDQzNS02NjJmZmQxMC1kODI5LTQ2NGQtOWY1OS0wNjA3NWI4NDQyOGUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDcyNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA3MjdUMDYzNjI5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZThjNmZhYmI4MTY3NWQ3N2NlYzBhYzZiZGNjYTI2MjQwZWFjZDAwYmM4Yjk1NGY0NmNkNGY5MTQwZDdhMmVhMyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.FUUvMWnvIPIaZWvlvw52TyVtUZ-ZqOlfJ_-D0Nf591k" />)
-
 ## rotomx / ろとにゃん
 
 2015年に新卒で入社した大手企業の情報システム部門で社内 SE としてキャリアをスタート。基幹システムの保守運用・開発に携わった後、2018年に株式会社一休（LINEヤフーグループ）に入社。<br>
@@ -95,9 +93,9 @@
 
 ## Interview / インタビュー・導入事例
 
-* [株式会社一休 | 導入事例 | SecureW2](https://www.pentio.com/securew2/case/ikyu/)
+* [株式会社一休  導入事例  SecureW2](https://www.pentio.com/securew2/case/ikyu/)
 
-* [株式会社一休 | お客様の声 | セキュリオ](https://www.lrm.jp/seculio/voice/ikyu/)
+* [株式会社一休  お客様の声 セキュリオ](https://www.lrm.jp/seculio/voice/ikyu/)
 
 * [チームプレーで一歩先を行く社内環境構築を――。一休の情シスが目指すアフターコロナの世界](https://www.ikyu.co.jp/blog/1597/)
 * [【採用情報】情シスメンバーを募集中！](https://note.com/ikyu_com/n/n4826228135bb)
