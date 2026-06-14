@@ -10,8 +10,14 @@
 <meta property="og:title" content="rotonyan — Portfolio" />
 <meta property="og:description" content="コーポレートエンジニア rotonyan のポートフォリオサイト。" />
 <meta property="og:url" content="https://rotomx.github.io/" />
-<meta property="og:image" content="https://pbs.twimg.com/profile_images/2042805495262777344/cSh9aIG8_400x400.jpg" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:image" content="https://rotomx.github.io/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="rotomx's Portfolio" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="rotonyan — Portfolio" />
+<meta name="twitter:description" content="コーポレートエンジニア rotonyan のポートフォリオサイト。" />
+<meta name="twitter:image" content="https://rotomx.github.io/og-image.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet" />
@@ -24,7 +30,7 @@
     --line-soft:#1d1d1d;
     --text:#f5f5f5;
     --muted:#a3a3a3;
-    --dim:#6b6b6b;
+    --dim:#838383;
     --white:#ffffff;
     --radius:14px;
     --maxw:1080px;
@@ -43,6 +49,9 @@
   }
   ::selection{background:var(--white);color:#000}
   a{color:inherit;text-decoration:none}
+  :focus-visible{outline:2px solid var(--white);outline-offset:3px;border-radius:6px}
+  a:focus-visible,.chip:focus-visible,.cta:focus-visible,.nav-toggle:focus-visible,
+  summary:focus-visible,.linklist a:focus-visible{outline:2px solid var(--white);outline-offset:3px;border-radius:8px}
   .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
 
   /* ambient grid background */
@@ -64,11 +73,11 @@
     background:rgba(10,10,10,.72);
     border-bottom:1px solid var(--line-soft);
   }
-  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:62px}
-  .brand{font-weight:700;letter-spacing:.04em;font-size:15px;display:flex;align-items:center;gap:10px}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:62px;padding:8px 0}
+  .brand{font-weight:700;letter-spacing:.04em;font-size:15px;display:flex;align-items:center;gap:10px;flex-shrink:0}
   .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--white);box-shadow:0 0 14px rgba(255,255,255,.6)}
-  nav.links{display:flex;gap:26px}
-  nav.links a{font-size:13.5px;color:var(--muted);letter-spacing:.02em;transition:color .25s var(--ease)}
+  nav.links{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:12px 16px}
+  nav.links a{font-size:13px;color:var(--muted);letter-spacing:.02em;transition:color .25s var(--ease)}
   nav.links a:hover{color:var(--white)}
   .nav-toggle{display:none;background:none;border:0;color:var(--text);font-size:22px;cursor:pointer}
 
@@ -83,7 +92,6 @@
   .avatar-ring img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block;background:#222;border:3px solid var(--bg)}
   .eyebrow{font-size:12.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--dim);margin-bottom:14px}
   h1.name{font-size:clamp(38px,6vw,62px);font-weight:700;letter-spacing:-.02em;line-height:1.05}
-  h1.name span{color:var(--dim);font-weight:300}
   .handle{font-size:16px;color:var(--muted);margin-top:8px;letter-spacing:.02em}
   .tagline{margin-top:18px;font-size:15.5px;color:var(--muted);max-width:620px;line-height:1.75}
   .meta-row{display:flex;flex-wrap:wrap;gap:18px;margin-top:20px;font-size:13.5px;color:var(--dim)}
@@ -121,6 +129,99 @@
   }
   .item:hover{border-color:#333;transform:translateY(-2px)}
   .item .mk{color:var(--dim);font-size:13px;font-family:"Inter";flex-shrink:0;padding-top:1px}
+
+  /* ===== SKILL CATEGORIES ===== */
+  .skill-cats{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .skill-cat{
+    border:1px solid var(--line-soft);background:var(--bg-card);
+    border-radius:var(--radius);padding:20px 20px 18px;transition:all .22s var(--ease);
+  }
+  .skill-cat:hover{border-color:#333;transform:translateY(-2px)}
+  .skill-cat-head{display:flex;align-items:center;gap:12px;margin-bottom:15px}
+  .skill-cat-ico{
+    width:36px;height:36px;border-radius:10px;flex-shrink:0;
+    display:grid;place-items:center;font-size:17px;
+    background:radial-gradient(120% 120% at 0% 0%,#1d1d1d 0%,var(--bg-elev) 70%);
+    border:1px solid var(--line);
+  }
+  .skill-cat-name{font-size:14.5px;font-weight:600;letter-spacing:.01em;line-height:1.3}
+  .skill-cat-name small{display:block;font-size:10.5px;color:var(--dim);letter-spacing:.14em;text-transform:uppercase;font-weight:400;margin-top:2px}
+  .skill-cat-count{margin-left:auto;font-size:12px;color:var(--dim);font-family:"Inter";font-variant-numeric:tabular-nums;align-self:flex-start;padding-top:3px}
+  .skill-cat .chips{gap:7px}
+  .skill-cat .chip{font-size:12.5px;padding:6px 12px}
+
+  /* ===== QUALIFICATION BADGES ===== */
+  .qual-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .qual{
+    display:flex;gap:14px;align-items:center;
+    border:1px solid var(--line-soft);background:var(--bg-card);
+    border-radius:var(--radius);padding:15px 18px;transition:all .22s var(--ease);
+  }
+  .qual:hover{border-color:#333;transform:translateY(-2px)}
+  .qual .badge{
+    width:40px;height:40px;border-radius:50%;flex-shrink:0;
+    display:grid;place-items:center;font-size:16px;color:#fff;
+    background:radial-gradient(120% 120% at 30% 20%,#2a2a2a 0%,#141414 75%);
+    border:1px solid #3a3a3a;box-shadow:0 0 0 4px rgba(255,255,255,.02);
+  }
+  .qual .qt{font-size:14px;font-weight:500;line-height:1.45}
+  .qual .qc{font-size:10.5px;color:var(--dim);letter-spacing:.12em;text-transform:uppercase;margin-top:2px}
+
+  /* ===== TIMELINE (経歴) ===== */
+  .timeline{position:relative;padding-left:0}
+  .tl-track{position:relative;margin-left:8px;padding-left:34px;border-left:2px solid var(--line)}
+  .tl-item{position:relative;padding:0 0 30px}
+  .tl-item:last-child{padding-bottom:0}
+  .tl-item::before{
+    content:"";position:absolute;left:-43px;top:6px;
+    width:14px;height:14px;border-radius:50%;
+    background:var(--bg);border:2px solid var(--dim);
+    transition:all .3s var(--ease);
+  }
+  .tl-item.dot-edu::before{border-color:#7a7a7a}
+  .tl-item.dot-job::before{border-color:var(--white);background:var(--white);box-shadow:0 0 14px rgba(255,255,255,.45)}
+  .tl-item.dot-side::before{border-color:#9a9a9a;background:transparent}
+  .tl-item.dot-intern::before{border-color:#8a8a8a;background:#8a8a8a}
+  .tl-item:hover::before{transform:scale(1.18)}
+  .tl-year{font-family:"Inter";font-size:13px;font-weight:600;letter-spacing:.04em;color:var(--dim);font-variant-numeric:tabular-nums}
+  .tl-card{
+    margin-top:8px;border:1px solid var(--line-soft);background:var(--bg-card);
+    border-radius:var(--radius);padding:16px 20px;transition:all .22s var(--ease);
+  }
+  .tl-card:hover{border-color:#333;transform:translateX(4px)}
+  .tl-tag{
+    display:inline-block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    padding:3px 10px;border-radius:999px;border:1px solid var(--line);
+    color:var(--muted);margin-bottom:9px;
+  }
+  .tl-tag.t-edu{color:#cfcfcf}
+  .tl-tag.t-job{color:#fff;border-color:#444}
+  .tl-tag.t-side{color:#bdbdbd}
+  .tl-tag.t-intern{color:#bdbdbd}
+  .tl-title{font-size:15.5px;font-weight:600;color:var(--text);line-height:1.5}
+  .tl-org{font-size:13.5px;color:var(--muted);margin-top:2px}
+  .tl-desc{font-size:14px;color:var(--muted);margin-top:8px;line-height:1.75}
+  .tl-legend{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:26px;font-size:12.5px;color:var(--dim)}
+  .tl-legend span{display:inline-flex;align-items:center;gap:8px}
+  .tl-legend i{width:11px;height:11px;border-radius:50%;display:inline-block;flex-shrink:0}
+  .tl-legend i.l-edu{border:2px solid #7a7a7a}
+  .tl-legend i.l-job{background:var(--white);box-shadow:0 0 10px rgba(255,255,255,.4)}
+  .tl-legend i.l-side{border:2px solid #9a9a9a}
+  .tl-legend i.l-intern{background:#8a8a8a}
+
+  /* ===== CONDITIONS (転職 / 副業) ===== */
+  .cond-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .cond{
+    border:1px solid var(--line-soft);background:var(--bg-card);
+    border-radius:var(--radius);padding:20px 22px;transition:all .22s var(--ease);
+  }
+  .cond:hover{border-color:#333;transform:translateY(-2px)}
+  .cond .k{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin-bottom:7px}
+  .cond .v{font-size:16px;font-weight:600;color:var(--text);line-height:1.5}
+  .cond .v em{font-style:normal;color:#fff}
+  .cond .note{font-size:13px;color:var(--muted);margin-top:6px;line-height:1.6}
+  .cond.wide{grid-column:1 / -1}
+  .cond-note{font-size:13px;color:var(--dim);margin-top:18px;line-height:1.7}
 
   /* link list */
   .linklist{display:flex;flex-direction:column}
@@ -176,6 +277,9 @@
     .hero-grid{grid-template-columns:1fr;gap:24px;text-align:left}
     .avatar-ring{width:118px;height:118px}
     .grid2{grid-template-columns:1fr}
+    .cond-grid{grid-template-columns:1fr}
+    .skill-cats{grid-template-columns:1fr}
+    .qual-grid{grid-template-columns:1fr}
     nav.links{display:none}
     nav.links.open{
       display:flex;flex-direction:column;position:absolute;top:62px;left:0;right:0;
@@ -198,10 +302,16 @@
     <button class="nav-toggle" aria-label="menu" onclick="document.getElementById('navlinks').classList.toggle('open')">≡</button>
     <nav class="links" id="navlinks">
       <a href="#about">About</a>
+      <a href="#career">Career</a>
       <a href="#specialty">Specialty</a>
       <a href="#skills">Skills</a>
+      <a href="#qualification">Certs</a>
       <a href="#activity">Activity</a>
+      <a href="#interview">Interview</a>
       <a href="#output">Output</a>
+      <a href="#community">Community</a>
+      <a href="#career-change">Career Change</a>
+      <a href="#sidework">Side Work</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
@@ -221,7 +331,7 @@
       <div>
         <div class="eyebrow">Corporate Engineer</div>
         <h1 class="name">rotonyan</h1>
-        <div class="handle">rotomx ・ @rotomx</div>
+        <div class="handle">@rotomx・OTAWA Ryo</div>
         <p class="tagline">ゼロトラスト・Apple デバイス管理・情報セキュリティを軸に、情報システム部門のプロフェッショナルとして実践的知見を発信しています。</p>
         <div class="meta-row">
           <span>📍 Meguro, Tokyo, Japan</span>
@@ -236,6 +346,7 @@
           <a href="https://github.com/rotomx" target="_blank" rel="noopener">GitHub</a>
           <a href="https://youtrust.jp/users/rotomx" target="_blank" rel="noopener">YOUTRUST</a>
           <a href="https://www.linkedin.com/in/rotomx/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.wantedly.com/id/rotomx" target="_blank" rel="noopener">Wantedly</a>
         </div>
       </div>
     </div>
@@ -252,9 +363,111 @@
     <div class="prose reveal">
       <p>2015年に新卒で入社した大手企業の情報システム部門で社内 SE としてキャリアをスタート。基幹システムの保守運用・開発に携わった後、2018年に株式会社一休（LINEヤフーグループ）に入社。</p>
       <p>ヘルプデスク業務からコーポレートエンジニアとしての SaaS・クラウドサービスを中心としたシステム企画・開発や、本社オフィスの移転といった全社的なプロジェクト推進まで幅広く担当。2022年からは CISO室を兼任し、情報セキュリティ、データプライバシー領域も管掌。</p>
-      <p>2020年より、個人事業主として複数のスタートアップ企業のコーポレート IT の構築やロードマップ策定などの支援を実施。12,000人以上の情報システム担当者が集うオンラインコミュニティ「情シス Slack」の初期メンバーとして複数のイベント運営に携わり、現在は有志による情報システム部門向け IT カンファレンス「BTCONJP」の運営も行っている。</p>
+      <p>2020年より、個人事業主として複数のスタートアップ企業のコーポレート IT の構築やロードマップ策定などの支援を実施。15,000人以上の情報システム担当者が集うオンラインコミュニティ「情シス Slack」の初期メンバーとして複数のイベント運営に携わり、現在は有志による情報システム部門向け IT カンファレンス「BTCONJP」の運営も行っている。</p>
       <p>技術評論社「Software Design」における記事寄稿や、国内最大級の IT 展示会である Japan IT Week における情シスパビリオンブースへの協力のほか、複数のセミナーや IT カンファレンス、ユーザー会に登壇。情報システム部門のプロフェッショナルとして、多様な視点から実践的知見を発信している。</p>
     </div>
+  </div>
+</section>
+
+<!-- CAREER TIMELINE -->
+<section id="career">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">02</span>
+      <div class="sec-title">経歴<small>Career</small></div>
+    </div>
+    <div class="tl-legend reveal">
+      <span><i class="l-edu"></i>学歴 / Education</span>
+      <span><i class="l-job"></i>所属 / Employment</span>
+      <span><i class="l-side"></i>副業・支援 / Freelance</span>
+      <span><i class="l-intern"></i>インターン / Internship</span>
+    </div>
+    <div class="timeline reveal">
+      <div class="tl-track">
+
+        <div class="tl-item dot-edu">
+          <div class="tl-year">2008 — 2011</div>
+          <div class="tl-card">
+            <span class="tl-tag t-edu">Education</span>
+            <div class="tl-title">川崎市立川崎総合科学高等学校</div>
+            <div class="tl-org">情報工学科</div>
+            <div class="tl-desc">情報工学を専攻。卒業研究「Visual Basic.NET によるミュージックプレイヤーの開発」。写真部にも所属し、写真甲子園2010 関東ブロック上位16校に選出。</div>
+          </div>
+        </div>
+
+        <div class="tl-item dot-edu">
+          <div class="tl-year">2011 — 2015</div>
+          <div class="tl-card">
+            <span class="tl-tag t-edu">Education</span>
+            <div class="tl-title">産業能率大学</div>
+            <div class="tl-org">情報マネジメント学部 現代マネジメント学科</div>
+            <div class="tl-desc">マルチメディア・デジタルコンテンツの制作とビジネス展開を学ぶ。コンテンツビジネス研究所長賞を受賞。</div>
+          </div>
+        </div>
+
+        <div class="tl-item dot-intern">
+          <div class="tl-year">2013 — 2015</div>
+          <div class="tl-card">
+            <span class="tl-tag t-intern">Internship</span>
+            <div class="tl-title">Apple</div>
+            <div class="tl-org">Apple Solutions Consultant（インターン）</div>
+            <div class="tl-desc">Apple 製品のコンサルティング販売を担当。顧客の課題解決に向けた最適なソリューション提供と、販売店における Apple ブランドの維持・管理に従事。</div>
+          </div>
+        </div>
+
+        <div class="tl-item dot-job">
+          <div class="tl-year">2015 — 2018</div>
+          <div class="tl-card">
+            <span class="tl-tag t-job">Employment</span>
+            <div class="tl-title">アットホーム株式会社</div>
+            <div class="tl-org">情報戦略部門 情報システム部 基幹システム開発グループ（新卒入社）</div>
+            <div class="tl-desc">営業部門向け基幹システムの開発・保守運用を担当。チームマネジメント／ベンダーコントロール、部内の情報セキュリティマネジメント・推進にも従事。</div>
+          </div>
+        </div>
+
+        <div class="tl-item dot-job">
+          <div class="tl-year">2018 — 現在</div>
+          <div class="tl-card">
+            <span class="tl-tag t-job">Employment</span>
+            <div class="tl-title">株式会社一休（LINEヤフーグループ）</div>
+            <div class="tl-org">コーポレート本部 社内情報システム部 兼 CISO室</div>
+            <div class="tl-desc">情報システム部門の立ち上げから参画。ヘルプデスク・テクニカルサポートから、SaaS を中心としたコーポレート IT の構築・運用、本社オフィス移転など全社プロジェクトの推進まで幅広く担当し、ゼロトラストアーキテクチャ（EDR/NGAV、SIEM/UEBA/SOAR）を実装。2022年からは CISO室を兼任し、ISO/IEC 27001（ISMS）認証対応、個人情報保護／データプロテクション、ペネトレーションテスト・脆弱性診断、情報セキュリティ教育・ガイドライン策定、インサイダーリスクマネジメントを担う。</div>
+          </div>
+        </div>
+
+        <div class="tl-item dot-side">
+          <div class="tl-year">2020 — 2025</div>
+          <div class="tl-card">
+            <span class="tl-tag t-side">Freelance</span>
+            <div class="tl-title">株式会社ROUTE06</div>
+            <div class="tl-org">コーポレート本部 CRE室（副業・業務委託）</div>
+            <div class="tl-desc">グランドデザイン／ロードマップ策定・製品選定、MDM（Jamf Pro）・EDR/NGAV（Jamf Protect）・SMP（ジョーシス）の導入、バックオフィス業務の自動化、コーポレートエンジニア採用を支援。</div>
+          </div>
+        </div>
+
+        <div class="tl-item dot-side">
+          <div class="tl-year">2021 — 2025</div>
+          <div class="tl-card">
+            <span class="tl-tag t-side">Freelance</span>
+            <div class="tl-title">トリコ株式会社</div>
+            <div class="tl-org">経営戦略 Div. コーポレートITチーム（副業・業務委託）</div>
+            <div class="tl-desc">グランドデザイン／ロードマップ策定・製品選定、MDM（Jamf Pro）・EDR/NGAV（Jamf Protect）・SMP（ジョーシス）の導入、コーポレートエンジニア採用を支援。</div>
+          </div>
+        </div>
+
+        <div class="tl-item dot-side">
+          <div class="tl-year">2026 — 現在</div>
+          <div class="tl-card">
+            <span class="tl-tag t-side">Freelance</span>
+            <div class="tl-title">株式会社IVRy</div>
+            <div class="tl-org">Corporate IT（副業・業務委託）</div>
+            <div class="tl-desc">コーポレート IT／セキュリティに関するアドバイザリーを提供。</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <p class="cond-note reveal">※ 所属（本業）と副業・支援は時期的に並行して従事しています。</p>
   </div>
 </section>
 
@@ -262,13 +475,13 @@
 <section id="specialty">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">02</span>
+      <span class="sec-num">03</span>
       <div class="sec-title">専門<small>Specialty</small></div>
     </div>
     <div class="grid2 reveal">
       <div class="item"><span class="mk">01</span>ゼロトラストを前提とした組織のIT設計</div>
-      <div class="item"><span class="mk">02</span>スタートアップ企業のロードマップ作成</div> 
-      <div class="item"><span class="mk">03</span>Apple デバイス管理における深い知見</div> 
+      <div class="item"><span class="mk">02</span>スタートアップ企業のロードマップ作成</div>
+      <div class="item"><span class="mk">03</span>Apple デバイス管理における深い知見</div>
        <div class="item"><span class="mk">04</span>複数 SaaS の豊富な知識・経験</div>
       <div class="item"><span class="mk">05</span>オフィスファシリティ実務経験</div>
       <div class="item"><span class="mk">06</span>ISMS・DPO・個人情報保護の実務経験</div>
@@ -282,37 +495,86 @@
 <section id="skills">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">03</span>
-      <div class="sec-title">スキル / 経験<small>Skills</small></div>
+      <span class="sec-num">04</span>
+      <div class="sec-title">スキル / ツール<small>Skills</small></div>
     </div>
-    <div class="prose reveal" style="margin-bottom:24px"><p>導入・構築フェーズから運用まで、多くの SaaS を扱っています。主なスキルセットを記載します。</p></div>
-    <div class="chips reveal">
-      <span class="chip">Google Workspace</span>
-      <span class="chip">Slack Enterprise Grid</span>
-      <span class="chip">GitHub Enterprise Enterprise Cloud</span>
-      <span class="chip">Microsoft Entra ID</span>
-      <span class="chip">Microsoft Intune</span>
-      <span class="chip">Microsoft Sentinel</span>
-      <span class="chip">Microsoft Defender for Endpoint</span>
-      <span class="chip">Jamf Pro</span>
-      <span class="chip">Jamf Connect</span>
-      <span class="chip">Jamf Protect</span>
-      <span class="chip">Keeper Security</span>
-      <span class="chip">Zoom Workplace</span>
-      <span class="chip">Confluence</span>
-      <span class="chip">Jira Service Management</span>
-      <span class="chip">mxHERO</span>
-      <span class="chip">Dialpad</span>
-      <span class="chip">Fax.Plus</span>
-      <span class="chip">SecureW2</span>
-      <span class="chip">Netskope</span>
-      <span class="chip">Splunk Enterprise</span>
-      <span class="chip">ChatGPT Team</span>
-      <span class="chip">Claude Team</span>
-      <span class="chip">Zapier Team</span>
-      <span class="chip">YESOD</span>
-      <span class="chip">Bakuraku</span>
-      <span class="chip">Seculio</span>
+    <div class="prose reveal" style="margin-bottom:26px"><p>導入・構築フェーズから運用まで、多くの SaaS を扱っています。主なスキルセットを領域別に記載します。</p></div>
+    <div class="skill-cats reveal">
+
+      <div class="skill-cat">
+        <div class="skill-cat-head">
+          <div class="skill-cat-ico">🔐</div>
+          <div class="skill-cat-name">ID・デバイス管理<small>Identity &amp; Endpoint</small></div>
+        </div>
+        <div class="chips">
+          <span class="chip">Microsoft Entra ID</span>
+          <span class="chip">Microsoft Intune</span>
+          <span class="chip">Jamf Pro</span>
+          <span class="chip">Jamf Connect</span>
+          <span class="chip">Jamf Protect</span>
+          <span class="chip">SecureW2</span>
+          <span class="chip">YESOD</span>
+          <span class="chip">Josys</span>
+          <span class="chip">Snipe-IT</span>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <div class="skill-cat-head">
+          <div class="skill-cat-ico">🛡️</div>
+          <div class="skill-cat-name">セキュリティ<small>Security</small></div>
+        </div>
+        <div class="chips">
+          <span class="chip">Microsoft Sentinel</span>
+          <span class="chip">Microsoft Defender for Endpoint</span>
+          <span class="chip">Netskope</span>
+          <span class="chip">Splunk Enterprise</span>
+          <span class="chip">Keeper Security</span>
+          <span class="chip">Seculio</span>
+          <span class="chip">Akerun</span>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <div class="skill-cat-head">
+          <div class="skill-cat-ico">💬</div>
+          <div class="skill-cat-name">コラボレーション・生産性<small>Collaboration</small></div>
+        </div>
+        <div class="chips">
+          <span class="chip">Google Workspace</span>
+          <span class="chip">Slack Enterprise Grid</span>
+          <span class="chip">Zoom Workplace</span>
+          <span class="chip">Confluence</span>
+          <span class="chip">Jira Service Management</span>
+          <span class="chip">GitHub Enterprise Cloud</span>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <div class="skill-cat-head">
+          <div class="skill-cat-ico">📞</div>
+          <div class="skill-cat-name">コミュニケーション基盤<small>Communication</small></div>
+        </div>
+        <div class="chips">
+          <span class="chip">Dialpad</span>
+          <span class="chip">Fax.Plus</span>
+          <span class="chip">mxHERO</span>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <div class="skill-cat-head">
+          <div class="skill-cat-ico">🤖</div>
+          <div class="skill-cat-name">AI・自動化<small>AI &amp; Automation</small></div>
+        </div>
+        <div class="chips">
+          <span class="chip">ChatGPT Team</span>
+          <span class="chip">Claude Team</span>
+          <span class="chip">Zapier Team</span>
+          <span class="chip">Workato</span>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -321,17 +583,17 @@
 <section id="qualification">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">04</span>
+      <span class="sec-num">05</span>
       <div class="sec-title">資格<small>Qualification</small></div>
     </div>
-    <div class="grid2 reveal">
-      <div class="item"><span class="mk">✦</span>IT パスポート試験</div>
-      <div class="item"><span class="mk">✦</span>情報セキュリティマネジメント試験</div>
-      <div class="item"><span class="mk">✦</span>情報セキュリティ監査人</div>
-      <div class="item"><span class="mk">✦</span>個人情報保護監査人</div>
-      <div class="item"><span class="mk">✦</span>Workato Automation Pro II Certificate</div>
-      <div class="item"><span class="mk">✦</span>Slack 認定管理者</div>
-      <div class="item"><span class="mk">✦</span>AZ-900: Microsoft Azure Fundamentals</div>
+    <div class="qual-grid reveal">
+      <div class="qual"><div class="badge">✓</div><div><div class="qt">IT パスポート試験</div><div class="qc">国家試験 / IPA</div></div></div>
+      <div class="qual"><div class="badge">✓</div><div><div class="qt">情報セキュリティマネジメント試験</div><div class="qc">国家試験 / IPA</div></div></div>
+      <div class="qual"><div class="badge">✓</div><div><div class="qt">情報セキュリティ監査人</div><div class="qc">民間資格</div></div></div>
+      <div class="qual"><div class="badge">✓</div><div><div class="qt">個人情報保護監査人</div><div class="qc">民間資格</div></div></div>
+      <div class="qual"><div class="badge">✓</div><div><div class="qt">Workato Automation Pro II Certificate</div><div class="qc">ベンダー認定 / Workato</div></div></div>
+      <div class="qual"><div class="badge">✓</div><div><div class="qt">Slack 認定管理者</div><div class="qc">ベンダー認定 / Slack</div></div></div>
+      <div class="qual"><div class="badge">✓</div><div><div class="qt">AZ-900: Microsoft Azure Fundamentals</div><div class="qc">ベンダー認定 / Microsoft</div></div></div>
     </div>
   </div>
 </section>
@@ -340,7 +602,7 @@
 <section id="activity">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">05</span>
+      <span class="sec-num">06</span>
       <div class="sec-title">執筆 &amp; 登壇<small>Writing &amp; Speaking</small></div>
     </div>
 
@@ -364,22 +626,20 @@
 <section id="interview">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">06</span>
+      <span class="sec-num">07</span>
       <div class="sec-title">インタビュー・導入事例<small>Interview &amp; Case Study</small></div>
     </div>
-        <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">インタビュー / Interview</h4>
-    <div class="linklist reveal" style="margin-bottom:34px">
 
-    <div class="linklist reveal">
+    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">インタビュー / Interview</h4>
+    <div class="linklist reveal" style="margin-bottom:34px">
       <a href="https://macfan.book.mynavi.jp/article/61997/" target="_blank" rel="noopener"><span class="ll-title">『Mac Fan 2025年9月号』</span><span class="ll-arrow">↗</span></a>
       <a href="https://josys.wingarc.com/tonarinojosyssan-01" target="_blank" rel="noopener"><span class="ll-title">「社内外ユーザーファースト」を追求する株式会社一休の情シス─わずか3名で挑んだクラウド移行・大規模刷新・AI活用の全て–となりの情シスさん Vol.01</span><span class="ll-arrow">↗</span></a>
-      <a href="https://josys.wingarc.com/josys-resume-01" target="_blank" rel="noopener"><span class="ll-title">「守り」を固め、「攻め」へ転じ、仕事を「拡張」する。情シス不要の未来を描く、株式会社一休・大多和亮氏--情シスの履歴書 Vol.01</span><span class="ll-arrow">↗</span></a>    
+      <a href="https://josys.wingarc.com/josys-resume-01" target="_blank" rel="noopener"><span class="ll-title">「守り」を固め、「攻め」へ転じ、仕事を「拡張」する。情シス不要の未来を描く、株式会社一休・大多和亮氏--情シスの履歴書 Vol.01</span><span class="ll-arrow">↗</span></a>
       <a href="https://www.sanno.ac.jp/undergraduate/learning/viewpoint/2021_04/" target="_blank" rel="noopener"><span class="ll-title">卒業生に聞く、未来に求められる IT 人材になるには 〜SANNO 教員×卒業生 対談〜</span><span class="ll-arrow">↗</span></a>
     </div>
 
     <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">導入事例 / Case Study</h4>
-    <div class="linklist reveal" style="margin-bottom:34px">
-  
+    <div class="linklist reveal">
       <a href="https://www.pentio.com/securew2/case/ikyu/" target="_blank" rel="noopener"><span class="ll-title">株式会社一休 導入事例 — SecureW2</span><span class="ll-arrow">↗</span></a>
       <a href="https://www.lrm.jp/seculio/voice/ikyu/" target="_blank" rel="noopener"><span class="ll-title">株式会社一休 お客様の声 — セキュリオ</span><span class="ll-arrow">↗</span></a>
       <a href="https://www.ikyu.co.jp/blog/1597/" target="_blank" rel="noopener"><span class="ll-title">チームプレーで一歩先を行く社内環境構築を――。一休の情シスが目指すアフターコロナの世界</span><span class="ll-arrow">↗</span></a>
@@ -390,44 +650,119 @@
   </div>
 </section>
 
-<!-- COMMUNITY + OPERATION -->
+<!-- COMMUNITY -->
 <section id="community">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">07</span>
+      <span class="sec-num">08</span>
       <div class="sec-title">コミュニティ<small>Community</small></div>
     </div>
-    <div class="chips reveal" style="margin-bottom:32px">
+    <div class="chips reveal">
       <a class="chip" href="https://corp-engr.jp/" target="_blank" rel="noopener">情シス Slack</a>
       <a class="chip" href="https://btcon.jp/" target="_blank" rel="noopener">BTCONJP</a>
       <a class="chip" href="https://cejobchange.connpass.com/" target="_blank" rel="noopener">情シス転職ミートアップ</a>
       <a class="chip" href="https://heroes.jamf.com/users/sign_in" target="_blank" rel="noopener">Jamf Heroes</a>
+    </div>
+  </div>
 </section>
 
 <!-- OUTPUT -->
 <section id="output">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">08</span>
+      <span class="sec-num">09</span>
       <div class="sec-title">アウトプット<small>Output</small></div>
     </div>
-    <details class="reveal" open>
-      <div class="body">
-        <div class="linklist">
-          <a href="https://www.youtube.com/watch?v=6BEAObu5Zco" target="_blank" rel="noopener"><span class="ll-title">【旅のプロ直伝】出張＆旅行の達人が教える！おすすめトラベルグッズ — YouTube</span><span class="ll-arrow">↗</span></a>
-          <a href="https://www.youtube.com/watch?v=6y9jsXtlzM8" target="_blank" rel="noopener"><span class="ll-title">ろとにゃんさんゲスト回 e-IT Life with シンジ — YouTube</span><span class="ll-arrow">↗</span></a>
-          <a href="https://user-first.ikyu.co.jp/entry/sack-info-barrier" target="_blank" rel="noopener"><span class="ll-title">Slack Enterprise Grid における情報バリアの設計 — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
-          <a href="https://user-first.ikyu.co.jp/entry/office-relocation" target="_blank" rel="noopener"><span class="ll-title">本社を東京ガーデンテラス紀尾井町へ移転し、オフィスファシリティ・コーポレート IT を刷新した話</span><span class="ll-arrow">↗</span></a>
-          <a href="https://user-first.ikyu.co.jp/entry/halp-helpdesk" target="_blank" rel="noopener"><span class="ll-title">ヘルプデスクに Halp を導入して改善した話 — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
-          <a href="https://user-first.ikyu.co.jp/entry/slack-work-flow" target="_blank" rel="noopener"><span class="ll-title">Slack ワークフロービルダーでバックオフィス業務をフロー化しよう</span><span class="ll-arrow">↗</span></a>
-          <a href="https://user-first.ikyu.co.jp/entry/info-sys" target="_blank" rel="noopener"><span class="ll-title">一休における「情シス」の取り組み — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
-          <a href="https://speakerdeck.com/rotomx/ben-she-ohuisuwoyi-zhuan-si-ohuisuhuasiriteikoporetoit-woshua-xin-sitahua" target="_blank" rel="noopener"><span class="ll-title">本社オフィスを移転し、オフィスファシリティ・コーポレート IT を刷新した話 — Speaker Deck</span><span class="ll-arrow">↗</span></a>
-          <a href="https://speakerdeck.com/rotomx/connect-with-jamf-connect" target="_blank" rel="noopener"><span class="ll-title">Jamf Connect から見える未来 / Connect with Jamf Connect — Speaker Deck</span><span class="ll-arrow">↗</span></a>
-          <a href="https://speakerdeck.com/rotomx/why-shadow-it-is-bad" target="_blank" rel="noopener"><span class="ll-title">個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは? / Why Shadow IT is Bad? — Speaker Deck</span><span class="ll-arrow">↗</span></a>
-          <a href="https://speakerdeck.com/rotomx/build-office-in-okinawa" target="_blank" rel="noopener"><span class="ll-title">沖縄にオフィスを作る / Build office in Okinawa — Speaker Deck</span><span class="ll-arrow">↗</span></a>
-        </div>
+    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">記事 / Articles</h4>
+    <div class="linklist reveal" style="margin-bottom:34px">
+      <a href="https://user-first.ikyu.co.jp/entry/sack-info-barrier" target="_blank" rel="noopener"><span class="ll-title">Slack Enterprise Grid における情報バリアの設計 — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
+      <a href="https://user-first.ikyu.co.jp/entry/office-relocation" target="_blank" rel="noopener"><span class="ll-title">本社を東京ガーデンテラス紀尾井町へ移転し、オフィスファシリティ・コーポレート IT を刷新した話</span><span class="ll-arrow">↗</span></a>
+      <a href="https://user-first.ikyu.co.jp/entry/halp-helpdesk" target="_blank" rel="noopener"><span class="ll-title">ヘルプデスクに Halp を導入して改善した話 — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
+      <a href="https://user-first.ikyu.co.jp/entry/slack-work-flow" target="_blank" rel="noopener"><span class="ll-title">Slack ワークフロービルダーでバックオフィス業務をフロー化しよう</span><span class="ll-arrow">↗</span></a>
+      <a href="https://user-first.ikyu.co.jp/entry/info-sys" target="_blank" rel="noopener"><span class="ll-title">一休における「情シス」の取り組み — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
+    </div>
+
+    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">動画 / Videos</h4>
+    <div class="linklist reveal" style="margin-bottom:34px">
+      <a href="https://www.youtube.com/watch?v=6BEAObu5Zco" target="_blank" rel="noopener"><span class="ll-title">【旅のプロ直伝】出張＆旅行の達人が教える！おすすめトラベルグッズ — YouTube</span><span class="ll-arrow">↗</span></a>
+      <a href="https://www.youtube.com/watch?v=6y9jsXtlzM8" target="_blank" rel="noopener"><span class="ll-title">ろとにゃんさんゲスト回 e-IT Life with シンジ — YouTube</span><span class="ll-arrow">↗</span></a>
+    </div>
+
+    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">スライド / Slides</h4>
+    <div class="linklist reveal">
+      <a href="https://speakerdeck.com/rotomx/ben-she-ohuisuwoyi-zhuan-si-ohuisuhuasiriteikoporetoit-woshua-xin-sitahua" target="_blank" rel="noopener"><span class="ll-title">本社オフィスを移転し、オフィスファシリティ・コーポレート IT を刷新した話 — Speaker Deck</span><span class="ll-arrow">↗</span></a>
+      <a href="https://speakerdeck.com/rotomx/connect-with-jamf-connect" target="_blank" rel="noopener"><span class="ll-title">Jamf Connect から見える未来 / Connect with Jamf Connect — Speaker Deck</span><span class="ll-arrow">↗</span></a>
+      <a href="https://speakerdeck.com/rotomx/why-shadow-it-is-bad" target="_blank" rel="noopener"><span class="ll-title">個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは? / Why Shadow IT is Bad? — Speaker Deck</span><span class="ll-arrow">↗</span></a>
+      <a href="https://speakerdeck.com/rotomx/build-office-in-okinawa" target="_blank" rel="noopener"><span class="ll-title">沖縄にオフィスを作る / Build office in Okinawa — Speaker Deck</span><span class="ll-arrow">↗</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- CAREER CHANGE (転職について) -->
+<section id="career-change">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">10</span>
+      <div class="sec-title">転職について<small>Career Change</small></div>
+    </div>
+    <div class="prose reveal" style="margin-bottom:24px"><p>転職活動における希望条件を記載します。条件を満たさない場合でも、内容次第ではお気軽にご相談ください。</p></div>
+    <div class="cond-grid reveal">
+      <div class="cond">
+        <div class="k">希望勤務地・勤務形態 / Location &amp; Work Style</div>
+        <div class="v"><em>東京</em> ／ <em>ハイブリッド勤務</em></div>
+        <div class="note">東京都内で、リモートと出社を組み合わせた働き方を希望します。</div>
       </div>
-    </details>
+      <div class="cond">
+        <div class="k">希望年収 / Salary</div>
+        <div class="v"><em>1,000 - 1,300万円</em></div>
+        <div class="note">経験・役割に応じてご相談ください。</div>
+      </div>
+      <div class="cond wide">
+        <div class="k">領域 / Role</div>
+        <div class="v">コーポレートエンジニア / 情シス / セキュリティ</div>
+        <div class="note">ゼロトラスト・Apple デバイス管理・情報セキュリティを軸とした役割。</div>
+      </div>
+    </div>
+    <p class="cond-note reveal">※ 上記は現時点での希望条件であり、変更となる場合があります。ご相談は <a href="mailto:contact@rotomx.com" style="color:var(--text);border-bottom:1px solid var(--dim)">contact@rotomx.com</a> まで。</p>
+  </div>
+</section>
+
+<!-- SIDE WORK (副業について) -->
+<section id="sidework">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">11</span>
+      <div class="sec-title">副業について<small>Side Work</small></div>
+    </div>
+    <div class="prose reveal" style="margin-bottom:24px"><p>副業・業務委託における条件を記載します。スタートアップのコーポレート IT 構築、ロードマップ策定、技術顧問・アドバイザーなどのご依頼を承っています。</p></div>
+    <div class="cond-grid reveal">
+      <div class="cond">
+        <div class="k">勤務形態 / Work Style</div>
+        <div class="v"><em>フルリモート</em> を基本</div>
+        <div class="note">必要に応じて出社にも対応します。</div>
+      </div>
+      <div class="cond">
+        <div class="k">報酬（時給制）/ Hourly</div>
+        <div class="v"><em>10,000円/h</em></div>
+        <div class="note">稼働ベースでの支援の場合。</div>
+      </div>
+      <div class="cond">
+        <div class="k">報酬（顧問契約）/ Advisory</div>
+        <div class="v"><em>月額 10万〜15万円</em></div>
+        <div class="note">技術顧問・アドバイザー契約の場合。契約内容により応相談。</div>
+      </div>
+      <div class="cond">
+        <div class="k">契約形態 / Contract</div>
+        <div class="v"><em>準委任契約</em></div>
+        <div class="note">成果物の完成責任を負わない準委任契約を基本とします。</div>
+      </div>
+      <div class="cond wide">
+        <div class="k">インボイス / Invoice</div>
+        <div class="v">非インボイス事業者（適格請求書発行事業者ではありません）</div>
+        <div class="note">適格請求書（インボイス）の発行はできません。あらかじめご了承ください。</div>
+      </div>
+    </div>
+    <p class="cond-note reveal">※ 上記は現時点での条件であり、内容により調整可能です。ご相談は <a href="mailto:contact@rotomx.com" style="color:var(--text);border-bottom:1px solid var(--dim)">contact@rotomx.com</a> まで。</p>
   </div>
 </section>
 
@@ -445,6 +780,7 @@
         <a href="https://github.com/rotomx" target="_blank" rel="noopener">GitHub</a>
         <a href="https://youtrust.jp/users/rotomx" target="_blank" rel="noopener">YOUTRUST</a>
         <a href="https://www.linkedin.com/in/rotomx/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.wantedly.com/id/rotomx" target="_blank" rel="noopener">Wantedly</a>
       </div>
     </div>
   </div>
