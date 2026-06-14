@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>rotonyan / ろとにゃん — Portfolio</title>
+<meta name="description" content="rotomx / ろとにゃん のポートフォリオ。コーポレートエンジニア・情シス・CISO室。ゼロトラスト、Jamf、Apple デバイス管理、ISMS。" />
+<meta name="theme-color" content="#0a0a0a" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="rotonyan / ろとにゃん — Portfolio" />
+<meta property="og:description" content="コーポレートエンジニア・情シス・CISO室。実践的知見を発信。" />
+<meta property="og:url" content="https://rotomx.github.io/" />
+<meta property="og:image" content="https://pbs.twimg.com/profile_images/2042805495262777344/cSh9aIG8_400x400.jpg" />
+<meta name="twitter:card" content="summary" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#0a0a0a;
+    --bg-elev:#111111;
+    --bg-card:#141414;
+    --line:#262626;
+    --line-soft:#1d1d1d;
+    --text:#f5f5f5;
+    --muted:#a3a3a3;
+    --dim:#6b6b6b;
+    --white:#ffffff;
+    --radius:14px;
+    --maxw:1080px;
+    --ease:cubic-bezier(.22,.61,.36,1);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Inter","Noto Sans JP",system-ui,sans-serif;
+    line-height:1.8;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  ::selection{background:var(--white);color:#000}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+  /* ambient grid background */
+  body::before{
+    content:"";position:fixed;inset:0;z-index:-1;
+    background-image:
+      linear-gradient(var(--line-soft) 1px,transparent 1px),
+      linear-gradient(90deg,var(--line-soft) 1px,transparent 1px);
+    background-size:64px 64px;
+    -webkit-mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 0%,transparent 75%);
+            mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 0%,transparent 75%);
+    opacity:.5;
+  }
+
+  /* ===== NAV ===== */
+  header.nav{
+    position:sticky;top:0;z-index:50;
+    backdrop-filter:saturate(120%) blur(12px);
+    background:rgba(10,10,10,.72);
+    border-bottom:1px solid var(--line-soft);
+  }
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:62px}
+  .brand{font-weight:700;letter-spacing:.04em;font-size:15px;display:flex;align-items:center;gap:10px}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--white);box-shadow:0 0 14px rgba(255,255,255,.6)}
+  nav.links{display:flex;gap:26px}
+  nav.links a{font-size:13.5px;color:var(--muted);letter-spacing:.02em;transition:color .25s var(--ease)}
+  nav.links a:hover{color:var(--white)}
+  .nav-toggle{display:none;background:none;border:0;color:var(--text);font-size:22px;cursor:pointer}
+
+  /* ===== HERO ===== */
+  .hero{padding:84px 0 60px;position:relative}
+  .hero-grid{display:grid;grid-template-columns:160px 1fr;gap:40px;align-items:center}
+  .avatar-ring{
+    width:160px;height:160px;border-radius:50%;padding:3px;
+    background:conic-gradient(from 200deg,#fff,#555,#fff,#333,#fff);
+    flex-shrink:0;
+  }
+  .avatar-ring img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block;background:#222;border:3px solid var(--bg)}
+  .eyebrow{font-size:12.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--dim);margin-bottom:14px}
+  h1.name{font-size:clamp(38px,6vw,62px);font-weight:700;letter-spacing:-.02em;line-height:1.05}
+  h1.name span{color:var(--dim);font-weight:300}
+  .handle{font-size:16px;color:var(--muted);margin-top:8px;letter-spacing:.02em}
+  .tagline{margin-top:18px;font-size:15.5px;color:var(--muted);max-width:620px;line-height:1.75}
+  .meta-row{display:flex;flex-wrap:wrap;gap:18px;margin-top:20px;font-size:13.5px;color:var(--dim)}
+  .meta-row span{display:inline-flex;align-items:center;gap:7px}
+  .socials{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+  .socials a{
+    font-size:13px;color:var(--muted);border:1px solid var(--line);
+    padding:8px 15px;border-radius:999px;letter-spacing:.02em;
+    transition:all .25s var(--ease);background:var(--bg-elev);
+  }
+  .socials a:hover{color:#000;background:var(--white);border-color:var(--white);transform:translateY(-2px)}
+
+  /* ===== SECTION ===== */
+  section{padding:58px 0;border-top:1px solid var(--line-soft)}
+  .sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:34px}
+  .sec-num{font-size:12.5px;color:var(--dim);font-family:"Inter";letter-spacing:.1em;font-variant-numeric:tabular-nums}
+  .sec-title{font-size:24px;font-weight:600;letter-spacing:.01em}
+  .sec-title small{display:block;font-size:12.5px;color:var(--dim);font-weight:400;letter-spacing:.18em;text-transform:uppercase;margin-top:4px}
+  .prose p{color:var(--muted);font-size:15.5px;margin-bottom:18px;max-width:780px;line-height:1.95}
+  .prose p:last-child{margin-bottom:0}
+  .prose a{color:var(--text);border-bottom:1px solid var(--dim);transition:border-color .2s}
+  .prose a:hover{border-color:var(--white)}
+
+  /* chips */
+  .chips{display:flex;flex-wrap:wrap;gap:9px}
+  .chip{border:1px solid var(--line);background:var(--bg-card);padding:9px 15px;border-radius:10px;font-size:13.5px;color:var(--text);transition:all .22s var(--ease)}
+  .chip:hover{border-color:#3d3d3d;background:#1a1a1a;transform:translateY(-2px)}
+
+  /* feature grid (specialty / quals) */
+  .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .item{
+    border:1px solid var(--line-soft);background:var(--bg-card);
+    border-radius:var(--radius);padding:18px 20px;font-size:14.5px;color:var(--text);
+    display:flex;gap:13px;align-items:flex-start;line-height:1.6;transition:all .22s var(--ease);
+  }
+  .item:hover{border-color:#333;transform:translateY(-2px)}
+  .item .mk{color:var(--dim);font-size:13px;font-family:"Inter";flex-shrink:0;padding-top:1px}
+
+  /* link list */
+  .linklist{display:flex;flex-direction:column}
+  .linklist a{
+    display:flex;justify-content:space-between;align-items:center;gap:18px;
+    padding:16px 4px;border-bottom:1px solid var(--line-soft);
+    transition:padding .25s var(--ease);
+  }
+  .linklist a:hover{padding-left:14px}
+  .linklist a:hover .ll-title{color:var(--white)}
+  .ll-title{font-size:14.5px;color:var(--muted);transition:color .2s;line-height:1.55}
+  .ll-arrow{color:var(--dim);font-size:16px;transition:transform .25s var(--ease),color .2s;flex-shrink:0}
+  .linklist a:hover .ll-arrow{transform:translate(4px,-4px);color:var(--white)}
+
+  /* collapsible */
+  details{border:1px solid var(--line-soft);border-radius:var(--radius);background:var(--bg-card);overflow:hidden}
+  details summary{
+    list-style:none;cursor:pointer;padding:18px 22px;font-size:14.5px;color:var(--text);
+    display:flex;align-items:center;justify-content:space-between;font-weight:500;
+  }
+  details summary::-webkit-details-marker{display:none}
+  details summary .cnt{color:var(--dim);font-size:13px;font-weight:400}
+  details[open] summary{border-bottom:1px solid var(--line-soft)}
+  details .body{padding:6px 22px 8px}
+  details .body .linklist a:last-child{border-bottom:0}
+  .plus{color:var(--dim);transition:transform .3s var(--ease);font-size:18px;margin-left:14px}
+  details[open] .plus{transform:rotate(45deg);color:var(--white)}
+
+  /* contact */
+  .contact-card{
+    border:1px solid var(--line);border-radius:18px;background:
+      radial-gradient(120% 140% at 0% 0%,#1a1a1a 0%,var(--bg-card) 55%);
+    padding:42px 36px;text-align:center;
+  }
+  .contact-card h3{font-size:26px;font-weight:600;margin-bottom:12px;letter-spacing:-.01em}
+  .contact-card p{color:var(--muted);font-size:15px;max-width:560px;margin:0 auto 26px;line-height:1.85}
+  .cta{
+    display:inline-block;background:var(--white);color:#000;font-weight:600;
+    padding:14px 30px;border-radius:999px;font-size:14.5px;letter-spacing:.02em;
+    transition:transform .22s var(--ease),box-shadow .22s var(--ease);
+  }
+  .cta:hover{transform:translateY(-3px);box-shadow:0 12px 34px rgba(255,255,255,.16)}
+
+  footer{padding:46px 0 60px;border-top:1px solid var(--line-soft);text-align:center;color:var(--dim);font-size:12.5px;letter-spacing:.03em}
+  footer .fbrand{color:var(--muted);font-weight:600;letter-spacing:.06em}
+
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+  .reveal.in{opacity:1;transform:none}
+
+  @media (max-width:760px){
+    .hero{padding:54px 0 40px}
+    .hero-grid{grid-template-columns:1fr;gap:24px;text-align:left}
+    .avatar-ring{width:118px;height:118px}
+    .grid2{grid-template-columns:1fr}
+    nav.links{display:none}
+    nav.links.open{
+      display:flex;flex-direction:column;position:absolute;top:62px;left:0;right:0;
+      background:rgba(10,10,10,.97);padding:18px 24px;gap:18px;border-bottom:1px solid var(--line)
+    }
+    .nav-toggle{display:block}
+    section{padding:46px 0}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .reveal{opacity:1;transform:none;transition:none}
+    html{scroll-behavior:auto}
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand"><span class="dot"></span>rotomx</a>
+    <button class="nav-toggle" aria-label="menu" onclick="document.getElementById('navlinks').classList.toggle('open')">≡</button>
+    <nav class="links" id="navlinks">
+      <a href="#about">About</a>
+      <a href="#specialty">Specialty</a>
+      <a href="#skills">Skills</a>
+      <a href="#activity">Activity</a>
+      <a href="#output">Output</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" style="border-top:0">
+  <div class="wrap">
+    <div class="hero-grid reveal">
+      <div class="avatar-ring">
+        <img src="https://pbs.twimg.com/profile_images/2042805495262777344/cSh9aIG8_400x400.jpg"
+             alt="rotonyan avatar" loading="eager"
+             onerror="this.src='https://unavatar.io/x/rotomx'">
+      </div>
+      <div>
+        <div class="eyebrow">Corporate Engineer / 情シス / CISO Office</div>
+        <h1 class="name">rotonyan <span>/ ろとにゃん</span></h1>
+        <div class="handle">rotomx ・ @rotomx</div>
+        <p class="tagline">コーポレートエンジニア ┊ 情シス 兼 CISO室 ┊ 個人事業主。ゼロトラスト・Apple デバイス管理・情報セキュリティを軸に、情報システム部門のプロフェッショナルとして実践的知見を発信しています。</p>
+        <div class="meta-row">
+          <span>📍 東京 目黒区</span>
+          <span>✍️ Software Design 寄稿</span>
+          <span>🎤 BTCONJP Core Staff</span>
+        </div>
+        <div class="socials">
+          <a href="https://x.com/rotomx" target="_blank" rel="noopener">X</a>
+          <a href="https://note.com/rotomx" target="_blank" rel="noopener">note</a>
+          <a href="https://zenn.dev/rotomx" target="_blank" rel="noopener">Zenn</a>
+          <a href="https://github.com/rotomx" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://youtrust.jp/users/rotomx" target="_blank" rel="noopener">YOUTRUST</a>
+          <a href="https://www.linkedin.com/in/rotomx/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">01</span>
+      <div class="sec-title">プロフィール<small>About</small></div>
+    </div>
+    <div class="prose reveal">
+      <p>2015年に新卒で入社した大手企業の情報システム部門で社内 SE としてキャリアをスタート。基幹システムの保守運用・開発に携わった後、2018年に株式会社一休（LINEヤフーグループ）に入社。</p>
+      <p>ヘルプデスク業務からコーポレートエンジニアとしての SaaS・クラウドサービスを中心としたシステム企画・開発や、本社オフィスの移転といった全社的なプロジェクト推進まで幅広く担当。2022年からは CISO室を兼任し、情報セキュリティ、データプライバシー領域も管掌。</p>
+      <p>2020年より、個人事業主として複数のスタートアップ企業のコーポレート IT の構築やロードマップ策定などの支援を実施。12,000人以上の情報システム担当者が集うオンラインコミュニティ「情シス Slack」の初期メンバーとして複数のイベント運営に携わり、現在は有志による情報システム部門向け IT カンファレンス「BTCONJP」の運営も行っている。</p>
+      <p>技術評論社「Software Design」における記事寄稿や、国内最大級の IT 展示会である Japan IT Week における情シスパビリオンブースへの協力のほか、複数のセミナーや IT カンファレンス、ユーザー会に登壇。情報システム部門のプロフェッショナルとして、多様な視点から実践的知見を発信している。</p>
+      <p>ポートフォリオをご覧いただき、転職・副業のご相談がある際は <a href="mailto:contact@rotomx.com">contact@rotomx.com</a> か、各種 SNS でご連絡ください。</p>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIALTY -->
+<section id="specialty">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">02</span>
+      <div class="sec-title">専門<small>Specialty</small></div>
+    </div>
+    <div class="grid2 reveal">
+      <div class="item"><span class="mk">01</span>ゼロトラストに向けたコーポレート IT の導入・運用・構築</div>
+      <div class="item"><span class="mk">02</span>Jamf を用いた組織における Apple デバイスの管理</div>
+      <div class="item"><span class="mk">03</span>Apple 製品への深い知見 / トラブルシューティング</div>
+      <div class="item"><span class="mk">04</span>オフィス開設・移転のインフラ・ファシリティ</div>
+      <div class="item"><span class="mk">05</span>ISMS（ISO 27001）・個人情報保護・監査対策</div>
+      <div class="item"><span class="mk">06</span>読み手を意識したドキュメンテーション・アウトプット</div>
+      <div class="item"><span class="mk">07</span>情シスの採用・広報</div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">03</span>
+      <div class="sec-title">スキル / 経験<small>Skills</small></div>
+    </div>
+    <div class="prose reveal" style="margin-bottom:24px"><p>導入・構築フェーズから運用まで、多くの SaaS を扱っています。主なスキルセットを記載します。</p></div>
+    <div class="chips reveal">
+      <span class="chip">Jamf Pro</span>
+      <span class="chip">Google Workspace</span>
+      <span class="chip">Slack Enterprise Grid</span>
+      <span class="chip">Microsoft Entra ID</span>
+      <span class="chip">Microsoft Intune</span>
+      <span class="chip">Dialpad</span>
+      <span class="chip">FAX.PLUS</span>
+      <span class="chip">Keeper</span>
+      <span class="chip">mxHERO</span>
+    </div>
+  </div>
+</section>
+
+<!-- QUALIFICATION -->
+<section id="qualification">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">04</span>
+      <div class="sec-title">資格<small>Qualification</small></div>
+    </div>
+    <div class="grid2 reveal">
+      <div class="item"><span class="mk">✦</span>IT パスポート試験</div>
+      <div class="item"><span class="mk">✦</span>情報セキュリティマネジメント試験</div>
+      <div class="item"><span class="mk">✦</span>情報セキュリティ管理士 / 情報セキュリティ監査人</div>
+      <div class="item"><span class="mk">✦</span>個人情報保護士 / 個人情報保護監査人</div>
+      <div class="item"><span class="mk">✦</span>SPREAD 情報セキュリティマイスター能力検定</div>
+      <div class="item"><span class="mk">✦</span>Workato Automation Pro II Certificate</div>
+      <div class="item"><span class="mk">✦</span>Slack 認定管理者（expired）</div>
+      <div class="item"><span class="mk">✦</span>AZ-900: Microsoft Azure Fundamentals（expired）</div>
+      <div class="item"><span class="mk">✦</span>第一種普通自動車運転免許（MT）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ACTIVITY: WRITING + SPEAKING -->
+<section id="activity">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">05</span>
+      <div class="sec-title">執筆 &amp; 登壇<small>Writing &amp; Speaking</small></div>
+    </div>
+
+    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">執筆 / Writing</h4>
+    <div class="linklist reveal" style="margin-bottom:34px">
+      <a href="https://gihyo.jp/magazine/SD/archive/2025/202504" target="_blank" rel="noopener"><span class="ll-title">Software Design 2025年4月号 — 情報システム部門におけるドメイン知識と技術の天秤</span><span class="ll-arrow">↗</span></a>
+    </div>
+
+    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">登壇 / Speaker</h4>
+    <div class="linklist reveal">
+      <a href="https://service.dxer.co.jp/20250523webinar" target="_blank" rel="noopener"><span class="ll-title">情シスはドメイン知識とどう付き合えばいいのか？〜守りと攻めを両立する情シスの必須ドメイン知識〜</span><span class="ll-arrow">↗</span></a>
+      <a href="https://findy-tools.connpass.com/event/347943/" target="_blank" rel="noopener"><span class="ll-title">本当にゼロトラストでいいのか？〜ゼロトラストのよくある誤解とセキュリティの現場〜</span><span class="ll-arrow">↗</span></a>
+      <a href="https://btcon.jp/" target="_blank" rel="noopener"><span class="ll-title">BTCONJP User Session — 本社オフィスを移転し、オフィスファシリティ・コーポレート IT を刷新した話</span><span class="ll-arrow">↗</span></a>
+      <a href="https://eventregist.com/e/jmug0013" target="_blank" rel="noopener"><span class="ll-title">JMUG Meetup #13 — Connect with Jamf Connect</span><span class="ll-arrow">↗</span></a>
+      <a href="https://lwug.connpass.com/event/192118/" target="_blank" rel="noopener"><span class="ll-title">【LWUG】個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは?</span><span class="ll-arrow">↗</span></a>
+      <a href="https://corp-engr.connpass.com/event/227173/" target="_blank" rel="noopener"><span class="ll-title">情シス転職ミートアップ 第4回</span><span class="ll-arrow">↗</span></a>
+      <a href="https://corp-engr.connpass.com/event/212976/" target="_blank" rel="noopener"><span class="ll-title">情シス転職ミートアップ 第3回</span><span class="ll-arrow">↗</span></a>
+      <a href="https://corp-engr.connpass.com/event/204408/" target="_blank" rel="noopener"><span class="ll-title">情シス転職ミートアップ 第2回</span><span class="ll-arrow">↗</span></a>
+      <a href="https://league-of-infosys.connpass.com/event/259888/" target="_blank" rel="noopener"><span class="ll-title">リーグオブ情シス 第十回 ハイパーリーグ Presented by IIJ #LoI</span><span class="ll-arrow">↗</span></a>
+      <a href="https://league-of-infosys.connpass.com/event/202303/" target="_blank" rel="noopener"><span class="ll-title">リーグオブ情シス 第四回 スーパーリーグ Presented by アカツキ #LoI</span><span class="ll-arrow">↗</span></a>
+      <a href="https://note.com/rotomx/n/n773981c831d2" target="_blank" rel="noopener"><span class="ll-title">「沖縄にオフィスを作る」というテーマで LT しました #corpengr</span><span class="ll-arrow">↗</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- INTERVIEWS -->
+<section id="interview">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">06</span>
+      <div class="sec-title">インタビュー・導入事例<small>Interview &amp; Case Study</small></div>
+    </div>
+    <div class="linklist reveal">
+      <a href="https://www.pentio.com/securew2/case/ikyu/" target="_blank" rel="noopener"><span class="ll-title">株式会社一休 導入事例 — SecureW2</span><span class="ll-arrow">↗</span></a>
+      <a href="https://www.lrm.jp/seculio/voice/ikyu/" target="_blank" rel="noopener"><span class="ll-title">株式会社一休 お客様の声 — セキュリオ</span><span class="ll-arrow">↗</span></a>
+      <a href="https://www.ikyu.co.jp/blog/1597/" target="_blank" rel="noopener"><span class="ll-title">チームプレーで一歩先を行く社内環境構築を――。一休の情シスが目指すアフターコロナの世界</span><span class="ll-arrow">↗</span></a>
+      <a href="https://note.com/ikyu_com/n/n4826228135bb" target="_blank" rel="noopener"><span class="ll-title">【採用情報】情シスメンバーを募集中！</span><span class="ll-arrow">↗</span></a>
+      <a href="https://blog.zunda.co.jp/blog/ikyu-casestudy" target="_blank" rel="noopener"><span class="ll-title">Keeper 導入のきっかけは「SSO 対応＆使い勝手の良さ」</span><span class="ll-arrow">↗</span></a>
+      <a href="https://www.jamf.com/ja/resources/case-studies/ikyu/" target="_blank" rel="noopener"><span class="ll-title">株式会社一休 — Jamf Pro と Jamf Connect で叶える "従業員ファースト" の Mac 管理</span><span class="ll-arrow">↗</span></a>
+      <a href="https://www.jamf.com/ja/resources/videos/jamf-ikyu/" target="_blank" rel="noopener"><span class="ll-title">【Jamf 導入インタビュー】株式会社一休 管理本部 社内情報システム部 大多和亮</span><span class="ll-arrow">↗</span></a>
+      <a href="https://www.youtube.com/watch?v=G0duh5_tMo8" target="_blank" rel="noopener"><span class="ll-title">Jamf Nation Live Tokyo 2023 ダイジェスト</span><span class="ll-arrow">↗</span></a>
+      <a href="https://japan.blog.dialpad.com/blog/customer-story/ikyu" target="_blank" rel="noopener"><span class="ll-title">Dialpad 導入企業インタビュー 株式会社一休さま</span><span class="ll-arrow">↗</span></a>
+      <a href="https://www.sanno.ac.jp/undergraduate/learning/viewpoint/2021_04/" target="_blank" rel="noopener"><span class="ll-title">卒業生に聞く、未来に求められる IT 人材になるには 〜SANNO 教員×卒業生 対談〜</span><span class="ll-arrow">↗</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY + OPERATION -->
+<section id="community">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">07</span>
+      <div class="sec-title">コミュニティ &amp; 運営<small>Community &amp; Operation</small></div>
+    </div>
+
+    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 12px">コミュニティ活動 / Community</h4>
+    <div class="chips reveal" style="margin-bottom:32px">
+      <a class="chip" href="https://corp-engr.connpass.com/" target="_blank" rel="noopener">corp-engr コーポレートエンジニア x 情シス</a>
+      <a class="chip" href="https://league-of-infosys.connpass.com/" target="_blank" rel="noopener">リーグオブ情シス</a>
+      <a class="chip" href="https://lwug.connpass.com/" target="_blank" rel="noopener">LWUG (LINE WORKS USER GROUP)</a>
+      <a class="chip" href="https://www.jmug.jp/" target="_blank" rel="noopener">JMUG (ジェイマグ)</a>
+      <a class="chip" href="https://line.worksmobile.com/jp/partner/ambassador/" target="_blank" rel="noopener">LINE WORKS アンバサダー</a>
+      <a class="chip" href="https://heroes.jamf.com/users/sign_in" target="_blank" rel="noopener">Jamf Heroes</a>
+    </div>
+
+    <details class="reveal">
+      <summary>イベント運営・スタッフ <span class="cnt">Operation / Staff <span class="plus">+</span></span></summary>
+      <div class="body">
+        <div class="linklist">
+          <a href="https://btcon.jp/2025" target="_blank" rel="noopener"><span class="ll-title">Business Technology Conference Japan 2025</span><span class="ll-arrow">↗</span></a>
+          <a href="https://btcon.jp/2024" target="_blank" rel="noopener"><span class="ll-title">Business Technology Conference Japan 2024</span><span class="ll-arrow">↗</span></a>
+          <a href="https://corp-engr.connpass.com/event/359500/" target="_blank" rel="noopener"><span class="ll-title">BTCONJP Insight #02</span><span class="ll-arrow">↗</span></a>
+          <a href="https://corp-engr.connpass.com/event/342561/" target="_blank" rel="noopener"><span class="ll-title">BTCONJP Insight #01</span><span class="ll-arrow">↗</span></a>
+          <a href="#" onclick="return false" style="cursor:default"><span class="ll-title">Japan IT Week 名古屋 2025 情シス応援パビリオン</span><span class="ll-arrow">·</span></a>
+          <a href="#" onclick="return false" style="cursor:default"><span class="ll-title">Japan IT Week 春 2025 情シス応援パビリオン</span><span class="ll-arrow">·</span></a>
+          <a href="#" onclick="return false" style="cursor:default"><span class="ll-title">Japan IT Week 関西 2025 情シス応援パビリオン</span><span class="ll-arrow">·</span></a>
+          <a href="https://corp-engr.connpass.com/event/339797/" target="_blank" rel="noopener"><span class="ll-title">コーポレートエンジニア関西交流会 vol.3</span><span class="ll-arrow">↗</span></a>
+          <a href="https://corp-engr.connpass.com/event/285390/" target="_blank" rel="noopener"><span class="ll-title">コーポレートエンジニア関西交流会 vol.2</span><span class="ll-arrow">↗</span></a>
+          <a href="https://cejobchange.connpass.com/event/355973/" target="_blank" rel="noopener"><span class="ll-title">情シス転職ミートアップ 第9回</span><span class="ll-arrow">↗</span></a>
+          <a href="https://corp-engr.connpass.com/event/310983/" target="_blank" rel="noopener"><span class="ll-title">情シス転職ミートアップ 第8回</span><span class="ll-arrow">↗</span></a>
+          <a href="https://corp-engr.connpass.com/event/279836/" target="_blank" rel="noopener"><span class="ll-title">情シス転職ミートアップ 第7回</span><span class="ll-arrow">↗</span></a>
+          <a href="https://corp-engr.connpass.com/event/260351/" target="_blank" rel="noopener"><span class="ll-title">情シス転職ミートアップ 第6回 x ジョーシス ラーニング</span><span class="ll-arrow">↗</span></a>
+          <a href="https://corp-engr.connpass.com/event/242298/" target="_blank" rel="noopener"><span class="ll-title">情シス転職ミートアップ 第5回</span><span class="ll-arrow">↗</span></a>
+          <a href="https://corp-engr.connpass.com/event/227173/" target="_blank" rel="noopener"><span class="ll-title">情シス転職ミートアップ 第4回</span><span class="ll-arrow">↗</span></a>
+          <a href="https://corp-engr.connpass.com/event/212976/" target="_blank" rel="noopener"><span class="ll-title">情シス転職ミートアップ 第3回</span><span class="ll-arrow">↗</span></a>
+          <a href="https://corp-engr.connpass.com/event/204408/" target="_blank" rel="noopener"><span class="ll-title">情シス転職ミートアップ 第2回</span><span class="ll-arrow">↗</span></a>
+          <a href="https://info.safie.jp/l/636011/2025-01-09/4kjtnq" target="_blank" rel="noopener"><span class="ll-title">セーフィー本社で体験！オフィスでのクラウドカメラ活用術&事例紹介</span><span class="ll-arrow">↗</span></a>
+          <a href="https://ikyu.connpass.com/event/327095/" target="_blank" rel="noopener"><span class="ll-title">一休×AEON 事業会社のサービスを支える基盤開発トーク</span><span class="ll-arrow">↗</span></a>
+          <a href="https://ems-meeting.connpass.com/event/297423/" target="_blank" rel="noopener"><span class="ll-title">第7回 EMS 勉強会</span><span class="ll-arrow">↗</span></a>
+        </div>
+      </div>
+    </details>
+  </div>
+</section>
+
+<!-- OUTPUT -->
+<section id="output">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">08</span>
+      <div class="sec-title">主なアウトプット<small>Output</small></div>
+    </div>
+    <details class="reveal" open>
+      <summary>記事・スライド・動画 <span class="cnt">Articles, Slides &amp; Videos <span class="plus">+</span></span></summary>
+      <div class="body">
+        <div class="linklist">
+          <a href="https://www.youtube.com/watch?v=6BEAObu5Zco" target="_blank" rel="noopener"><span class="ll-title">【旅のプロ直伝】出張＆旅行の達人が教える！おすすめトラベルグッズ — YouTube</span><span class="ll-arrow">↗</span></a>
+          <a href="https://www.youtube.com/watch?v=6y9jsXtlzM8" target="_blank" rel="noopener"><span class="ll-title">ろとにゃんさんゲスト回 e-IT Life with シンジ — YouTube</span><span class="ll-arrow">↗</span></a>
+          <a href="https://user-first.ikyu.co.jp/entry/sack-info-barrier" target="_blank" rel="noopener"><span class="ll-title">Slack Enterprise Grid における情報バリアの設計 — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
+          <a href="https://user-first.ikyu.co.jp/entry/office-relocation" target="_blank" rel="noopener"><span class="ll-title">本社を東京ガーデンテラス紀尾井町へ移転し、オフィスファシリティ・コーポレート IT を刷新した話</span><span class="ll-arrow">↗</span></a>
+          <a href="https://user-first.ikyu.co.jp/entry/halp-helpdesk" target="_blank" rel="noopener"><span class="ll-title">ヘルプデスクに Halp を導入して改善した話 — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
+          <a href="https://user-first.ikyu.co.jp/entry/slack-work-flow" target="_blank" rel="noopener"><span class="ll-title">Slack ワークフロービルダーでバックオフィス業務をフロー化しよう</span><span class="ll-arrow">↗</span></a>
+          <a href="https://user-first.ikyu.co.jp/entry/info-sys" target="_blank" rel="noopener"><span class="ll-title">一休における「情シス」の取り組み — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/n123c51d465ba" target="_blank" rel="noopener"><span class="ll-title">なぜコーポレートエンジニア（情シス）の採用は難しいのか — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/n7cee3b046340" target="_blank" rel="noopener"><span class="ll-title">副業情シスのすゝめ — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/nc954b2219380" target="_blank" rel="noopener"><span class="ll-title">一休.com の社内インフラ・ネットワークを支える情シスを募集しています！ — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/n7c63cc35d00e" target="_blank" rel="noopener"><span class="ll-title">ROUTE06 1人目のコーポレートエンジニア（情シス）を探しています！ — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/ndea21aef3466" target="_blank" rel="noopener"><span class="ll-title">macOS アップグレードガイドラインを公開します — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://speakerdeck.com/rotomx/ben-she-ohuisuwoyi-zhuan-si-ohuisuhuasiriteikoporetoit-woshua-xin-sitahua" target="_blank" rel="noopener"><span class="ll-title">本社オフィスを移転し、オフィスファシリティ・コーポレート IT を刷新した話 — Speaker Deck</span><span class="ll-arrow">↗</span></a>
+          <a href="https://speakerdeck.com/rotomx/connect-with-jamf-connect" target="_blank" rel="noopener"><span class="ll-title">Jamf Connect から見える未来 / Connect with Jamf Connect — Speaker Deck</span><span class="ll-arrow">↗</span></a>
+          <a href="https://speakerdeck.com/rotomx/why-shadow-it-is-bad" target="_blank" rel="noopener"><span class="ll-title">個人向け連絡ツールを仕事で!？考えるべき「管理」と「セキュリティ」とは? / Why Shadow IT is Bad? — Speaker Deck</span><span class="ll-arrow">↗</span></a>
+          <a href="https://speakerdeck.com/rotomx/build-office-in-okinawa" target="_blank" rel="noopener"><span class="ll-title">沖縄にオフィスを作る / Build office in Okinawa — Speaker Deck</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/n2a2d719dda76" target="_blank" rel="noopener"><span class="ll-title">なぜ業務で LINE を使ってはいけないのか — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/nc82bc210fd87" target="_blank" rel="noopener"><span class="ll-title">LINE WORKS 管理者が最初に行う情報セキュリティの設定 — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/ncdf24d6c51e9" target="_blank" rel="noopener"><span class="ll-title">LINE WORKS で2段階認証を設定できるようになりました — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/n4f8702c9a299" target="_blank" rel="noopener"><span class="ll-title">『個人向け連絡ツールを仕事で!？〜』というテーマで登壇しました #LWUG — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/n773981c831d2" target="_blank" rel="noopener"><span class="ll-title">「沖縄にオフィスを作る」というテーマで LT しました #corpengr — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/n5380ebad6359" target="_blank" rel="noopener"><span class="ll-title">Jamf Account に Azure AD で SSO する — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/n696472486bb9" target="_blank" rel="noopener"><span class="ll-title">Apple の緊急セキュリティ対応（RSR）を Jamf Pro で対応する — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/neb7d90fe7462" target="_blank" rel="noopener"><span class="ll-title">macOS Ventura アップグレード後の Microsoft Defender for Endpoint 問題を解決する — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/ne3bc2281bbc0" target="_blank" rel="noopener"><span class="ll-title">Jamf Connect の Azure AD パススルー認証を設定する — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/nf0fe6663fc4f" target="_blank" rel="noopener"><span class="ll-title">Jamf Pro で Chrome Enterprise を展開する — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/n54c036e548e7" target="_blank" rel="noopener"><span class="ll-title">Mac（MacBook Pro 2020）が Wi-Fi に接続できなくなったときのトラブルシューティング — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/nccbbf5f442d0" target="_blank" rel="noopener"><span class="ll-title">Employee Purchase Program で Apple 製品を割引価格で購入する — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/n6195dda5273d" target="_blank" rel="noopener"><span class="ll-title">お前も Slack 認定管理者にならないか？ — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/neb7e3cb8b9b7" target="_blank" rel="noopener"><span class="ll-title">SaaS の SAML/SSO は Enterprise 以外でも使えると嬉しいという話 — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://note.com/rotomx/n/nd63cde9c02e4" target="_blank" rel="noopener"><span class="ll-title">Zoom が香港のデータセンターをルーティングしないように設定する — note</span><span class="ll-arrow">↗</span></a>
+          <a href="https://qiita.com/rotomx/items/e50298ca435c55f8a4af" target="_blank" rel="noopener"><span class="ll-title">macOS Catalina で zip の展開に失敗する — Qiita</span><span class="ll-arrow">↗</span></a>
+          <a href="https://qiita.com/rotomx/items/784211ea16760eecac83" target="_blank" rel="noopener"><span class="ll-title">Eclipse for Mac でコード補完ができるようにする — Qiita</span><span class="ll-arrow">↗</span></a>
+          <a href="https://qiita.com/rotomx/items/2c8693c11a070c00def1" target="_blank" rel="noopener"><span class="ll-title">リモートで削除済みのブランチをローカルからも削除する — Qiita</span><span class="ll-arrow">↗</span></a>
+          <a href="https://zenn.dev/rotomx/articles/157ca5e6f6bab07cb8c7" target="_blank" rel="noopener"><span class="ll-title">再有効化した Google Workspace アカウントで Google グループ宛のメールが届かない — Zenn</span><span class="ll-arrow">↗</span></a>
+        </div>
+      </div>
+    </details>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-card reveal">
+      <h3>Contact</h3>
+      <p>転職・副業のご相談、登壇・執筆のご依頼など、お気軽にご連絡ください。メールまたは各種 SNS の DM で受け付けています。</p>
+      <a class="cta" href="mailto:contact@rotomx.com">contact@rotomx.com</a>
+      <div class="socials" style="justify-content:center;margin-top:24px">
+        <a href="https://x.com/rotomx" target="_blank" rel="noopener">X</a>
+        <a href="https://note.com/rotomx" target="_blank" rel="noopener">note</a>
+        <a href="https://zenn.dev/rotomx" target="_blank" rel="noopener">Zenn</a>
+        <a href="https://github.com/rotomx" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://youtrust.jp/users/rotomx" target="_blank" rel="noopener">YOUTRUST</a>
+        <a href="https://www.linkedin.com/in/rotomx/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fbrand">rotonyan / ろとにゃん</div>
+    <div style="margin-top:8px">© 2026 rotomx — rotomx.github.io</div>
+  </div>
+</footer>
+
+<script>
+  // scroll reveal
+  const io=new IntersectionObserver((es)=>{
+    es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  // close mobile menu on link click
+  document.querySelectorAll('#navlinks a').forEach(a=>a.addEventListener('click',()=>{
+    document.getElementById('navlinks').classList.remove('open');
+  }));
+</script>
+</body>
+</html>
