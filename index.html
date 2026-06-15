@@ -20,7 +20,7 @@
 <meta name="twitter:image" content="https://rotomx.github.io/og-image.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet" />
 <style>
   :root{
     --bg:#0a0a0a;
@@ -32,6 +32,10 @@
     --muted:#a3a3a3;
     --dim:#838383;
     --white:#ffffff;
+    --accent:#52d6e8;
+    --accent-dim:#2b6a74;
+    --accent-soft:rgba(82,214,232,.5);
+    --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
     --radius:14px;
     --maxw:1080px;
     --ease:cubic-bezier(.22,.61,.36,1);
@@ -49,9 +53,15 @@
   }
   ::selection{background:var(--white);color:#000}
   a{color:inherit;text-decoration:none}
-  :focus-visible{outline:2px solid var(--white);outline-offset:3px;border-radius:6px}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
   a:focus-visible,.chip:focus-visible,.cta:focus-visible,.nav-toggle:focus-visible,
-  summary:focus-visible,.linklist a:focus-visible{outline:2px solid var(--white);outline-offset:3px;border-radius:8px}
+  summary:focus-visible,.linklist a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:8px}
+  /* scanlines (CRT/terminal feel) */
+  body::after{
+    content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+    background:repeating-linear-gradient(to bottom,rgba(82,214,232,.025) 0 1px,transparent 1px 3px);
+    opacity:.6;
+  }
   .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
 
   /* ambient grid background */
@@ -74,11 +84,11 @@
     border-bottom:1px solid var(--line-soft);
   }
   .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:62px;padding:8px 0}
-  .brand{font-weight:700;letter-spacing:.04em;font-size:15px;display:flex;align-items:center;gap:10px;flex-shrink:0}
-  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--white);box-shadow:0 0 14px rgba(255,255,255,.6)}
+  .brand{font-weight:700;letter-spacing:.04em;font-size:15px;display:flex;align-items:center;gap:10px;flex-shrink:0;font-family:var(--mono)}
+  .brand .dot{width:8px;height:15px;border-radius:1px;background:var(--accent);box-shadow:0 0 12px var(--accent-soft)}
   nav.links{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:12px 16px}
-  nav.links a{font-size:13px;color:var(--muted);letter-spacing:.02em;transition:color .25s var(--ease)}
-  nav.links a:hover{color:var(--white)}
+  nav.links a{font-size:13px;color:var(--muted);letter-spacing:.02em;transition:color .25s var(--ease);font-family:var(--mono)}
+  nav.links a:hover{color:var(--accent)}
   .nav-toggle{display:none;background:none;border:0;color:var(--text);font-size:22px;cursor:pointer}
 
   /* ===== HERO ===== */
@@ -86,13 +96,14 @@
   .hero-grid{display:grid;grid-template-columns:160px 1fr;gap:40px;align-items:center}
   .avatar-ring{
     width:160px;height:160px;border-radius:50%;padding:3px;
-    background:conic-gradient(from 200deg,#fff,#555,#fff,#333,#fff);
+    background:conic-gradient(from 200deg,#fff,var(--accent),#444,#fff,var(--accent),#333,#fff);
     flex-shrink:0;
   }
   .avatar-ring img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block;background:#222;border:3px solid var(--bg)}
-  .eyebrow{font-size:12.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--dim);margin-bottom:14px}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--dim);margin-bottom:14px}
+  .eyebrow::before{content:"> ";color:var(--accent)}
   h1.name{font-size:clamp(38px,6vw,62px);font-weight:700;letter-spacing:-.02em;line-height:1.05}
-  .handle{font-size:16px;color:var(--muted);margin-top:8px;letter-spacing:.02em}
+  .handle{font-family:var(--mono);font-size:14.5px;color:var(--muted);margin-top:8px;letter-spacing:.01em}
   .tagline{margin-top:18px;font-size:15.5px;color:var(--muted);max-width:620px;line-height:1.75}
   .meta-row{display:flex;flex-wrap:wrap;gap:18px;margin-top:20px;font-size:13.5px;color:var(--dim)}
   .meta-row span{display:inline-flex;align-items:center;gap:7px}
@@ -107,18 +118,20 @@
   /* ===== SECTION ===== */
   section{padding:58px 0;border-top:1px solid var(--line-soft)}
   .sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:34px}
-  .sec-num{font-size:12.5px;color:var(--dim);font-family:"Inter";letter-spacing:.1em;font-variant-numeric:tabular-nums}
+  .sec-num{font-size:12.5px;color:var(--accent);font-family:var(--mono);letter-spacing:.06em;font-variant-numeric:tabular-nums}
+  .sec-num::before{content:"#";color:var(--accent-dim)}
   .sec-title{font-size:24px;font-weight:600;letter-spacing:.01em}
-  .sec-title small{display:block;font-size:12.5px;color:var(--dim);font-weight:400;letter-spacing:.18em;text-transform:uppercase;margin-top:4px}
+  .sec-title small{display:block;font-family:var(--mono);font-size:11.5px;color:var(--dim);font-weight:400;letter-spacing:.12em;text-transform:uppercase;margin-top:5px}
+  .sec-title small::before{content:"// ";color:var(--accent-dim)}
   .prose p{color:var(--muted);font-size:15.5px;margin-bottom:18px;max-width:780px;line-height:1.95}
   .prose p:last-child{margin-bottom:0}
-  .prose a{color:var(--text);border-bottom:1px solid var(--dim);transition:border-color .2s}
-  .prose a:hover{border-color:var(--white)}
+  .prose a{color:var(--text);border-bottom:1px solid var(--dim);transition:border-color .2s,color .2s}
+  .prose a:hover{border-color:var(--accent);color:var(--accent)}
 
   /* chips */
   .chips{display:flex;flex-wrap:wrap;gap:9px}
-  .chip{border:1px solid var(--line);background:var(--bg-card);padding:9px 15px;border-radius:10px;font-size:13.5px;color:var(--text);transition:all .22s var(--ease)}
-  .chip:hover{border-color:#3d3d3d;background:#1a1a1a;transform:translateY(-2px)}
+  .chip{border:1px solid var(--line);background:var(--bg-card);padding:9px 15px;border-radius:10px;font-size:13px;font-family:var(--mono);color:var(--text);transition:all .22s var(--ease)}
+  .chip:hover{border-color:var(--accent);color:var(--accent);background:#11201f;transform:translateY(-2px);box-shadow:0 0 12px rgba(82,214,232,.12)}
 
   /* feature grid (specialty / quals) */
   .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
@@ -128,7 +141,7 @@
     display:flex;gap:13px;align-items:flex-start;line-height:1.6;transition:all .22s var(--ease);
   }
   .item:hover{border-color:#333;transform:translateY(-2px)}
-  .item .mk{color:var(--dim);font-size:13px;font-family:"Inter";flex-shrink:0;padding-top:1px}
+  .item .mk{color:var(--accent);font-size:13px;font-family:var(--mono);flex-shrink:0;padding-top:1px}
 
   /* ===== SKILL CATEGORIES ===== */
   .skill-cats{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
@@ -145,7 +158,7 @@
     border:1px solid var(--line);
   }
   .skill-cat-name{font-size:14.5px;font-weight:600;letter-spacing:.01em;line-height:1.3}
-  .skill-cat-name small{display:block;font-size:10.5px;color:var(--dim);letter-spacing:.14em;text-transform:uppercase;font-weight:400;margin-top:2px}
+  .skill-cat-name small{display:block;font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:.1em;text-transform:uppercase;font-weight:400;margin-top:2px}
   .skill-cat-count{margin-left:auto;font-size:12px;color:var(--dim);font-family:"Inter";font-variant-numeric:tabular-nums;align-self:flex-start;padding-top:3px}
   .skill-cat .chips{gap:7px}
   .skill-cat .chip{font-size:12.5px;padding:6px 12px}
@@ -165,7 +178,7 @@
     border:1px solid #3a3a3a;box-shadow:0 0 0 4px rgba(255,255,255,.02);
   }
   .qual .qt{font-size:14px;font-weight:500;line-height:1.45}
-  .qual .qc{font-size:10.5px;color:var(--dim);letter-spacing:.12em;text-transform:uppercase;margin-top:2px}
+  .qual .qc{font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:.08em;text-transform:uppercase;margin-top:3px}
 
   /* ===== TIMELINE (経歴) ===== */
   .timeline{position:relative;padding-left:0}
@@ -183,15 +196,15 @@
   .tl-item.dot-side::before{border-color:#b292ff;background:#b292ff;box-shadow:0 0 12px rgba(178,146,255,.5)}
   .tl-item.dot-intern::before{border-color:#e6b450;background:#e6b450;box-shadow:0 0 12px rgba(230,180,80,.5)}
   .tl-item:hover::before{transform:scale(1.18)}
-  .tl-year{font-family:"Inter";font-size:13px;font-weight:600;letter-spacing:.04em;color:var(--dim);font-variant-numeric:tabular-nums}
+  .tl-year{font-family:var(--mono);font-size:12.5px;font-weight:600;letter-spacing:.02em;color:var(--dim);font-variant-numeric:tabular-nums}
   .tl-card{
     margin-top:8px;border:1px solid var(--line-soft);background:var(--bg-card);
     border-radius:var(--radius);padding:16px 20px;transition:all .22s var(--ease);
   }
   .tl-card:hover{border-color:#333;transform:translateX(4px)}
   .tl-tag{
-    display:inline-block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
-    padding:3px 10px;border-radius:999px;border:1px solid var(--line);
+    display:inline-block;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+    padding:3px 10px;border-radius:6px;border:1px solid var(--line);
     color:var(--muted);margin-bottom:9px;
   }
   .tl-tag.t-edu{color:#7fb0ff;border-color:#33425e}
@@ -218,7 +231,8 @@
     border-radius:var(--radius);padding:20px 22px;transition:all .22s var(--ease);
   }
   .cond:hover{border-color:#333;transform:translateY(-2px)}
-  .cond .k{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin-bottom:7px}
+  .cond .k{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);margin-bottom:7px}
+  .cond .k::before{content:"› ";color:var(--accent-dim)}
   .cond .v{font-size:16px;font-weight:600;color:var(--text);line-height:1.5}
   .cond .v em{font-style:normal;color:#fff}
   .cond .note{font-size:13px;color:var(--muted);margin-top:6px;line-height:1.6}
@@ -233,10 +247,10 @@
     transition:padding .25s var(--ease);
   }
   .linklist a:hover{padding-left:14px}
-  .linklist a:hover .ll-title{color:var(--white)}
+  .linklist a:hover .ll-title{color:var(--accent)}
   .ll-title{font-size:14.5px;color:var(--muted);transition:color .2s;line-height:1.55}
   .ll-arrow{color:var(--dim);font-size:16px;transition:transform .25s var(--ease),color .2s;flex-shrink:0}
-  .linklist a:hover .ll-arrow{transform:translate(4px,-4px);color:var(--white)}
+  .linklist a:hover .ll-arrow{transform:translate(4px,-4px);color:var(--accent)}
 
   /* collapsible */
   details{border:1px solid var(--line-soft);border-radius:var(--radius);background:var(--bg-card);overflow:hidden}
@@ -267,7 +281,7 @@
   }
   .cta:hover{transform:translateY(-3px);box-shadow:0 12px 34px rgba(255,255,255,.16)}
 
-  footer{padding:46px 0 60px;border-top:1px solid var(--line-soft);text-align:center;color:var(--dim);font-size:12.5px;letter-spacing:.03em}
+  footer{padding:46px 0 60px;border-top:1px solid var(--line-soft);text-align:center;color:var(--dim);font-size:12px;letter-spacing:.03em;font-family:var(--mono)}
   footer .fbrand{color:var(--muted);font-weight:600;letter-spacing:.06em}
 
   /* reveal */
@@ -304,6 +318,7 @@
     <button class="nav-toggle" aria-label="menu" onclick="document.getElementById('navlinks').classList.toggle('open')">≡</button>
     <nav class="links" id="navlinks">
       <a href="#career">Career</a>
+      <a href="#community">Community</a>
       <a href="#career-change">Career Change</a>
       <a href="#sidework">Side Work</a>
       <a href="#specialty">Specialty</a>
@@ -332,7 +347,7 @@
         <div class="eyebrow">Corporate Engineer</div>
         <h1 class="name">rotonyan🍣</h1>
         <div class="handle">@rotomx・OTAWA Ryo</div>
-        <p class="tagline">ゼロトラスト・Apple デバイス管理・情報セキュリティを軸に、情報システム部門のプロフェッショナルとして実践的知見を発信しています。</p>
+        <p class="tagline">ゼロトラスト・Apple デバイス管理・情報セキュリティを軸に、情報システム部門のプロフェッショナルとして、現場の実践知を発信しています。</p>
         <div class="meta-row">
           <span>📍 Meguro, Tokyo, Japan</span>
           <span>💼 ikyu.com</span>
@@ -361,32 +376,12 @@
       <div class="sec-title">経歴<small>Career</small></div>
     </div>
     <div class="tl-legend reveal">
-      <span><i class="l-edu"></i>学歴 / Education</span>
       <span><i class="l-job"></i>正社員 / Employment</span>
-      <span><i class="l-side"></i>副業・支援 / Freelance</span>
+      <span><i class="l-side"></i>個人事業主（副業）/ Freelance</span>
       <span><i class="l-intern"></i>インターン / Internship</span>
     </div>
     <div class="timeline reveal">
       <div class="tl-track">
-
-        <div class="tl-item dot-edu">
-          <div class="tl-year">2008 — 2011</div>
-          <div class="tl-card">
-            <span class="tl-tag t-edu">Education</span>
-            <div class="tl-title">川崎市立川崎総合科学高等学校</div>
-            <div class="tl-org">情報工学科</div>
-          </div>
-        </div>
-
-        <div class="tl-item dot-edu">
-          <div class="tl-year">2011 — 2015</div>
-          <div class="tl-card">
-            <span class="tl-tag t-edu">Education</span>
-            <div class="tl-title">産業能率大学</div>
-            <div class="tl-org">情報マネジメント学部</div>
-            <div class="tl-award"><b>実績</b>産業能率大学 コンテンツビジネス研究所長賞</div>
-          </div>
-        </div>
 
         <div class="tl-item dot-intern">
           <div class="tl-year">2013 — 2015</div>
@@ -403,7 +398,6 @@
             <span class="tl-tag t-job">Employment</span>
             <div class="tl-title">at home</div>
             <div class="tl-org">情報戦略部門 情報システム部 基幹システム開発グループ</div>
-            <div class="tl-award"><b>実績</b>50周年事業 懸賞論文大会 優秀賞</div>
           </div>
         </div>
 
@@ -411,7 +405,7 @@
           <div class="tl-year">2018 — 現在</div>
           <div class="tl-card">
             <span class="tl-tag t-job">Employment</span>
-            <div class="tl-title">一休.com（LINEヤフーグループ）</div>
+            <div class="tl-title">一休.com</div>
             <div class="tl-org">コーポレート本部 社内情報システム部 兼 CISO室</div>
           </div>
         </div>
@@ -421,7 +415,7 @@
           <div class="tl-card">
             <span class="tl-tag t-side">Freelance</span>
             <div class="tl-title">ROUTE06</div>
-            <div class="tl-org">コーポレート本部 CRE室（業務委託）</div>
+            <div class="tl-org">コーポレート本部 CRE室</div>
           </div>
         </div>
 
@@ -430,7 +424,7 @@
           <div class="tl-card">
             <span class="tl-tag t-side">Freelance</span>
             <div class="tl-title">tricot</div>
-            <div class="tl-org">経営戦略 Div. コーポレートITチーム（業務委託）</div>
+            <div class="tl-org">経営戦略 Div. コーポレートITチーム</div>
           </div>
         </div>
 
@@ -439,7 +433,7 @@
           <div class="tl-card">
             <span class="tl-tag t-side">Freelance</span>
             <div class="tl-title">IVRy</div>
-            <div class="tl-org">Corporate IT（業務委託）</div>
+            <div class="tl-org">Corporate IT</div>
           </div>
         </div>
 
@@ -448,18 +442,35 @@
   </div>
 </section>
 
+<!-- COMMUNITY -->
+<section id="community">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">02</span>
+      <div class="sec-title">コミュニティ活動<small>Community</small></div>
+    </div>
+    <div class="prose reveal" style="margin-bottom:24px"><p>コミュニティへの参画、イベントやカンファレンスの企画・運営を通して、情シス業界にコントリビュートしています。</p></div>
+    <div class="chips reveal">
+      <a class="chip" href="https://corp-engr.jp/" target="_blank" rel="noopener">情シス Slack</a>
+      <a class="chip" href="https://btcon.jp/" target="_blank" rel="noopener">BTCONJP</a>
+      <a class="chip" href="https://cejobchange.connpass.com/" target="_blank" rel="noopener">情シス転職ミートアップ</a>
+      <a class="chip" href="https://www.japan-it.jp/hub/ja-jp/visit/sysad.html" target="_blank" rel="noopener">Japan IT Week</a>
+    </div>
+  </div>
+</section>
+
 <!-- CAREER CHANGE (転職) -->
 <section id="career-change">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">02</span>
+      <span class="sec-num">03</span>
       <div class="sec-title">転職<small>Career Change</small></div>
     </div>
-    <div class="prose reveal" style="margin-bottom:24px"><p>転職活動における希望条件を記載します。条件を満たさない場合でも、内容次第ではお気軽にご相談ください。</p></div>
+    <div class="prose reveal" style="margin-bottom:24px"><p>転職にあたっての希望条件です。条件に満たない場合でも、内容次第でお気軽にご相談ください。</p></div>
     <div class="cond-grid reveal">
       <div class="cond">
         <div class="k">希望勤務地・勤務形態 / Location &amp; Work Style</div>
-        <div class="v"><em>東京</em> ／ <em>ハイブリッド勤務</em></div>
+        <div class="v"><em>東京23区</em> ／ <em>ハイブリッド勤務</em></div>
         <div class="note">東京23区内で、リモートと出社を組み合わせた働き方を希望します。</div>
       </div>
       <div class="cond">
@@ -474,7 +485,8 @@
       </div>
       <div class="cond wide">
         <div class="k">備考 / Notes</div>
-        <div class="note">コンサルティング企業、システムインテグレーター、IT・セキュリティベンダーへのキャリアチェンジは現時点では検討していません。<br>対面でのコミュニケーションを重要視しており、フルリモート勤務は希望していません。</div>
+        <div class="note">コンサルティング企業、システムインテグレーター、IT・セキュリティベンダーへのキャリアチェンジは現時点では検討していません。</div>
+        <div class="note">対面でのコミュニケーションを重要視しており、フルリモート勤務は希望していません。</div>
       </div>
     </div>
     <p class="cond-note reveal">※ 上記は現時点での希望条件であり、変更となる場合があります。ご相談は <a href="mailto:contact@rotomx.com" style="color:var(--text);border-bottom:1px solid var(--dim)">contact@rotomx.com</a> まで。</p>
@@ -485,10 +497,10 @@
 <section id="sidework">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">03</span>
+      <span class="sec-num">04</span>
       <div class="sec-title">副業<small>Side Work</small></div>
     </div>
-    <div class="prose reveal" style="margin-bottom:24px"><p>副業・業務委託における条件を記載します。スタートアップのコーポレート IT 構築、ロードマップ策定、技術顧問・アドバイザーなどのご依頼を承っています。</p></div>
+    <div class="prose reveal" style="margin-bottom:24px"><p>副業・業務委託の条件です。スタートアップのコーポレート IT 構築、ロードマップ策定、技術顧問・アドバイザーなどのご依頼を承っています。</p></div>
     <div class="cond-grid reveal">
       <div class="cond">
         <div class="k">勤務形態 / Work Style</div>
@@ -498,17 +510,17 @@
       <div class="cond">
         <div class="k">報酬（時給制）/ Hourly</div>
         <div class="v"><em>10,000円 / h</em></div>
-        <div class="note">稼働ベースでの SaaS 導入構築支援・運用・調査。オンラインミーティングなど</div>
+        <div class="note">SaaS の導入・構築支援、運用、調査など。オンラインミーティング中心の稼働です。</div>
       </div>
       <div class="cond">
         <div class="k">報酬（顧問契約）/ Advisory</div>
         <div class="v"><em>100,000 - 150,000円 / month</em></div>
-        <div class="note">技術顧問・アドバイザー契約など、月額定額での契約。内容により応相談</div>
+        <div class="note">技術顧問・アドバイザー契約など、月額定額での契約。内容により応相談です。</div>
       </div>
       <div class="cond">
         <div class="k">報酬（執筆・登壇）/ Writing &amp; Speaking</div>
-        <div class="v"><em>要相談</em></div>
-        <div class="note">記事の寄稿・執筆、イベントやセミナーでの登壇など。内容により応相談。</div>
+        <div class="v"><em>応相談</em></div>
+        <div class="note">記事の寄稿・執筆、イベント・セミナーでの登壇など。内容により応相談です。</div>
       </div>
       <div class="cond">
         <div class="k">契約形態 / Contract</div>
@@ -517,7 +529,8 @@
       </div>
       <div class="cond wide">
         <div class="k">備考 / Notes</div>
-        <div class="note">適格請求書（インボイス）の発行はできません。<br>平日夜間・土日での非同期での稼働を基本とします。日中のミーティングや出社も調整により対応できます。</div>
+        <div class="note">適格請求書（インボイス）の発行はできません。</div>
+        <div class="note">平日夜間・土日での非同期での稼働を基本とします。日中のミーティングや出社も調整により対応できます。</div>
       </div>
     </div>
     <p class="cond-note reveal">※ 上記は現時点での条件であり、内容により調整可能です。ご相談は <a href="mailto:contact@rotomx.com" style="color:var(--text);border-bottom:1px solid var(--dim)">contact@rotomx.com</a> まで。</p>
@@ -528,7 +541,7 @@
 <section id="specialty">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">04</span>
+      <span class="sec-num">05</span>
       <div class="sec-title">専門<small>Specialty</small></div>
     </div>
     <div class="grid2 reveal">
@@ -548,10 +561,10 @@
 <section id="skills">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">05</span>
+      <span class="sec-num">06</span>
       <div class="sec-title">スキル / ツール<small>Skills</small></div>
     </div>
-    <div class="prose reveal" style="margin-bottom:26px"><p>導入・構築フェーズから運用まで、多くの SaaS を扱っています。主なスキルセットを領域別に記載します。</p></div>
+    <div class="prose reveal" style="margin-bottom:26px"><p>導入・構築から運用まで、多くの SaaS を実務で扱ってきました。主なスキルを領域別にまとめています。</p></div>
     <div class="skill-cats reveal">
 
       <div class="skill-cat">
@@ -608,7 +621,6 @@
         </div>
         <div class="chips">
           <span class="chip">Google Workspace</span>
-          <span class="chip">Slack Enterprise Grid</span>
           <span class="chip">Zoom Workplace</span>
           <span class="chip">Confluence</span>
           <span class="chip">Jira Service Management</span>
@@ -625,6 +637,7 @@
           <div class="skill-cat-name">コミュニケーション基盤<small>Communication</small></div>
         </div>
         <div class="chips">
+          <span class="chip">Slack Enterprise Grid</span>
           <span class="chip">Dialpad</span>
           <span class="chip">Fax.Plus</span>
           <span class="chip">LINE WORKS</span>
@@ -653,15 +666,15 @@
 <section id="qualification">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">06</span>
+      <span class="sec-num">07</span>
       <div class="sec-title">資格<small>Qualification</small></div>
     </div>
     <div class="qual-grid reveal">
       <div class="qual"><div class="badge">✓</div><div><div class="qt">IT パスポート試験</div><div class="qc">国家試験 / IPA</div></div></div>
       <div class="qual"><div class="badge">✓</div><div><div class="qt">情報セキュリティマネジメント試験</div><div class="qc">国家試験 / IPA</div></div></div>
       <div class="qual"><div class="badge">✓</div><div><div class="qt">情報セキュリティ監査人</div><div class="qc">民間資格 / 全日本情報学習振興協会</div></div></div>
-      <div class="qual"><div class="badge">✓</div><div><div class="qt">個人情報保護監査人</div><div class="qc">民間資格/ 全日本情報学習振興協会</div></div></div>
-      <div class="qual"><div class="badge">✓</div><div><div class="qt">SPREAD 情報セキュリティマイスター能力検定 / Grafsec</div><div class="qc">民間資格</div></div></div>
+      <div class="qual"><div class="badge">✓</div><div><div class="qt">個人情報保護監査人</div><div class="qc">民間資格 / 全日本情報学習振興協会</div></div></div>
+      <div class="qual"><div class="badge">✓</div><div><div class="qt">SPREAD 情報セキュリティマイスター能力検定</div><div class="qc">民間資格 / Grafsec</div></div></div>
       <div class="qual"><div class="badge">✓</div><div><div class="qt">Workato Automation Pro II Certificate</div><div class="qc">ベンダー認定 / Workato</div></div></div>
       <div class="qual"><div class="badge">✓</div><div><div class="qt">Slack 認定管理者</div><div class="qc">ベンダー認定 / Slack</div></div></div>
       <div class="qual"><div class="badge">✓</div><div><div class="qt">AZ-900: Microsoft Azure Fundamentals</div><div class="qc">ベンダー認定 / Microsoft</div></div></div>
@@ -673,7 +686,7 @@
 <section id="activity">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">07</span>
+      <span class="sec-num">08</span>
       <div class="sec-title">執筆 &amp; 登壇<small>Writing &amp; Speaking</small></div>
     </div>
 
@@ -697,7 +710,7 @@
 <section id="interview">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">08</span>
+      <span class="sec-num">09</span>
       <div class="sec-title">インタビュー・導入事例<small>Interview &amp; Case Study</small></div>
     </div>
 
@@ -725,11 +738,13 @@
 <section id="output">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">09</span>
+      <span class="sec-num">10</span>
       <div class="sec-title">アウトプット<small>Output</small></div>
     </div>
     <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">記事 / Articles</h4>
     <div class="linklist reveal" style="margin-bottom:34px">
+      <a href="https://user-first.ikyu.co.jp/entry/corprate-it-2025" target="_blank" rel="noopener"><span class="ll-title">2025年、一休のコーポレートIT 振り返りとこれから — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
+      <a href="https://user-first.ikyu.co.jp/entry/corprate-it-2024" target="_blank" rel="noopener"><span class="ll-title">一休.com の情シス / コーポレートIT 変遷、6年を経てどう変わったのか — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
       <a href="https://user-first.ikyu.co.jp/entry/sack-info-barrier" target="_blank" rel="noopener"><span class="ll-title">Slack Enterprise Grid における情報バリアの設計 — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
       <a href="https://user-first.ikyu.co.jp/entry/office-relocation" target="_blank" rel="noopener"><span class="ll-title">本社を東京ガーデンテラス紀尾井町へ移転し、オフィスファシリティ・コーポレート IT を刷新した話 — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
       <a href="https://user-first.ikyu.co.jp/entry/halp-helpdesk" target="_blank" rel="noopener"><span class="ll-title">ヘルプデスクに Halp を導入して改善した話 — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
