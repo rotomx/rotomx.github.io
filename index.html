@@ -38,8 +38,8 @@
 
 <header class="nav">
   <div class="wrap nav-inner">
-    <a href="#top" class="brand"><span class="dot"></span>rotomx</a>
-    <button class="nav-toggle" aria-label="menu" onclick="document.getElementById('navlinks').classList.toggle('open')">≡</button>
+    <a href="#top" class="brand"><span class="dot"></span>RotoVox</a>
+    <button class="nav-toggle" id="navtoggle" aria-label="メニュー" aria-expanded="false" aria-controls="navlinks">≡</button>
     <nav class="links" id="navlinks">
       <a href="#career">Career</a>
       <a href="#community">Community</a>
@@ -81,17 +81,17 @@
           <span>📍 Meguro, Tokyo, Japan</span>
           <span>🎂 1992/9/21</span>
           <span>💼 ikyu.com</span>
-          <span>💻️ Freelance</span>
+          <span>💻 Freelance</span>
           <span>🎤 BTCONJP</span>
         </div>
         <div class="socials">
-          <a href="https://x.com/rotomx" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-x"/></svg>X</a>
-          <a href="https://note.com/rotomx" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-note"/></svg>note</a>
-          <a href="https://zenn.dev/rotomx" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-zenn"/></svg>Zenn</a>
-          <a href="https://github.com/rotomx" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-github"/></svg>GitHub</a>
-          <a href="https://youtrust.jp/users/rotomx" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-youtrust"/></svg>YOUTRUST</a>
-          <a href="https://www.linkedin.com/in/rotomx/" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-linkedin"/></svg>LinkedIn</a>
-          <a href="https://www.wantedly.com/id/rotomx" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-wantedly"/></svg>Wantedly</a>
+          <a href="https://x.com/rotomx" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-x"/></svg>X</a>
+          <a href="https://note.com/rotomx" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-note"/></svg>note</a>
+          <a href="https://zenn.dev/rotomx" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-zenn"/></svg>Zenn</a>
+          <a href="https://github.com/rotomx" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-github"/></svg>GitHub</a>
+          <a href="https://youtrust.jp/users/rotomx" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-youtrust"/></svg>YOUTRUST</a>
+          <a href="https://www.linkedin.com/in/rotomx/" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-linkedin"/></svg>LinkedIn</a>
+          <a href="https://www.wantedly.com/id/rotomx" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-wantedly"/></svg>Wantedly</a>
         </div>
       </div>
     </div>
@@ -131,7 +131,7 @@
           </div>
         </div>
 
-        <div class="tl-item dot-job">
+        <div class="tl-item dot-job tl-now">
           <div class="tl-year">2018 — 現在</div>
           <div class="tl-card">
             <span class="tl-tag t-job">Employment</span>
@@ -158,7 +158,7 @@
           </div>
         </div>
 
-        <div class="tl-item dot-side">
+        <div class="tl-item dot-side tl-now">
           <div class="tl-year">2026 — 現在</div>
           <div class="tl-card">
             <span class="tl-tag t-side">Freelance</span>
@@ -196,7 +196,7 @@
       <span class="sec-num">03</span>
       <div class="sec-title">転職<small>Career Change</small></div>
     </div>
-    <div class="prose reveal" style="margin-bottom:24px"><p>転職にあたっての希望条件です。条件に満たない場合でも、内容次第でお気軽にご相談ください。</p></div>
+    <div class="prose reveal" style="margin-bottom:24px"><p>転職にあたっての希望条件です。条件を満たさない場合でも、内容次第でお気軽にご相談ください。</p></div>
     <div class="cond-grid reveal">
       <div class="cond">
         <div class="k">希望勤務地・勤務形態 / Location &amp; Work Style</div>
@@ -244,12 +244,12 @@
       <div class="cond">
         <div class="k">報酬（顧問契約）/ Advisory</div>
         <div class="v"><em>100,000 - 150,000円 / month</em></div>
-        <div class="note">技術顧問・アドバイザー契約など、月額定額での契約。内容により応相談です。</div>
+        <div class="note">技術顧問・アドバイザー契約など、月額定額での契約。内容により応相談。</div>
       </div>
       <div class="cond">
         <div class="k">報酬（執筆・登壇）/ Writing &amp; Speaking</div>
         <div class="v"><em>応相談</em></div>
-        <div class="note">記事の寄稿・執筆、イベント・セミナーでの登壇など。内容により応相談です。</div>
+        <div class="note">記事の寄稿・執筆、イベント・セミナーでの登壇など。内容により応相談。</div>
       </div>
       <div class="cond">
         <div class="k">契約形態 / Contract</div>
@@ -273,14 +273,14 @@
       <div class="sec-title">専門<small>Specialty</small></div>
     </div>
     <div class="grid2 reveal">
-      <div class="item"><span class="mk">01</span>ゼロトラストを前提とした組織のIT設計</div>
+      <div class="item"><span class="mk">01</span>ゼロトラストを前提とした組織の IT 設計</div>
       <div class="item"><span class="mk">02</span>スタートアップ企業のロードマップ作成</div>
       <div class="item"><span class="mk">03</span>Apple デバイス管理における深い知見</div>
        <div class="item"><span class="mk">04</span>複数 SaaS の豊富な知識・経験</div>
       <div class="item"><span class="mk">05</span>オフィスファシリティ実務経験</div>
       <div class="item"><span class="mk">06</span>ISMS・DPO・個人情報保護の実務経験</div>
       <div class="item"><span class="mk">07</span>情報システム部門の採用・転職支援</div>
-      <div class="item"><span class="mk">08</span>ITコミュニティ・カンファレンスの運営</div>
+      <div class="item"><span class="mk">08</span>IT コミュニティ・カンファレンスの運営</div>
     </div>
   </div>
 </section>
@@ -420,12 +420,12 @@
       <div class="sec-title">執筆 &amp; 登壇<small>Writing &amp; Speaking</small></div>
     </div>
 
-    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">執筆 / Writing</h4>
+    <h4 class="reveal subhead">執筆 / Writing</h4>
     <div class="linklist reveal" style="margin-bottom:34px">
       <a href="https://gihyo.jp/magazine/SD/archive/2025/202504" target="_blank" rel="noopener"><span class="ll-title">Software Design 2025年4月号 — 情報システム部門におけるドメイン知識と技術の天秤</span><span class="ll-arrow">↗</span></a>
     </div>
 
-    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">登壇 / Speaker</h4>
+    <h4 class="reveal subhead">登壇 / Speaker</h4>
     <div class="linklist reveal">
       <a href="https://service.dxer.co.jp/20250523webinar" target="_blank" rel="noopener"><span class="ll-title">情シスはドメイン知識とどう付き合えばいいのか？〜守りと攻めを両立する情シスの必須ドメイン知識〜 — シスクル</span><span class="ll-arrow">↗</span></a>
       <a href="https://findy-tools.connpass.com/event/347943/" target="_blank" rel="noopener"><span class="ll-title">本当にゼロトラストでいいのか？〜ゼロトラストのよくある誤解とセキュリティの現場〜 — Findy Tools</span><span class="ll-arrow">↗</span></a>
@@ -444,7 +444,7 @@
       <div class="sec-title">インタビュー・導入事例<small>Interview &amp; Case Study</small></div>
     </div>
 
-    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">インタビュー / Interview</h4>
+    <h4 class="reveal subhead">インタビュー / Interview</h4>
     <div class="linklist reveal" style="margin-bottom:34px">
       <a href="https://macfan.book.mynavi.jp/article/61997/" target="_blank" rel="noopener"><span class="ll-title">『Mac Fan 2025年9月号』 — ビジネスとApple</span><span class="ll-arrow">↗</span></a>
       <a href="https://josys.wingarc.com/tonarinojosyssan-01" target="_blank" rel="noopener"><span class="ll-title">「社内外ユーザーファースト」を追求する株式会社一休の情シス─わずか3名で挑んだクラウド移行・大規模刷新・AI活用の全て–となりの情シスさん Vol.01 — 情シスのじかん</span><span class="ll-arrow">↗</span></a>
@@ -453,7 +453,7 @@
       <a href="https://www.ikyu.co.jp/blog/1597/" target="_blank" rel="noopener"><span class="ll-title">チームプレーで一歩先を行く社内環境構築を――。一休の情シスが目指すアフターコロナの世界 — 一休.com 採用情報 リーダーズストーリー</span><span class="ll-arrow">↗</span></a>
     </div>
 
-    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">導入事例 / Case Study</h4>
+    <h4 class="reveal subhead">導入事例 / Case Study</h4>
     <div class="linklist reveal">
       <a href="https://www.pentio.com/securew2/case/ikyu/" target="_blank" rel="noopener"><span class="ll-title">株式会社一休 導入事例 — SecureW2</span><span class="ll-arrow">↗</span></a>
       <a href="https://www.lrm.jp/seculio/voice/ikyu/" target="_blank" rel="noopener"><span class="ll-title">株式会社一休 お客様の声 — セキュリオ</span><span class="ll-arrow">↗</span></a>
@@ -471,7 +471,7 @@
       <span class="sec-num">10</span>
       <div class="sec-title">アウトプット<small>Output</small></div>
     </div>
-    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">記事 / Articles</h4>
+    <h4 class="reveal subhead">記事 / Articles</h4>
     <div class="linklist reveal" style="margin-bottom:34px">
       <a href="https://user-first.ikyu.co.jp/entry/corprate-it-2025" target="_blank" rel="noopener"><span class="ll-title">2025年、一休のコーポレートIT 振り返りとこれから — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
       <a href="https://user-first.ikyu.co.jp/entry/corprate-it-2024" target="_blank" rel="noopener"><span class="ll-title">一休.com の情シス / コーポレートIT 変遷、6年を経てどう変わったのか — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
@@ -482,7 +482,7 @@
       <a href="https://user-first.ikyu.co.jp/entry/info-sys" target="_blank" rel="noopener"><span class="ll-title">一休における「情シス」の取り組み — 一休.com Developers Blog</span><span class="ll-arrow">↗</span></a>
     </div>
 
-    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">動画 / Videos</h4>
+    <h4 class="reveal subhead">動画 / Videos</h4>
     <div class="videos reveal" style="margin-bottom:34px">
       <div class="video">
         <div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/6BEAObu5Zco" title="【旅のプロ直伝】出張＆旅行の達人が教える！おすすめトラベルグッズ" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
@@ -494,7 +494,7 @@
       </div>
     </div>
 
-    <h4 class="reveal" style="font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 8px">スライド / Slides</h4>
+    <h4 class="reveal subhead">スライド / Slides</h4>
     <div class="linklist reveal">
       <a href="https://speakerdeck.com/rotomx/ben-she-ohuisuwoyi-zhuan-si-ohuisuhuasiriteikoporetoit-woshua-xin-sitahua" target="_blank" rel="noopener"><span class="ll-title">本社オフィスを移転し、オフィスファシリティ・コーポレート IT を刷新した話 — Speaker Deck</span><span class="ll-arrow">↗</span></a>
       <a href="https://speakerdeck.com/rotomx/connect-with-jamf-connect" target="_blank" rel="noopener"><span class="ll-title">Jamf Connect から見える未来 / Connect with Jamf Connect — Speaker Deck</span><span class="ll-arrow">↗</span></a>
@@ -512,13 +512,13 @@
       <p>転職・副業のご相談、登壇・執筆のご依頼など、お気軽にご連絡ください。</p>
       <a class="cta" href="mailto:contact@rotomx.com">contact@rotomx.com</a>
       <div class="socials" style="justify-content:center;margin-top:24px">
-        <a href="https://x.com/rotomx" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-x"/></svg>X</a>
-        <a href="https://note.com/rotomx" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-note"/></svg>note</a>
-        <a href="https://zenn.dev/rotomx" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-zenn"/></svg>Zenn</a>
-        <a href="https://github.com/rotomx" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-github"/></svg>GitHub</a>
-        <a href="https://youtrust.jp/users/rotomx" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-youtrust"/></svg>YOUTRUST</a>
-        <a href="https://www.linkedin.com/in/rotomx/" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-linkedin"/></svg>LinkedIn</a>
-        <a href="https://www.wantedly.com/id/rotomx" target="_blank" rel="noopener"><svg class="ic"><use href="#ic-wantedly"/></svg>Wantedly</a>
+        <a href="https://x.com/rotomx" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-x"/></svg>X</a>
+        <a href="https://note.com/rotomx" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-note"/></svg>note</a>
+        <a href="https://zenn.dev/rotomx" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-zenn"/></svg>Zenn</a>
+        <a href="https://github.com/rotomx" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-github"/></svg>GitHub</a>
+        <a href="https://youtrust.jp/users/rotomx" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-youtrust"/></svg>YOUTRUST</a>
+        <a href="https://www.linkedin.com/in/rotomx/" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-linkedin"/></svg>LinkedIn</a>
+        <a href="https://www.wantedly.com/id/rotomx" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-wantedly"/></svg>Wantedly</a>
       </div>
     </div>
   </div>
@@ -533,17 +533,6 @@
   </div>
 </footer>
 
-<script>
-  // scroll reveal
-  const io=new IntersectionObserver((es)=>{
-    es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
-  },{threshold:.12});
-  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
-
-  // close mobile menu on link click
-  document.querySelectorAll('#navlinks a').forEach(a=>a.addEventListener('click',()=>{
-    document.getElementById('navlinks').classList.remove('open');
-  }));
-</script>
+<script src="script.js" defer></script>
 </body>
 </html>
