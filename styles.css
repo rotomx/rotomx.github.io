@@ -57,10 +57,10 @@
   /* animated ambient glow */
   .bg-fx{position:fixed;inset:0;z-index:-2;pointer-events:none;overflow:hidden}
   .bg-fx::before,.bg-fx::after{content:"";position:absolute;border-radius:50%;filter:blur(90px);will-change:transform}
-  .bg-fx::before{width:55vw;height:55vw;left:-12vw;top:-18vw;background:radial-gradient(circle,rgba(82,214,232,.11),transparent 70%);animation:drift1 26s ease-in-out infinite}
-  .bg-fx::after{width:50vw;height:50vw;right:-12vw;bottom:-18vw;background:radial-gradient(circle,rgba(122,146,255,.09),transparent 70%);animation:drift2 32s ease-in-out infinite}
-  @keyframes drift1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(12vw,9vw) scale(1.12)}}
-  @keyframes drift2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-11vw,-8vw) scale(1.1)}}
+  .bg-fx::before{width:60vw;height:60vw;left:-12vw;top:-20vw;background:radial-gradient(circle,rgba(82,214,232,.22),transparent 68%);animation:drift1 20s ease-in-out infinite}
+  .bg-fx::after{width:55vw;height:55vw;right:-12vw;bottom:-20vw;background:radial-gradient(circle,rgba(122,146,255,.18),transparent 68%);animation:drift2 24s ease-in-out infinite}
+  @keyframes drift1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(22vw,16vw) scale(1.2)}}
+  @keyframes drift2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-20vw,-15vw) scale(1.18)}}
 
   /* ===== NAV ===== */
   header.nav{
