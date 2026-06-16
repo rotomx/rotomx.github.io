@@ -242,6 +242,21 @@
   .cond.wide{grid-column:1 / -1}
   .cond-note{font-size:13px;color:var(--dim);margin-top:18px;line-height:1.7}
 
+  /* disclosure (collapsible) */
+  .disclosure{border:1px solid var(--line-soft);background:var(--bg-card);border-radius:var(--radius);overflow:hidden}
+  .disclosure>summary{
+    list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;
+    padding:16px 20px;font-family:var(--mono);font-size:13px;letter-spacing:.04em;color:var(--text);
+    transition:background .2s,color .2s;
+  }
+  .disclosure>summary::-webkit-details-marker{display:none}
+  .disclosure>summary:hover{background:#181818;color:var(--accent)}
+  .disclosure>summary .plus{font-size:18px;line-height:1;color:var(--accent);transition:transform .3s var(--ease)}
+  .disclosure[open]>summary{border-bottom:1px solid var(--line-soft)}
+  .disclosure[open]>summary .plus{transform:rotate(45deg)}
+  .disclosure .body{padding:18px 20px}
+  .disclosure .body .cond-grid{margin:0}
+
   /* link list */
   .linklist{display:flex;flex-direction:column}
   .linklist a{
@@ -278,18 +293,18 @@
   .reveal.in{opacity:1;transform:none}
 
   /* staggered children */
-  .bio li,.timeline .tl-item,.skill-cats .skill-cat,.qual-grid .qual,.cond-grid .cond{
+  .bio li,.timeline .tl-item,.skill-cats .skill-cat,.qual-grid .qual{
     opacity:0;transform:translateY(10px);
     transition:opacity .5s var(--ease),transform .5s var(--ease);
   }
-  .bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual,.cond-grid.in .cond{opacity:1;transform:none}
-  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual,.cond-grid.in .cond):nth-child(2){transition-delay:.06s}
-  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual,.cond-grid.in .cond):nth-child(3){transition-delay:.12s}
-  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual,.cond-grid.in .cond):nth-child(4){transition-delay:.18s}
-  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual,.cond-grid.in .cond):nth-child(5){transition-delay:.24s}
-  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual,.cond-grid.in .cond):nth-child(6){transition-delay:.30s}
-  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual,.cond-grid.in .cond):nth-child(7){transition-delay:.36s}
-  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual,.cond-grid.in .cond):nth-child(8){transition-delay:.42s}
+  .bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual{opacity:1;transform:none}
+  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual):nth-child(2){transition-delay:.06s}
+  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual):nth-child(3){transition-delay:.12s}
+  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual):nth-child(4){transition-delay:.18s}
+  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual):nth-child(5){transition-delay:.24s}
+  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual):nth-child(6){transition-delay:.30s}
+  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual):nth-child(7){transition-delay:.36s}
+  :is(.bio.in li,.timeline.in .tl-item,.skill-cats.in .skill-cat,.qual-grid.in .qual):nth-child(8){transition-delay:.42s}
 
   @media (max-width:760px){
     .hero{padding:54px 0 40px}
