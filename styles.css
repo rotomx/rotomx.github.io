@@ -50,7 +50,17 @@
     -webkit-mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 0%,transparent 75%);
             mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 0%,transparent 75%);
     opacity:.5;
+    animation:gridpan 38s linear infinite;
   }
+  @keyframes gridpan{to{background-position:64px 64px}}
+
+  /* animated ambient glow */
+  .bg-fx{position:fixed;inset:0;z-index:-2;pointer-events:none;overflow:hidden}
+  .bg-fx::before,.bg-fx::after{content:"";position:absolute;border-radius:50%;filter:blur(90px);will-change:transform}
+  .bg-fx::before{width:55vw;height:55vw;left:-12vw;top:-18vw;background:radial-gradient(circle,rgba(82,214,232,.11),transparent 70%);animation:drift1 26s ease-in-out infinite}
+  .bg-fx::after{width:50vw;height:50vw;right:-12vw;bottom:-18vw;background:radial-gradient(circle,rgba(122,146,255,.09),transparent 70%);animation:drift2 32s ease-in-out infinite}
+  @keyframes drift1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(12vw,9vw) scale(1.12)}}
+  @keyframes drift2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-11vw,-8vw) scale(1.1)}}
 
   /* ===== NAV ===== */
   header.nav{
@@ -204,7 +214,11 @@
   .tl-tag.t-side{color:#c3aaff;border-color:#3f3560}
   .tl-tag.t-intern{color:#edc173;border-color:#574522}
   .tl-title{font-size:15.5px;font-weight:600;color:var(--text);line-height:1.5}
+  .tl-title .tl-sub{font-size:12.5px;font-weight:400;color:var(--dim);margin-left:4px}
   .tl-org{font-size:13.5px;color:var(--muted);margin-top:2px}
+  .tl-meta{margin-top:11px;display:flex;flex-direction:column;gap:7px}
+  .tl-meta .row{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:var(--muted);line-height:1.55}
+  .tl-meta b{font-family:var(--mono);font-size:10px;letter-spacing:.04em;color:var(--accent-dim);border:1px solid var(--line);border-radius:6px;padding:2px 0;font-weight:600;flex-shrink:0;text-align:center;min-width:46px}
   .tl-legend{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:26px;font-size:12.5px;color:var(--dim)}
   .tl-legend span{display:inline-flex;align-items:center;gap:8px}
   .tl-legend i{width:11px;height:11px;border-radius:50%;display:inline-block;flex-shrink:0}
@@ -296,6 +310,7 @@
   @media (prefers-reduced-motion:reduce){
     .reveal{opacity:1;transform:none;transition:none}
     .bio li,.timeline .tl-item,.skill-cats .skill-cat,.qual-grid .qual,.cond-grid .cond{opacity:1;transform:none;transition:none}
-    .avatar-ring::before,.brand .dot,.tl-item.tl-now::before{animation:none}
+    .avatar-ring::before,.brand .dot,.tl-item.tl-now::before,
+    body::before,.bg-fx::before,.bg-fx::after{animation:none}
     html{scroll-behavior:auto}
   }
